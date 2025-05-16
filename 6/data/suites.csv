@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","439","Fetch Products - Success","Schedule - Customer Automated","Fri May 16 07:16:48 GMT 2025","passed","Fri May 16 07:16:48 GMT 2025","Products > Fetch Products","Customer","",""
+"","460","Fetch a Category  -  Invalid Category ID","Schedule - Customer Automated","Fri May 16 07:16:48 GMT 2025","passed","Fri May 16 07:16:48 GMT 2025","Categories > Get Category","Customer","",""
+"","346","Fetch a Product Group","Schedule - Customer Automated","Fri May 16 07:16:49 GMT 2025","passed","Fri May 16 07:16:49 GMT 2025","Product Groups > Fetch a product group","Customer","",""
+"","640","Get Categories - Success","Schedule - Customer Automated","Fri May 16 07:16:47 GMT 2025","passed","Fri May 16 07:16:47 GMT 2025","Categories > Get Categories","Customer","",""
+"","118","Fetch a product - Success","Schedule - Customer Automated","Fri May 16 07:16:48 GMT 2025","passed","Fri May 16 07:16:49 GMT 2025","Products > Fetch a product","Customer","",""
+"","129","Fetch Product Groups","Schedule - Customer Automated","Fri May 16 07:16:49 GMT 2025","passed","Fri May 16 07:16:49 GMT 2025","Product Groups > Fetch Product groups","Customer","",""
+"","162","Fetch a Category - Success","Schedule - Customer Automated","Fri May 16 07:16:47 GMT 2025","passed","Fri May 16 07:16:48 GMT 2025","Categories > Get Category","Customer","",""
