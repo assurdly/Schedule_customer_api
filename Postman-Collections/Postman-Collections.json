@@ -306,12 +306,11 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base_url}}/customer/categories",
+											"raw": "{{base_url}}/categories",
 											"host": [
 												"{{base_url}}"
 											],
 											"path": [
-												"customer",
 												"categories"
 											],
 											"query": [
