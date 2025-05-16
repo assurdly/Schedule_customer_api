@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Soft Bike",
-    "description": "Vitae delectus suscipit. Velit doloribus et blanditiis veniam quam exercitationem quas. Maiores et ipsa sint.",
-    "icon_url": "http://placeimg.com/640/480"
-}

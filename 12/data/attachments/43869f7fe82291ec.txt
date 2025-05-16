@@ -1,5 +1,0 @@
-{
-    "name": "Refined Frozen Table",
-    "description": "Nobis rem tenetur voluptas qui dolor aut. Animi consectetur omnis nihil dolorem optio et. Quae est voluptatem maxime sequi illum maiores facilis commodi sequi. Est accusantium earum id qui ut iusto. Esse temporibus modi quia quos dolorum pariatur rerum officia.",
-    "icon_url": "http://placeimg.com/640/480"
-}
