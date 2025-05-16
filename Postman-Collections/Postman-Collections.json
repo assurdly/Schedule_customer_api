@@ -2334,7 +2334,20 @@
 						},
 						{
 							"name": "Mark as Read",
-							"item": [],
+							"item": [
+								{
+									"name": "Mark as Read",
+									"id": "6b8cca59-0269-403b-9369-f8db271dde3a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": []
+									},
+									"response": []
+								}
+							],
 							"id": "6d678cd6-5c2f-4233-8ba5-29853076d5b6"
 						}
 					],
