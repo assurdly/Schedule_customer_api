@@ -1,0 +1,5 @@
+{
+    "name": "Practical Plastic Car",
+    "description": "Consequatur est maxime quasi nobis architecto. Quaerat officiis velit voluptatem ratione. Aut minus et. Quae quo totam. Est velit eum commodi iste ea.",
+    "icon_url": "http://placeimg.com/640/480"
+}
