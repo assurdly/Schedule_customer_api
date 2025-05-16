@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Plastic Pizza",
+    "description": "Nisi architecto hic explicabo earum. Eveniet autem explicabo inventore et illo. Dolores voluptas quis quisquam eos provident aut consequuntur. Et et deleniti at dolore tempore suscipit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

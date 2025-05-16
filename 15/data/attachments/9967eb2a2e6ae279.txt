@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Rubber Chair",
+    "description": "Omnis non ad sed sed incidunt. Aut consequatur in suscipit numquam eius minima. Fugit vel ut maxime praesentium nulla dicta possimus error. Officiis neque quasi sit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
