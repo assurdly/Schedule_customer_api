@@ -911,28 +911,18 @@
 									},
 									"response": [
 										{
-											"id": "978aea6c-f599-4ffa-984a-8ef2e2825812",
-											"name": "Get Product Groups",
+											"id": "99585eb3-3166-465d-9c12-23f80e945b26",
+											"name": "Fetch Products - Success",
 											"originalRequest": {
 												"method": "GET",
 												"header": [],
-												"body": {
-													"mode": "raw",
-													"raw": "{\n    \"name\": \"MTNData{{$randomWord}}\",\n    \"short_name\": \"MTN utilities\",\n    \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n    \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n    \"aggregator\": \"SwitchTech\",\n    \"category_id\": \"1\"\n}",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
 												"url": {
-													"raw": "{{base_url}}/admin/product-groups",
+													"raw": "{{base_url}}/products",
 													"host": [
 														"{{base_url}}"
 													],
 													"path": [
-														"admin",
-														"product-groups"
+														"products"
 													],
 													"query": [
 														{
@@ -975,6 +965,22 @@
 											"_postman_previewlanguage": "json",
 											"header": [
 												{
+													"key": "Date",
+													"value": "Fri, 16 May 2025 13:24:39 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "4043"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
 													"key": "Access-Control-Allow-Origin",
 													"value": "*"
 												},
@@ -999,69 +1005,49 @@
 													"value": "cross-origin"
 												},
 												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
 													"key": "Origin-Agent-Cluster",
 													"value": "?1"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
 												},
 												{
 													"key": "Referrer-Policy",
 													"value": "no-referrer"
 												},
 												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
 													"key": "X-XSS-Protection",
 													"value": "0"
 												},
 												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "1498"
-												},
-												{
 													"key": "ETag",
-													"value": "W/\"5da-C0zu6JSlQMzERwb0If1gfZKFnTM\""
-												},
-												{
-													"key": "Date",
-													"value": "Mon, 05 May 2025 08:10:40 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Keep-Alive",
-													"value": "timeout=5"
+													"value": "W/\"fcb-ZY42lwaRPX+T5sCDxyGSiZ9iKWk\""
 												}
 											],
 											"cookie": [],
 											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 1,\n                \"meta\": {\n                    \"data\": {\n                        \"error\": null,\n                        \"errors\": null,\n                        \"provider\": \"PaywithAccount\",\n                        \"client_info\": {\n                            \"id\": null,\n                            \"meta\": null,\n                            \"name\": null,\n                            \"colors\": null,\n                            \"css_url\": null,\n                            \"options\": null,\n                            \"logo_url\": null,\n                            \"merchant\": null,\n                            \"paginate\": false,\n                            \"bank_name\": null,\n                            \"console_url\": null,\n                            \"footer_text\": null,\n                            \"bank_cbn_code\": null,\n                            \"paginate_count\": 0,\n                            \"show_options_icon\": false,\n                            \"js_background_image\": null\n                        },\n                        \"provider_response\": {\n                            \"meta\": {\n                                \"biller_code\": \"000003\"\n                            },\n                            \"status\": \"ACTIVE\",\n                            \"bank_code\": \"070\",\n                            \"bank_name\": null,\n                            \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                            \"created_on\": \"2025-05-05 09:10:00\",\n                            \"account_name\": \"MTN utilities\",\n                            \"account_type\": null,\n                            \"contract_code\": null,\n                            \"currency_code\": \"NGN\",\n                            \"account_number\": \"9020022570\",\n                            \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                            \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                        },\n                        \"provider_response_code\": \"00\"\n                    },\n                    \"status\": \"Successful\",\n                    \"message\": \"Transaction processed successfully\"\n                },\n                \"name\": \"GLODataKina\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"status\": \"active\",\n                \"short_name\": \"GLO utilities\",\n                \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"aggregator\": \"SwitchTech\",\n                \"biller_code\": \"000003\",\n                \"category_id\": 2,\n                \"created_on\": \"2025-05-05 09:10:16\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-05 09:10:32\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null\n            }\n        ],\n        \"meta\": {\n            \"records\": 1,\n            \"page\": 1,\n            \"pages\": 1,\n            \"page_size\": 10\n        }\n    }\n}"
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 24,\n                \"created_on\": \"2025-05-16 06:44:26\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:44:26\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatawithdrawal\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 23,\n                \"created_on\": \"2025-05-16 06:38:02\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:38:02\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatamicrochip\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 22,\n                \"created_on\": \"2025-05-16 06:38:02\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:38:02\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataand\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 21,\n                \"created_on\": \"2025-05-16 06:32:56\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:32:56\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataVirtual\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 20,\n                \"created_on\": \"2025-05-16 06:32:56\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:32:56\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataBedfordshire\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 19,\n                \"created_on\": \"2025-05-16 06:28:59\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:28:59\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataUtah\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 18,\n                \"created_on\": \"2025-05-16 06:28:58\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:28:58\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatadeposit\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 16,\n                \"created_on\": \"2025-05-15 16:06:47\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:06:47\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataup\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 15,\n                \"created_on\": \"2025-05-15 16:06:19\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:06:19\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatahack\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"100.00\",\n                \"meta\": null,\n                \"product_group_id\": 6\n            },\n            {\n                \"id\": 14,\n                \"created_on\": \"2025-05-15 16:05:36\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:05:36\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataColombia\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"100.00\",\n                \"meta\": null,\n                \"product_group_id\": 6\n            }\n        ],\n        \"meta\": {\n            \"records\": 18,\n            \"page\": 1,\n            \"pages\": 2,\n            \"page_size\": 10\n        }\n    }\n}"
 										}
 									]
 								}
