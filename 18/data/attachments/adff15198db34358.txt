@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Table",
+    "description": "Sint tenetur et consequatur qui voluptate et. Aperiam harum sit odit itaque voluptates totam expedita soluta. Eius ipsam nulla est tempora.",
+    "icon_url": "http://placeimg.com/640/480"
+}
