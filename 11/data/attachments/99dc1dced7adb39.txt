@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Wooden Car",
+    "description": "Sit ducimus quos. In nesciunt architecto occaecati dignissimos non adipisci et quia. Voluptatem qui corporis error iste et voluptatibus corrupti tenetur.",
+    "icon_url": "http://placeimg.com/640/480"
+}
