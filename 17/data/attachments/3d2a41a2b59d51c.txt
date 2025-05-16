@@ -1,0 +1,5 @@
+{
+    "name": "Refined Steel Computer",
+    "description": "Accusamus laboriosam doloribus pariatur ducimus doloremque rem reprehenderit eos dolorem. Nobis qui non quam. Earum sed et ut assumenda tempora a repellendus. Molestiae nulla et rem et pariatur. Qui voluptatem non iusto.",
+    "icon_url": "http://placeimg.com/640/480"
+}
