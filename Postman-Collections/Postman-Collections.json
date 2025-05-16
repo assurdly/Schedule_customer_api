@@ -1331,7 +1331,7 @@
 													"});\r",
 													"\r",
 													"pm.test(\"Valid Response message is returned\", function () {\r",
-													"   pm.expect(jsonData.message).to.eql('Category not found')\r",
+													"   pm.expect(jsonData.message).to.eql('Product not found')\r",
 													"});"
 												],
 												"type": "text/javascript",
