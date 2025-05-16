@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Frozen Pizza",
+    "description": "Maiores quia ex recusandae ullam. Sunt non placeat ex exercitationem quia. Quae suscipit est sit temporibus tenetur temporibus minima. Voluptatem consequuntur et saepe tenetur quibusdam tempora autem rem explicabo. Illo qui eligendi voluptas id consequuntur id sit. Amet quos vel in repudiandae sunt minima totam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

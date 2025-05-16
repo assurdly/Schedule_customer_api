@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Cotton Chicken",
+    "description": "Qui voluptas aliquid quis quis. Quos at error nisi asperiores fuga fuga. Aut laborum quisquam magnam. Fugiat asperiores beatae commodi incidunt. Accusantium architecto atque quidem ullam accusamus. Sit aut voluptas dignissimos eligendi eos ea delectus at et.",
+    "icon_url": "http://placeimg.com/640/480"
+}
