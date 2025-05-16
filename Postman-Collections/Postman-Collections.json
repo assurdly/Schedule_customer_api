@@ -820,6 +820,41 @@
 							"item": [
 								{
 									"name": "Fetch Products - Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "255ee1cf-1bd9-4598-9f41-d35d076751dc",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"\r",
+													"pm.test(\"Data array is returned\", function () {\r",
+													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Each category has required fields\", function () {\r",
+													"    const jsonData = pm.response.json();\r",
+													"    jsonData.data.data.forEach(cat => {\r",
+													"        pm.expect(cat).to.have.property(\"id\");\r",
+													"        pm.expect(cat).to.have.property(\"name\");\r",
+													"        pm.expect(cat).to.have.property(\"description\");\r",
+													"        pm.expect(cat).to.have.property(\"icon_url\");\r",
+													"        pm.expect(cat).to.have.property(\"status\");\r",
+													"        pm.expect(cat).to.have.property(\"product_group_id\");\r",
+													"        pm.expect(cat).to.have.property(\"amount\");\r",
+													"    });\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "b2fe9bed-24a4-42eb-b373-54c132f13315",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
