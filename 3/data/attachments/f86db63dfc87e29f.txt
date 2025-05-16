@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Metal Keyboard",
+    "description": "Adipisci earum molestiae iusto eos tenetur enim voluptatem ex quos. Quas distinctio explicabo libero aut minus. Aspernatur deleniti eveniet in omnis rerum tempore et voluptas.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Wooden Keyboard",
+    "description": "At vel magni at iusto et blanditiis dignissimos accusantium quam. Natus sunt quia provident reprehenderit accusamus in aut eos. Incidunt sint dolorem non tenetur quis cum iure fugit. Qui minus corporis perferendis qui voluptas. Veritatis molestiae repellendus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

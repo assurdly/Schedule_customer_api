@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Rubber Chair",
+    "description": "Vitae voluptas repudiandae consequatur a ipsa ea dicta cumque commodi. Minima velit aut. Ut laboriosam qui illo sint beatae. Minus doloremque reprehenderit error aut ex rerum cum temporibus porro. Eveniet blanditiis cum distinctio minus non. Dolor est quae aperiam commodi totam amet.",
+    "icon_url": "http://placeimg.com/640/480"
+}

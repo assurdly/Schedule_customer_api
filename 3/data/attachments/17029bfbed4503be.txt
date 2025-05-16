@@ -1,0 +1,5 @@
+{
+    "name": "Generic Plastic Pizza",
+    "description": "Corrupti sed rerum ut. Sed quam numquam. Omnis mollitia maxime similique delectus ea ut impedit unde. Quos earum sunt perferendis. Ullam aliquid quia non quae illo quia quod mollitia veniam. Occaecati qui incidunt quis est.",
+    "icon_url": "http://placeimg.com/640/480"
+}
