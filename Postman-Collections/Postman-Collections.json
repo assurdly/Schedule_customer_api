@@ -2310,6 +2310,35 @@
 						}
 					],
 					"id": "8dee4701-c67f-4485-a7f9-5faf188cee6d"
+				},
+				{
+					"name": "Notifications",
+					"item": [
+						{
+							"name": "Get Notifications",
+							"item": [
+								{
+									"name": "Get Notifications",
+									"id": "ab42d64d-33ae-44c4-9816-bce8006a237f",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": []
+									},
+									"response": []
+								}
+							],
+							"id": "80667713-d847-4fac-bf4a-aee0fa160c9e"
+						},
+						{
+							"name": "Mark as Read",
+							"item": [],
+							"id": "6d678cd6-5c2f-4233-8ba5-29853076d5b6"
+						}
+					],
+					"id": "193a6958-5de8-4b8f-a1a2-1b7826b85680"
 				}
 			],
 			"id": "7ff310d6-f751-4296-bf4f-21f11561293c"
