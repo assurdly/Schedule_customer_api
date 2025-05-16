@@ -12,10 +12,10 @@
 					"name": "Categories",
 					"item": [
 						{
-							"name": "Get Categories",
+							"name": "Fetch Categories",
 							"item": [
 								{
-									"name": "Get Categories - Success",
+									"name": "Fetch Categories - Success",
 									"event": [
 										{
 											"listen": "test",
@@ -1568,6 +1568,43 @@
 							"item": [
 								{
 									"name": "Fetch Product Groups -Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "1467487c-7baa-413d-a6f3-99115fbb9721",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"\r",
+													"pm.test(\"Data array is returned\", function () {\r",
+													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Each category has required fields\", function () {\r",
+													"    const jsonData = pm.response.json();\r",
+													"    jsonData.data.data.forEach(cat => {\r",
+													"        pm.expect(cat).to.have.property(\"id\");\r",
+													"        pm.expect(cat).to.have.property(\"name\");\r",
+													"        pm.expect(cat).to.have.property(\"description\");\r",
+													"        pm.expect(cat).to.have.property(\"icon_url\");\r",
+													"        pm.expect(cat).to.have.property(\"status\");\r",
+													"        pm.expect(cat).to.have.property(\"webhook_url\");\r",
+													"        pm.expect(cat).to.have.property(\"category_id\");\r",
+													"        \r",
+													"        \r",
+													"    });\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "d86cb7ec-8215-4b59-9c6c-d6580abc7230",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
