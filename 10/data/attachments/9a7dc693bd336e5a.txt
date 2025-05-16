@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Frozen Pants",
+    "description": "Ea rem porro unde quidem repudiandae illum incidunt id. Soluta itaque soluta quo. Sit incidunt quas suscipit in excepturi qui dolor nihil optio.",
+    "icon_url": "http://placeimg.com/640/480"
+}

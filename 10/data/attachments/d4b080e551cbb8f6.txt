@@ -1,0 +1,5 @@
+{
+    "name": "Practical Frozen Bacon",
+    "description": "Dicta vero id. Soluta omnis eaque magnam sed nihil sed. Optio dolor et. At eveniet eum aut quae ratione maxime. Placeat commodi ut earum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
