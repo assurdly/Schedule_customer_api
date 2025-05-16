@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Wooden Pants",
+    "description": "Suscipit velit et. Qui dicta itaque porro autem. Aspernatur consequatur dolorem non impedit debitis. Aperiam deleniti voluptas accusamus numquam facilis impedit consequuntur nostrum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

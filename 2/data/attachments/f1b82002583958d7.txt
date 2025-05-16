@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Granite Bacon",
+    "description": "Rerum aperiam ut. Ducimus culpa consectetur accusantium possimus perferendis. Aut expedita fugit excepturi reiciendis quis ab nostrum facilis ut. Culpa cumque exercitationem deserunt veniam voluptatem dolorum fuga excepturi similique.",
+    "icon_url": "http://placeimg.com/640/480"
+}
