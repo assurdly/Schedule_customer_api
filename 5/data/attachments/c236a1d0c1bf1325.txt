@@ -1,0 +1,5 @@
+{
+    "name": "Practical Plastic Bike",
+    "description": "Distinctio in illum non rerum nulla. Nostrum numquam corporis voluptatem voluptas eius corrupti placeat id. Et magnam sit labore. Tempore et praesentium laborum enim. Cupiditate ut rerum libero aliquid et blanditiis. Eveniet commodi et commodi possimus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
