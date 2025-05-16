@@ -1073,6 +1073,35 @@
 							"item": [
 								{
 									"name": "Fetch a product - Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "829cedf7-75d9-4e6f-abad-32a5813b38cd",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Valid Response Data is returned\", function () {\r",
+													"    pm.expect(jsonData.status).to.eql(\"success\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"id\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"name\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"description\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"status\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"icon_url\");\r",
+													"    pm.expect(jsonData.data).to.have.property(\"amount\")\r",
+													"    pm.expect(jsonData.data).to.have.property(\"product_group_id\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "f7eae816-5cfc-457b-9878-63ff80e87139",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -1128,9 +1157,8 @@
 											],
 											"variable": [
 												{
-													"id": "d9e73350-46ba-4d66-b6fb-7873560981bd",
 													"key": "product_id",
-													"value": "3"
+													"value": "23"
 												}
 											]
 										}
@@ -1138,6 +1166,243 @@
 									"response": [
 										{
 											"id": "619796b5-2e02-4284-bb54-fe2e8c0e47ba",
+											"name": "Get Product Group",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/admin/product-groups/:product_group_id",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"admin",
+														"product-groups",
+														":product_group_id"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "3",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "critical",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "product_group_id",
+															"value": "1"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1432"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"598-nEaiOm25Mc1HGb1df9qdsdLLdEE\""
+												},
+												{
+													"key": "Date",
+													"value": "Mon, 05 May 2025 08:10:46 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"biller_code\": \"000003\"\n                    },\n                    \"status\": \"ACTIVE\",\n                    \"bank_code\": \"070\",\n                    \"bank_name\": null,\n                    \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                    \"created_on\": \"2025-05-05 09:10:00\",\n                    \"account_name\": \"MTN utilities\",\n                    \"account_type\": null,\n                    \"contract_code\": null,\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"9020022570\",\n                    \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                    \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Successful\",\n            \"message\": \"Transaction processed successfully\"\n        },\n        \"name\": \"GLODataKina\",\n        \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n        \"status\": \"active\",\n        \"short_name\": \"GLO utilities\",\n        \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n        \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n        \"aggregator\": \"SwitchTech\",\n        \"biller_code\": \"000003\",\n        \"category_id\": 2,\n        \"created_on\": \"2025-05-05 09:10:16\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-05 09:10:32\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch a product - Invalid product id",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "829cedf7-75d9-4e6f-abad-32a5813b38cd",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"pm.test(\"Status code is 404\", function () {\r",
+													"    pm.response.to.have.status(404);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Valid Response message is returned\", function () {\r",
+													"   pm.expect(jsonData.message).to.eql('Category not found')\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "544c402b-935d-41d6-80f0-6932a4041aca",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/products/:product_id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"products",
+												":product_id"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "3",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "critical",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"variable": [
+												{
+													"key": "product_id",
+													"value": "234"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "824a13b2-90bc-47c1-a6a1-1c3c9aeda44b",
 											"name": "Get Product Group",
 											"originalRequest": {
 												"method": "GET",
@@ -1302,7 +1567,7 @@
 							"name": "Fetch Product groups",
 							"item": [
 								{
-									"name": "Fetch Product Groups",
+									"name": "Fetch Product Groups -Success",
 									"id": "d86cb7ec-8215-4b59-9c6c-d6580abc7230",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
