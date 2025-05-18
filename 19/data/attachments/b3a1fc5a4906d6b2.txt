@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Tuna",
+    "description": "Perspiciatis inventore quo earum consequatur cupiditate. Praesentium perferendis et. Dolores ex et maxime nemo in.",
+    "icon_url": "http://placeimg.com/640/480"
+}

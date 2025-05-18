@@ -1,0 +1,8 @@
+{
+    "name": "MTNDataChief",
+    "short_name": "MTN utilities",
+    "description": "Group for utility-related products like electricity, water, and internet.",
+    "icon_url": "https://cdn.example.com/icons/utilities.svg",
+    "aggregator": "SwitchTech",
+    "category_id": "1"
+}
