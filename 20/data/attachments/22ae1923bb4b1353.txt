@@ -1,0 +1,1 @@
+{"status":"error","message":"PATCH /v1/notifications/2 Not Found"}

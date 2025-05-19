@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Concrete Hat",
+    "description": "Excepturi in ipsa qui nesciunt. Quae numquam qui magni. Qui impedit quia eos necessitatibus. Qui blanditiis id eos aut omnis dolore. Debitis sapiente quia dolores sed voluptas earum. Voluptates ex illum amet amet est pariatur et aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}
