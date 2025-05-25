@@ -1,0 +1,5 @@
+{
+    "name": "Practical Metal Computer",
+    "description": "Eos et dicta perspiciatis architecto et atque rem ullam. Reiciendis cum nostrum architecto vero accusantium dicta explicabo reiciendis sint. Sint numquam laborum non iure. Doloremque placeat repellendus. Error sint et quod suscipit facere suscipit assumenda quidem. Libero aperiam dignissimos assumenda.",
+    "icon_url": "http://placeimg.com/640/480"
+}
