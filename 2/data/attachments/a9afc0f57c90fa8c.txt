@@ -1,5 +1,0 @@
-{
-    "name": "Practical Soft Bike",
-    "description": "Hic ipsam non nihil recusandae saepe minima ipsum rerum quia. Nihil porro ut voluptas eligendi. Praesentium fugiat aut enim neque incidunt odio beatae deserunt. Et rem nulla sit minima explicabo id ut officiis blanditiis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

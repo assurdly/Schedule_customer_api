@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Cotton Salad",
+    "description": "Qui ut commodi fugiat non dolorem vitae ducimus delectus esse. Facere quaerat accusamus aspernatur repellat officiis id sed modi non. Et voluptas incidunt. Saepe alias ratione tempore dignissimos voluptatum aut officiis est voluptatem. Rerum vel molestias quisquam numquam maxime doloremque ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Cotton Ball",
-    "description": "Eligendi temporibus voluptatem omnis inventore sunt voluptatem facilis est minima. Assumenda cumque beatae architecto. Labore eius ducimus culpa exercitationem ad praesentium. Fuga totam voluptatem qui eligendi in. Illum illum non earum est non voluptate dolores ut. Architecto dolorem vel.",
-    "icon_url": "http://placeimg.com/640/480"
-}
