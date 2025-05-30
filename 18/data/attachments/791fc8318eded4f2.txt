@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Steel Towels",
-    "description": "Aut reprehenderit excepturi qui doloremque similique. Consequuntur veritatis voluptatem ratione consequatur aut et. Sunt quasi rerum provident voluptatum odio dolor molestiae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
