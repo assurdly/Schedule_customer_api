@@ -4632,6 +4632,7 @@
 													"// Set access_token as collection variable\r",
 													"const jsonData = pm.response.json();\r",
 													"pm.collectionVariables.set(\"access_token\", jsonData.data.access_token);\r",
+													"pm.collectionVariables.set(\"id\", jsonData.data.customer.id);\r",
 													"\r",
 													"// Validate message is \"Verification successful\"\r",
 													"pm.expect(jsonData.message).to.equal(\"Verification successful\");\r",
@@ -5633,6 +5634,10 @@
 		},
 		{
 			"key": "access_token",
+			"value": ""
+		},
+		{
+			"key": "id",
 			"value": ""
 		}
 	]
