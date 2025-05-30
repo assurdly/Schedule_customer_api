@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Frozen Car",
-    "description": "Blanditiis velit dolores beatae quia aliquam ex. Sit maiores quibusdam. Ut quia et aut incidunt ipsam dolorem pariatur similique iusto. Enim voluptatem molestiae quam tenetur aperiam. Omnis quo expedita maxime libero eos aperiam aperiam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

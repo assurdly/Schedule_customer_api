@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Soft Shirt",
-    "description": "Est aperiam doloremque voluptatibus ipsa. Provident sapiente minima. Quas quam culpa eum omnis illo et amet non. Dolores ad est recusandae debitis tempore laborum nesciunt culpa dolorem. Voluptatem suscipit deserunt quidem et nam odit. Non est reiciendis est odit odio placeat eligendi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
