@@ -1,5 +1,0 @@
-{
-    "name": "Refined Frozen Chair",
-    "description": "Sunt rerum sunt. Maxime et deleniti vel illo laboriosam deleniti. Eum consequatur iure sit. Qui sit repellendus neque. Voluptas ipsam dolor sunt nam inventore velit aut ipsam. Sequi velit voluptatem tempora voluptatum neque sed similique accusantium maiores.",
-    "icon_url": "http://placeimg.com/640/480"
-}
