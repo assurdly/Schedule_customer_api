@@ -2603,6 +2603,2399 @@
 						}
 					],
 					"id": "193a6958-5de8-4b8f-a1a2-1b7826b85680"
+				},
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "Signup/Optin",
+							"item": [
+								{
+									"name": "create customer - success without name",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c28d9330-e047-4393-bb3d-b9af92471440",
+												"exec": [
+													"const response = pm.response.json();",
+													"",
+													"// Set reference as collection variable",
+													"pm.collectionVariables.set(\"reference\", response.data.reference);",
+													"",
+													"// Validate the customer object",
+													"pm.test('Customer object should exist', () => {",
+													"    pm.expect(response.data.customer).to.exist;",
+													"    pm.expect(response.data.customer).to.be.an('object');",
+													"    pm.expect(response.data.customer.id).to.exist;",
+													"    pm.expect(response.data.customer.first_name).to.exist;",
+													"    pm.expect(response.data.customer.last_name).to.exist;",
+													"    pm.expect(response.data.customer.email).to.exist;",
+													"    pm.expect(response.data.customer.phone_number).to.exist;",
+													"    pm.expect(response.data.customer.status).to.exist;",
+													"});",
+													"",
+													"pm.test(\"Response message for successful creation\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"OTP sent to your phone. Please verify to login.\");",
+													"});",
+													"",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "36663a03-ec85-4ebc-a52f-fbbabb24420d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08012345678\",\r\n    \"email\": \"{{$randomWord}}@mailinator.com\"\r\n    //\"first_name\": \"lanre\", //optional\r\n   // \"last_name\": \"lanre\" //optional\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "343838d1-81d7-4c10-8d1b-1808388d023c",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - success with name",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "73b4ebc8-4b0a-4f39-9a65-9bfad32884f6",
+												"exec": [
+													"const response = pm.response.json();",
+													"",
+													"// Validate the customer object",
+													"pm.test('Customer object should exist', () => {",
+													"    pm.expect(response.data.customer).to.exist;",
+													"    pm.expect(response.data.customer).to.be.an('object');",
+													"    pm.expect(response.data.customer.id).to.exist;",
+													"    pm.expect(response.data.customer.first_name).to.exist;",
+													"    pm.expect(response.data.customer.last_name).to.exist;",
+													"    pm.expect(response.data.customer.email).to.exist;",
+													"    pm.expect(response.data.customer.phone_number).to.exist;",
+													"    pm.expect(response.data.customer.status).to.exist;",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "59c782f3-6c70-4d8a-b5e6-5c830e18afd5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08012345678\",\r\n    \"email\": \"{{$randomWord}}@mailinator.com\",\r\n   \"first_name\": \"{{$randomFirstName}}\", //optional\r\n    \"last_name\": \"{{$randomLastName}}\" //optional\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "5b8abbd5-1ed7-4882-b938-907a4abb1972",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - invalid email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "79c5cc70-7320-494a-be24-4f267f0a97a0",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"pm.test(\"Response message for invalid email\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"Please enter a valid email address\");",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "a38f1ab1-be98-4b8c-9bcc-859077e1624a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"0803614421\",\r\n    \"email\": \"schedule_customer@assurdly\",\r\n   \"first_name\": \"{{$randomFirstName}}\", //optional\r\n    \"last_name\": \"{{$randomLastName}}\" //optional\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "df834e4e-40af-4d98-96b3-9ba6986fdcc2",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - invalid phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "79c5cc70-7320-494a-be24-4f267f0a97a0",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"pm.test(\"Response message for invalid phone number\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"Please enter a valid phone number\");",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "c7b7194b-fe91-41ba-a844-3d9de8837a2c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"0803614421\",\r\n    \"email\": \"schedule_customer@assurdly.com\",\r\n   \"first_name\": \"{{$randomFirstName}}\", //optional\r\n    \"last_name\": \"{{$randomLastName}}\" //optional\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "86d4791f-3032-4759-ae2c-73d34b0ccad3",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - blank phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c4762c65-80ba-4876-b061-3b162bc5d1d4",
+												"exec": [
+													"pm.test(\"Phone number is required\", function () {",
+													"    const jsonData = pm.response.json();",
+													"    pm.expect(jsonData.message).to.equal(\"Phone number cannot be empty\");",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "af2c0585-a64e-4eed-84c3-d57ba88280b0",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"\",\r\n    \"email\": \"{{$randomEmail}}\",\r\n    \"first_name\": \"{{$randomFirstName}}\",\r\n    \"last_name\": \"{{$randomLastName}}\" \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "72fe5cc2-d655-484e-be64-b13ac07f5ee0",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - blank email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c4762c65-80ba-4876-b061-3b162bc5d1d4",
+												"exec": [
+													"pm.test(\"Email is required\", function () {",
+													"    const jsonData = pm.response.json();",
+													"    pm.expect(jsonData.message).to.equal(\"Please enter a valid email address\");",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "6dcacedf-0644-41be-afa7-9e0eac98b90b",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"email\": \"\",\r\n    \"first_name\": \"{{$randomFirstName}}\",\r\n    \"last_name\": \"{{$randomLastName}}\" \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "53268c12-97a1-4311-89c1-701f4e636c9f",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - blank firstname",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c4762c65-80ba-4876-b061-3b162bc5d1d4",
+												"exec": [
+													"pm.test(\"First name is required\", function () {",
+													"    const jsonData = pm.response.json();",
+													"    pm.expect(jsonData.message).to.equal(\"First name cannot be empty\");",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "0e3cbc75-c796-40a1-97ae-f70feddc9ff9",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"email\": \"{{$randomEmail}}\",\r\n    \"first_name\": \"\",\r\n    \"last_name\": \"{{$randomLastName}}\" \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "54f4a679-d8e0-4ddc-a3b2-f3ad34cf7bc5",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - blank lastname",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c4762c65-80ba-4876-b061-3b162bc5d1d4",
+												"exec": [
+													"pm.test(\"Surname is required\", function () {",
+													"    const jsonData = pm.response.json();",
+													"    pm.expect(jsonData.message).to.equal(\"Surname cannot be empty\");",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "542ab7de-bf2a-4f8c-bca5-0ef6553e8998",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"email\": \"{{$randomEmail}}\",\r\n    \"first_name\": \"{{$randomFirstName}}\",\r\n    \"last_name\": \"\" \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "ca3a48e7-db2d-4ed3-b1aa-faa6ba65e499",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "create customer - All blank",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "4ba61456-dce3-482f-86b7-30743e1b3606",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"pm.test(\"Response message is as expected\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "5b672e1a-8f8d-4b40-8e20-0cb61b05e602",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"\",\r\n    \"email\": \"\",\r\n    \"first_name\": \"\", //optional\r\n    \"last_name\": \"\" //optional\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "3e1a7bfe-d1e6-4656-9acd-5ac4c88c28d1",
+											"name": "create customer response",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\": \"08160314935\",\r\n    \"email\": \"preciousolanrewaju1998@gmail.com\",\r\n    \"firstname\": \"lanre\",\r\n    \"surname\": \"lanre\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "568"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"238-hsRZg1H67GFwh1gz7fyPCpjQwfg\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 15:18:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n    \"data\": {\n        \"customer\": {\n            \"phone_number\": \"08160314935\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"status\": \"pending\",\n            \"is_verified\": 0,\n            \"id\": 1,\n            \"token_type\": null,\n            \"created_on\": \"2025-05-27 16:18:28\",\n            \"modified_on\": \"2025-05-27 16:18:28\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"Welcome! OTP sent to your phone. Please verify to complete registration.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": true\n    }\n}"
+										}
+									]
+								}
+							],
+							"id": "424fd2dc-2ccf-4fc7-9dd6-9f58fbfab88c"
+						},
+						{
+							"name": "Login",
+							"item": [
+								{
+									"name": "customer login - existing user",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "fb5a972b-fde5-43ee-91c7-17d51900cd48",
+												"exec": [
+													"const response = pm.response.json();",
+													"",
+													"// Set reference as collection variable",
+													"pm.collectionVariables.set(\"reference\", response.data.reference);",
+													"",
+													"// Validate the customer object",
+													"pm.test('Customer object should exist', () => {",
+													"    pm.expect(response.data.customer).to.exist;",
+													"    pm.expect(response.data.customer).to.be.an('object');",
+													"    pm.expect(response.data.customer.id).to.exist;",
+													"    pm.expect(response.data.customer.first_name).to.exist;",
+													"    pm.expect(response.data.customer.last_name).to.exist;",
+													"    pm.expect(response.data.customer.email).to.exist;",
+													"    pm.expect(response.data.customer.phone_number).to.exist;",
+													"    pm.expect(response.data.customer.status).to.exist;",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "1f239781-2211-42e1-85ef-ed0a940c13ee",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\" : \"08012345678\"\r\n}\r\n\r\n\r\n//{\r\n//   \"phone_number\" : \"08036114421\"\r\n//}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "a202c8cf-14f0-4555-bc2d-7ac9b9f8330e",
+											"name": "customer login",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\" : \"08160314935\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "647"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"287-dTck4IyicLy8ruskbxz18X7KjKQ\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 21:31:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent to your phone. Please verify to login.\",\n    \"data\": {\n        \"customer\": {\n            \"id\": 1,\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"08160314935\",\n            \"status\": \"active\",\n            \"token_type\": null,\n            \"refresh_token_expires_at\": \"2025-06-03 21:50:03\",\n            \"is_verified\": 1,\n            \"last_login_at\": \"2025-05-27 21:50:03\",\n            \"created_on\": \"2025-05-27 20:04:20\",\n            \"modified_on\": \"2025-05-27 21:50:03\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"OTP sent to your phone. Please verify to login.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": false,\n        \"reference\": \"TXN_SCHDL_20250527_a4f0775c\"\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "customer login - new user",
+									"id": "422dbb1c-3b9a-4b1b-8590-aa24d7ce48d7",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\" : \"08160314935\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "0601e357-085d-454c-a1fe-c95a8e7ee64d",
+											"name": "customer login",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\" : \"08160314935\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "647"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"287-dTck4IyicLy8ruskbxz18X7KjKQ\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 21:31:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent to your phone. Please verify to login.\",\n    \"data\": {\n        \"customer\": {\n            \"id\": 1,\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"08160314935\",\n            \"status\": \"active\",\n            \"token_type\": null,\n            \"refresh_token_expires_at\": \"2025-06-03 21:50:03\",\n            \"is_verified\": 1,\n            \"last_login_at\": \"2025-05-27 21:50:03\",\n            \"created_on\": \"2025-05-27 20:04:20\",\n            \"modified_on\": \"2025-05-27 21:50:03\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"OTP sent to your phone. Please verify to login.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": false,\n        \"reference\": \"TXN_SCHDL_20250527_a4f0775c\"\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "customer login - invalid phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "2610b99d-fc69-4264-87aa-71177f625b38",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"pm.test(\"Response message for invalid email\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"Please enter a valid phone number\");",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "becb4850-fe76-453f-9288-e1cefdc37fea",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\" : \"W23242r24r2\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "6969b6e9-f155-45a2-b10c-01ddf1554e90",
+											"name": "customer login",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\" : \"08160314935\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "647"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"287-dTck4IyicLy8ruskbxz18X7KjKQ\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 21:31:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent to your phone. Please verify to login.\",\n    \"data\": {\n        \"customer\": {\n            \"id\": 1,\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"08160314935\",\n            \"status\": \"active\",\n            \"token_type\": null,\n            \"refresh_token_expires_at\": \"2025-06-03 21:50:03\",\n            \"is_verified\": 1,\n            \"last_login_at\": \"2025-05-27 21:50:03\",\n            \"created_on\": \"2025-05-27 20:04:20\",\n            \"modified_on\": \"2025-05-27 21:50:03\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"OTP sent to your phone. Please verify to login.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": false,\n        \"reference\": \"TXN_SCHDL_20250527_a4f0775c\"\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "customer login - blank phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "a31253d7-e699-4cc3-9e6f-37832ddc591d",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"pm.test(\"Response message for blank phone number\", function () {",
+													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "49175a76-b064-4088-b0a9-ad1966d0d69a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\" : \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/verify"
+									},
+									"response": [
+										{
+											"id": "f4e250a2-3571-4b29-9aaf-e2899e30ea89",
+											"name": "customer login",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"phone_number\" : \"08160314935\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/customers/verify"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "647"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"287-dTck4IyicLy8ruskbxz18X7KjKQ\""
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 27 May 2025 21:31:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent to your phone. Please verify to login.\",\n    \"data\": {\n        \"customer\": {\n            \"id\": 1,\n            \"firstname\": \"lanre\",\n            \"surname\": \"lanre\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"08160314935\",\n            \"status\": \"active\",\n            \"token_type\": null,\n            \"refresh_token_expires_at\": \"2025-06-03 21:50:03\",\n            \"is_verified\": 1,\n            \"last_login_at\": \"2025-05-27 21:50:03\",\n            \"created_on\": \"2025-05-27 20:04:20\",\n            \"modified_on\": \"2025-05-27 21:50:03\",\n            \"created_by\": null,\n            \"modified_by\": null,\n            \"deleted_by\": null,\n            \"deleted_flag\": 0\n        },\n        \"message\": \"OTP sent to your phone. Please verify to login.\",\n        \"requires_otp\": true,\n        \"is_new_customer\": false,\n        \"reference\": \"TXN_SCHDL_20250527_a4f0775c\"\n    }\n}"
+										}
+									]
+								}
+							],
+							"id": "8796b16f-d86a-4a26-9b82-3209a49013db"
+						},
+						{
+							"name": "validate otp",
+							"item": [
+								{
+									"name": "validate otp - success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"// Set access_token as collection variable\r",
+													"const jsonData = pm.response.json();\r",
+													"pm.collectionVariables.set(\"access_token\", jsonData.data.access_token);\r",
+													"\r",
+													"// Validate message is \"Verification successful\"\r",
+													"pm.expect(jsonData.message).to.equal(\"Verification successful\");\r",
+													"\r",
+													"// Verify customer object is returned\r",
+													"pm.expect(jsonData.data.customer).to.exist;\r",
+													"pm.expect(jsonData.data.customer).to.be.an('object');\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "3a1d7577-3ab6-464a-8eba-dbd6cd4c77e3",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08012345678\",\r\n    \"otp\": \"12345\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - invalid OTP",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for invalid OTP\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"OTP is no longer valid\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "64337b14-50f4-437c-9523-3bfabfbe7ebb",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"otp\": \"28691\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - blank OTP",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for blank OTP\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"otp must be longer than or equal to 4 characters\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "aab8c407-13ff-4ab2-9fde-df2f198b353d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"otp\": \"\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - blank reference",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for blank reference\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"reference should not be empty\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "75299843-abf4-4343-85a5-4757b3b9296d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"otp\": \"123456\",\r\n    \"reference\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - invalid reference",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for invalid reference\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"No valid OTP found\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "bde7ba7e-e836-4ff6-ad78-65e35e8b3a03",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"otp\": \"28691\",\r\n    \"reference\": \"{{$guid}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - blank phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for blank phone number\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "64e6a493-c88f-4a44-883d-c2748ef5fee7",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"\",\r\n    \"otp\": \"28691\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - invalid phone number",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for invalid phone number\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"Customer not found\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "f437cd06-29f2-4ef2-ba17-1f530ffb8fb6",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"WEW12232323\",\r\n    \"otp\": \"28691\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								},
+								{
+									"name": "validate otp - all blank",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
+												"exec": [
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate error message for blank fields\", function () {\r",
+													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
+													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "9accbf7f-0b38-46a0-92c9-844be1356b1e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"phone_number\": \"\",\r\n    \"otp\": \"\",\r\n    \"reference\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/customers/validate"
+									},
+									"response": []
+								}
+							],
+							"id": "57328db2-2aa7-4596-8216-1e1e745b68e0"
+						},
+						{
+							"name": "Logout",
+							"item": [
+								{
+									"name": "Customer logout",
+									"id": "e5951083-196f-4557-bf43-246fde885c35",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{customer_access_token}}"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": "{{base_url}}/customers/logout"
+									},
+									"response": []
+								}
+							],
+							"id": "aa55915e-37ce-42c5-a96c-e4c89a4ead63"
+						}
+					],
+					"id": "fb9f2913-2526-46cf-b0d3-fd54bdfdb798"
 				}
 			],
 			"id": "7ff310d6-f751-4296-bf4f-21f11561293c"
