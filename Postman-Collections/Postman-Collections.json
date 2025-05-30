@@ -5169,7 +5169,7 @@
 							"name": "Fetch Customer by id",
 							"item": [
 								{
-									"name": "fetch customer by id",
+									"name": "fetch customer by id - valid",
 									"id": "064a123d-0838-4067-a006-ee33b1456d24",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5177,7 +5177,20 @@
 									"request": {
 										"method": "GET",
 										"header": [],
-										"url": "{{base_url}}/customers/1"
+										"url": "{{base_url}}/customers/{{id}}"
+									},
+									"response": []
+								},
+								{
+									"name": "fetch customer by id - valid Copy",
+									"id": "f439bea5-1d3b-440d-b0a2-bbb5ba96b973",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/customers/{{id}}"
 									},
 									"response": []
 								}
