@@ -5262,7 +5262,7 @@
 							"name": "Fetch customer profile",
 							"item": [
 								{
-									"name": "fetch customer profile",
+									"name": "fetch customer profile - valid",
 									"id": "dc6d4325-3915-4aa9-b1c5-b35ce2eaaa59",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5271,7 +5271,26 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/customers/profile"
+									},
+									"response": []
+								},
+								{
+									"name": "fetch customer profile - valid Copy",
+									"id": "5c9b6257-542b-4b20-b107-ef09214d0b6b",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
