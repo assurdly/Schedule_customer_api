@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Wooden Chair",
+    "description": "Voluptatem aut dolorem illum a esse consequatur. Et ut minima nostrum fuga dicta et officia quidem sed. A tempora incidunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Refined Frozen Computer",
-    "description": "Eum et et. Deserunt molestiae et ut qui ducimus. Consequatur beatae natus cupiditate nam. Voluptatem aut itaque alias doloremque maiores officia. Occaecati incidunt aut suscipit inventore sed fugit minus ut. Voluptatum consequatur eaque magnam ut doloribus modi minus.",
-    "icon_url": "http://placeimg.com/640/480"
-}
