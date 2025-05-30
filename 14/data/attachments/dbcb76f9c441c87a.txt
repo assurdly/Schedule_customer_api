@@ -1,5 +1,0 @@
-{
-    "name": "Generic Concrete Chips",
-    "description": "Rerum voluptatem fugit velit libero ratione rerum eos. Repellat est recusandae fugit repudiandae possimus. Suscipit et sit repellat qui eaque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

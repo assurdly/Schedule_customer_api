@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Frozen Shoes",
+    "description": "Occaecati aut est ipsum est. Quibusdam sit sapiente iste saepe tempora pariatur earum error rem. Cumque officia consequatur dolor enim suscipit delectus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

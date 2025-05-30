@@ -1,5 +1,0 @@
-{
-    "name": "Refined Soft Bike",
-    "description": "Odio repudiandae ipsum et dolorem et. Quo beatae sit sed in excepturi ullam nemo dolor alias. Quo at sit. Et fugit deleniti et qui nulla ullam dolorem.",
-    "icon_url": "http://placeimg.com/640/480"
-}
