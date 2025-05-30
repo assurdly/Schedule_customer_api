@@ -4978,7 +4978,30 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": "{{base_url}}/customers/logout"
+									},
+									"response": []
+								},
+								{
+									"name": "Customer logout Copy",
+									"id": "5eb2b671-a638-4296-ad4d-e17a4600d0c7",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "POST",
@@ -5004,6 +5027,10 @@
 	"variable": [
 		{
 			"key": "reference",
+			"value": ""
+		},
+		{
+			"key": "access_token",
 			"value": ""
 		}
 	]
