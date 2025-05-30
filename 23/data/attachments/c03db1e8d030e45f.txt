@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Cotton Ball",
-    "description": "Et voluptatem ut totam dolor possimus natus. Dolor nisi harum ducimus totam quisquam beatae ab quibusdam maxime. Necessitatibus odio ipsa nostrum. Commodi qui a rerum consequatur quibusdam aperiam ut et. Ea laborum hic autem nisi sapiente iste.",
-    "icon_url": "http://placeimg.com/640/480"
-}

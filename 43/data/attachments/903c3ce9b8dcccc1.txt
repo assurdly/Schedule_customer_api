@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Rubber Bike",
+    "description": "Voluptate odio sunt inventore. Non iure est deserunt tempore. Accusamus vel fuga non quae. Numquam reprehenderit minus omnis non. Veritatis quia hic amet rem. Iusto quibusdam vel possimus repellendus veniam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
