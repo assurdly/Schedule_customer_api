@@ -1,0 +1,5 @@
+{
+    "name": "Generic Rubber Bacon",
+    "description": "Suscipit voluptatem sit et. Eveniet hic consequatur. Sed aut doloribus odio nobis sit facere eum sed laborum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
