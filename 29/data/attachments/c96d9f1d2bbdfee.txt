@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Soft Chips",
+    "description": "Officiis quaerat et sequi odio qui aliquam aut fuga. Ipsa enim maxime vitae. Qui vitae dolores qui dolores excepturi a. Qui veniam facilis nobis. Veniam dolorem cum animi similique laborum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

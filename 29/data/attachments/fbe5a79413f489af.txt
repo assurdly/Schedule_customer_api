@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Metal Sausages",
+    "description": "Impedit voluptatem sint quia voluptatibus. Dolorem impedit sed qui dolor excepturi qui. Qui illum dolores tenetur nam. Architecto praesentium est consectetur cumque maiores enim qui blanditiis ea. Vel modi ex ducimus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
