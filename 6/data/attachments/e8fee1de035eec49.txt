@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Soft Chicken",
-    "description": "Suscipit ea ut et officiis nihil nihil debitis laborum. Reprehenderit atque voluptatem doloremque perspiciatis neque est voluptatum molestias. Explicabo aut et cum maxime dolorem aut iste provident. Blanditiis optio hic aut aliquid et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
