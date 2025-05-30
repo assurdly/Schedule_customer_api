@@ -5163,7 +5163,7 @@
 					"id": "fb9f2913-2526-46cf-b0d3-fd54bdfdb798"
 				},
 				{
-					"name": "Customer Copy",
+					"name": "Customer",
 					"item": [
 						{
 							"name": "Fetch Customer by id",
@@ -5212,10 +5212,7 @@
 									},
 									"request": {
 										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "{{access_token}}"
-											}
+											"type": "noauth"
 										},
 										"method": "GET",
 										"header": [],
