@@ -5281,7 +5281,27 @@
 									"response": []
 								},
 								{
-									"name": "fetch customer profile - valid Copy",
+									"name": "fetch customer profile - invalid",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "123eeca6-5057-4c26-955f-f770a4f2af5c",
+												"exec": [
+													"pm.test(\"Validate response for invalid token\", function () {",
+													"    const responseData = pm.response.json();",
+													"    pm.expect(responseData.message).to.equal(\"Invalid Auth Token\");",
+													"});",
+													"",
+													"pm.test(\"Status code is 401\", function () {",
+													"    pm.response.to.have.status(401);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "5c9b6257-542b-4b20-b107-ef09214d0b6b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5290,7 +5310,46 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{access_token}}"
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzQ4NjE4MjcwLCJleHAiOjE3NDg2MjE4NzB9.1sHwWebz8BaWxi-m-XyboWHUyfbDA-7Ko0xFXZzOo18"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/customers/profile"
+									},
+									"response": []
+								},
+								{
+									"name": "fetch customer profile - blank",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "123eeca6-5057-4c26-955f-f770a4f2af5c",
+												"exec": [
+													"pm.test(\"Validate response for invalid token\", function () {",
+													"    const responseData = pm.response.json();",
+													"    pm.expect(responseData.message).to.equal(\"Invalid Auth Token\");",
+													"});",
+													"",
+													"pm.test(\"Status code is 401\", function () {",
+													"    pm.response.to.have.status(401);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "d839486e-6ecf-4687-abdb-a78c56f3c47e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": ""
 											}
 										},
 										"method": "GET",
