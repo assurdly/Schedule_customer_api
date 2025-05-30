@@ -1,5 +1,0 @@
-{
-    "name": "Refined Plastic Shirt",
-    "description": "Vero quod aut recusandae assumenda in praesentium. Adipisci temporibus minus consectetur odit aliquid cumque quis unde. Eligendi amet laborum exercitationem et quae veniam. Nihil qui consectetur consequatur dolore. Perspiciatis et officiis adipisci et quas repudiandae. Numquam molestiae fugit nihil aliquid expedita.",
-    "icon_url": "http://placeimg.com/640/480"
-}
