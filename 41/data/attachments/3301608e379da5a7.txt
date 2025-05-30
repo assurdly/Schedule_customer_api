@@ -1,0 +1,1 @@
+{"status":"success","message":"Customer retrieved successfully","data":{"id":9,"first_name":"Houston","last_name":"Block","email":"Games@mailinator.com","phone_number":"08012345678","status":"verified","refresh_token":null,"last_login_at":"2025-05-30 17:03:21"}}

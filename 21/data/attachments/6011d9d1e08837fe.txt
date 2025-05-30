@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Steel Chair",
-    "description": "Unde qui eos modi dolores natus ea explicabo est modi. Occaecati ex ut doloribus itaque expedita. Quidem a enim voluptas tempore. Nam nulla aut nisi ullam tempora. Rem voluptate rem enim consequatur hic. Distinctio sunt vero cum quisquam aut quis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

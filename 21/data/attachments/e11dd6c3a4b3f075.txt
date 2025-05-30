@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Fresh Hat",
-    "description": "Et ut officia similique est. At maiores quo hic. Delectus officiis eum voluptatum quasi dolor repudiandae. Quia officia officiis quod.",
-    "icon_url": "http://placeimg.com/640/480"
-}
