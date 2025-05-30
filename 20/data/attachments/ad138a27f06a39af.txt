@@ -1,5 +1,0 @@
-{
-    "name": "Small Wooden Car",
-    "description": "Occaecati saepe dignissimos ut magni et. Quibusdam ipsam enim excepturi optio ut quod. Consectetur unde autem eum neque possimus consequuntur odio quasi. Eum officia optio et fuga tenetur libero ullam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

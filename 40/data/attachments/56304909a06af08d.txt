@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Plastic Salad",
+    "description": "Est sunt laborum distinctio eos vitae nihil libero magni totam. Non unde modi voluptatem qui quae molestiae qui. Provident rerum corporis voluptas sed et temporibus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
