@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Concrete Chips",
-    "description": "Eaque fugit molestiae et quia. Ut iusto ullam et optio aut molestiae quia. Quo ut libero enim facere.",
-    "icon_url": "http://placeimg.com/640/480"
-}

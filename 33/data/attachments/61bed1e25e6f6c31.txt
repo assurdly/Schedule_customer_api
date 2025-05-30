@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Soft Fish",
+    "description": "Autem qui assumenda nisi. Praesentium rem non. Voluptas expedita nihil et quis qui dolorem inventore. Sed dolorem voluptas et eum. Incidunt consequatur vitae quis exercitationem quo quas eum voluptatem. Qui et deleniti.",
+    "icon_url": "http://placeimg.com/640/480"
+}
