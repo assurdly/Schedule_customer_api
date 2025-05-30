@@ -4969,7 +4969,7 @@
 							"name": "Logout",
 							"item": [
 								{
-									"name": "Customer logout",
+									"name": "Customer logout - success",
 									"id": "e5951083-196f-4557-bf43-246fde885c35",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -4992,7 +4992,7 @@
 									"response": []
 								},
 								{
-									"name": "Customer logout Copy",
+									"name": "Customer logout - expired token",
 									"id": "5eb2b671-a638-4296-ad4d-e17a4600d0c7",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5001,7 +5001,30 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{access_token}}"
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyX2FjY2VzcyIsImlhdCI6MTc0ODQ3MzE0MiwiZXhwIjoxNzQ4NDc2NzQyfQ.DBSLOnMXNMXCbdfRdlT59sxcnS1t5MyTyvb8-j9djd0"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": "{{base_url}}/customers/logout"
+									},
+									"response": []
+								},
+								{
+									"name": "Customer logout - invalid token",
+									"id": "60ecc9d6-2e54-443e-9f72-51ac9c2f952c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTYiLCJuYW1lIjoiSmFuZSBEb2UiLCJpYXQiOjE2ODAwMDAwMDB9.VmT9nSDznp2QShlAl9Ju-2Rsc1Gm1JqOaGBZ7PDbMVI"
 											}
 										},
 										"method": "POST",
