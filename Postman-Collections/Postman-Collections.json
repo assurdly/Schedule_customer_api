@@ -4046,17 +4046,22 @@
 									},
 									"request": {
 										"method": "POST",
-										"header": [],
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\" : \"08012345678\"\r\n}\r\n\r\n\r\n//{\r\n//   \"phone_number\" : \"08036114421\"\r\n//}",
+											"raw": "{\n    \"phone_number\" : \"08012345678\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
 												}
 											}
 										},
-										"url": "{{base_url}}/customers/verify"
+										"url": "https://api-pwaschedule.bits.dev.onepipe.io/v1/customers/verify"
 									},
 									"response": [
 										{
@@ -4647,17 +4652,22 @@
 									},
 									"request": {
 										"method": "POST",
-										"header": [],
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"08012345678\",\r\n    \"otp\": \"12345\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"raw": "{\n    \"phone_number\": \"08012345678\",\n    \"otp\": \"12345\",\n    \"reference\": \"{{reference}}\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
 												}
 											}
 										},
-										"url": "{{base_url}}/customers/validate"
+										"url": "https://api-pwaschedule.bits.dev.onepipe.io/v1/customers/validate"
 									},
 									"response": []
 								},
@@ -4999,7 +5009,7 @@
 											"script": {
 												"id": "ff8e9d07-972f-4372-92ad-bed805a763b4",
 												"exec": [
-													"pm.test(\"Validate response message\", function () {",
+													"pm.test(\"Validate response message for expired token\", function () {",
 													"    const response = pm.response.json();",
 													"    pm.expect(response.message).to.equal(\"jwt expired\");",
 													"});",
@@ -5042,7 +5052,7 @@
 											"script": {
 												"id": "07e6b8bf-dbe7-4ece-9a24-7256907b3879",
 												"exec": [
-													"pm.test(\"Response message is 'Invalid Auth Token'\", function () {",
+													"pm.test(\"Validate response for invalid token\", function () {",
 													"    const responseData = pm.response.json();",
 													"    pm.expect(responseData.message).to.equal(\"Invalid Auth Token\");",
 													"});",
@@ -5057,6 +5067,49 @@
 										}
 									],
 									"id": "60ecc9d6-2e54-443e-9f72-51ac9c2f952c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzQ4NjE4MjcwLCJleHAiOjE3NDg2MjE4NzB9.1sHwWebz8BaWxi-m-XyboWHUyfbDA-7Ko0xFXZzOo18"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": "{{base_url}}/customers/logout"
+									},
+									"response": []
+								},
+								{
+									"name": "Customer logout - blank",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "07e6b8bf-dbe7-4ece-9a24-7256907b3879",
+												"exec": [
+													"pm.test(\"Validate response for blank access token\", function () {",
+													"    const responseData = pm.response.json();",
+													"    pm.expect(responseData.message).to.equal(\"Unauthorised\");",
+													"});",
+													"",
+													"pm.test(\"Status code is 401\", function () {",
+													"    pm.response.to.have.status(401);",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "0e77bede-466e-41d4-b724-7e409e40d2bf",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
