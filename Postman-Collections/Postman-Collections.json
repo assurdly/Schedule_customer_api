@@ -5143,7 +5143,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzQ4NjE4MjcwLCJleHAiOjE3NDg2MjE4NzB9.1sHwWebz8BaWxi-m-XyboWHUyfbDA-7Ko0xFXZzOo18"
+												"token": ""
 											}
 										},
 										"method": "POST",
@@ -5327,9 +5327,9 @@
 											"script": {
 												"id": "123eeca6-5057-4c26-955f-f770a4f2af5c",
 												"exec": [
-													"pm.test(\"Validate response for invalid token\", function () {",
+													"pm.test(\"Validate response for blank access token\", function () {",
 													"    const responseData = pm.response.json();",
-													"    pm.expect(responseData.message).to.equal(\"Invalid Auth Token\");",
+													"    pm.expect(responseData.message).to.equal(\"Unauthorised\");",
 													"});",
 													"",
 													"pm.test(\"Status code is 401\", function () {",
@@ -5374,14 +5374,14 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "PATCH",
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"first_name\": \"lanre\",\r\n    \"last_name\": \"test\"\r\n}",
+											"raw": "{\r\n    \"first_name\": \"{{$randomFirstName}}\",\r\n    \"last_name\": \"{{$randomLastName}}\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
