@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Wooden Towels",
+    "description": "Quam voluptatem porro earum voluptatibus ab eos impedit voluptatem. Eum ea voluptatem. Rerum nostrum accusantium dolor voluptatem dolor maiores. Beatae commodi sunt assumenda.",
+    "icon_url": "http://placeimg.com/640/480"
+}

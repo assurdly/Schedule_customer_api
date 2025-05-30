@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Fresh Ball",
-    "description": "Facere neque et et explicabo aut laboriosam aliquid. Labore exercitationem nihil. Recusandae sit optio atque ea labore dolorem numquam error voluptate.",
-    "icon_url": "http://placeimg.com/640/480"
-}
