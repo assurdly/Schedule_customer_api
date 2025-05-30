@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Soft Chips",
+    "description": "Consequatur odio illo. Qui architecto natus natus odit dolor rerum. Ut consectetur atque totam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

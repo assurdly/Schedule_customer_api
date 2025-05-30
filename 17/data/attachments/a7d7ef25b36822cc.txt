@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Wooden Tuna",
-    "description": "Quisquam sequi ut in dolore perferendis repellat inventore optio. Ut dignissimos sint eveniet dignissimos. Et laborum ipsum. Perspiciatis enim repudiandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
