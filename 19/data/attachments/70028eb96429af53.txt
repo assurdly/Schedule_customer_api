@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Wooden Sausages",
-    "description": "Consequatur fugiat quia. Quia laborum vitae eum. Dignissimos autem rerum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

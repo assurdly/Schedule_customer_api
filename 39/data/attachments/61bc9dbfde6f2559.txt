@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Frozen Chair",
+    "description": "Assumenda inventore harum voluptatem dolor aut. Voluptatem cupiditate occaecati omnis aut facilis temporibus neque optio. Dolores natus dolorem ex nemo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
