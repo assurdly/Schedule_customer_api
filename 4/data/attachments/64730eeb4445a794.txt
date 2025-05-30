@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Steel Chair",
-    "description": "Similique blanditiis omnis iste quaerat. Repellendus aut est esse maiores a consequuntur qui commodi quasi. Cupiditate id quia corporis et quo quia architecto sit. Sunt accusamus est velit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

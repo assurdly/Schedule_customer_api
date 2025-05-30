@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Fresh Car",
-    "description": "Non ut aliquid eos quasi. Qui quia perferendis qui rerum sapiente non quia. Aliquam nulla sunt dolor perspiciatis. Et perspiciatis nihil. Explicabo omnis vero modi architecto accusantium maiores aut. Omnis illo quam odit nobis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

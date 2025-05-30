@@ -1,1 +1,0 @@
-{"status":"success","message":"success","data":{"id":3,"created_on":"2025-05-14 13:49:24","created_by":null,"modified_on":"2025-05-16 06:44:27","modified_by":null,"deleted_by":null,"deleted_flag":0,"name":"MTNDataindex","description":"","icon_url":"https://cdn.example.com/icons/utilities.svg","status":"active","amount":"100.00","meta":null,"product_group_id":2}}
