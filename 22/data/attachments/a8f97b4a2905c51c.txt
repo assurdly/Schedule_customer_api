@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Rubber Bacon",
-    "description": "Esse sunt consequatur ipsam aliquam impedit rem aliquid tenetur laudantium. Enim id explicabo nobis sit recusandae. Qui aspernatur asperiores consectetur autem voluptatem et. Et quasi accusantium explicabo fugiat architecto aperiam. Commodi dolorem eaque aliquam. Magni at hic soluta.",
-    "icon_url": "http://placeimg.com/640/480"
-}

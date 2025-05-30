@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Table",
+    "description": "Dolor accusamus deserunt nam labore aliquid. Aut possimus veritatis corrupti aliquid et debitis doloremque. Similique nostrum magnam neque fugit deleniti. Et numquam et quidem perferendis dolorem. Ullam fugit aliquid non dolorem.",
+    "icon_url": "http://placeimg.com/640/480"
+}
