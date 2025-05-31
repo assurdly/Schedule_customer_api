@@ -1,0 +1,5 @@
+{
+    "name": "Small Steel Chair",
+    "description": "Ducimus rem quasi voluptate aut nihil culpa. Quibusdam vel sequi veritatis accusantium. Accusantium voluptatem et ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

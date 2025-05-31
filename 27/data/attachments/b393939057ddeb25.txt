@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Tamia_Powlowski@gmail.com",
-    "first_name": "Modesta",
-    "last_name": "" 
-}

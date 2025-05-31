@@ -1,5 +1,0 @@
-{
-    "name": "Refined Steel Soap",
-    "description": "Ut incidunt ut quisquam fugiat aut velit. Ut enim ducimus voluptatum commodi laudantium adipisci. Iure molestiae suscipit. Quaerat enim repellat. Velit nesciunt qui id. Dolore nostrum amet sit earum est.",
-    "icon_url": "http://placeimg.com/640/480"
-}

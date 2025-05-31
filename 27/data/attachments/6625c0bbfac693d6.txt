@@ -1,5 +1,0 @@
-{
-    "name": "Refined Soft Gloves",
-    "description": "Sequi sit temporibus velit pariatur rem ducimus dolore quam quia. Dolores dolore molestiae dolores voluptatibus autem qui magni deserunt. Ea repudiandae enim vitae. Repellendus dolorem rerum alias et dolores in est doloribus iste.",
-    "icon_url": "http://placeimg.com/640/480"
-}
