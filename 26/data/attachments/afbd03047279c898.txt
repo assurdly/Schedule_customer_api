@@ -1,5 +1,0 @@
-{
-    "name": "Practical Cotton Bacon",
-    "description": "Tempore enim optio blanditiis sequi. Necessitatibus neque labore saepe. Ratione voluptate sequi aperiam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

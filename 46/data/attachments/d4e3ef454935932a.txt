@@ -1,0 +1,1 @@
+{"status":"success","message":"Customer retrieved successfully","data":{"id":9,"first_name":"Andy","last_name":"Fadel","email":"Bike@mailinator.com","phone_number":"08012345678","status":"verified","refresh_token":null,"last_login_at":"2025-05-31 07:43:18"}}

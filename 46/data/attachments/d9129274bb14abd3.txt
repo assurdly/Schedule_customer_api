@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Granite Chair",
+    "description": "Ut sunt ea reiciendis officia aliquam adipisci magni. Fuga dicta recusandae cumque et. Soluta minima excepturi et minus et est voluptas nobis labore. Laborum cum ex inventore minima.",
+    "icon_url": "http://placeimg.com/640/480"
+}

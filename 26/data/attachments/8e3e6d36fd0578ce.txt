@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Fresh Hat",
-    "description": "Dicta voluptatem est aut quaerat placeat magni quod. Necessitatibus exercitationem fugit nobis debitis neque velit. Ullam aliquam molestiae vel aperiam.",
-    "icon_url": "http://placeimg.com/640/480"
-}
