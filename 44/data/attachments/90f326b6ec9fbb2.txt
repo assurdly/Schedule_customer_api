@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Metal Table",
+    "description": "Laboriosam ut sint ex minus repellendus inventore quisquam. Dolorem animi ut aut deleniti. Ut dignissimos sint ea dolorum voluptatibus adipisci eveniet molestiae. Ea molestias dolores et beatae eos dolores inventore enim.",
+    "icon_url": "http://placeimg.com/640/480"
+}

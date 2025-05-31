@@ -1,5 +1,0 @@
-{
-    "name": "Gorgeous Concrete Bacon",
-    "description": "Explicabo temporibus nisi nostrum. Vel animi aliquid et aut. Accusantium a quo atque maiores rem est ut temporibus. Commodi est voluptas dolorem soluta ducimus est. Mollitia nesciunt sunt. Ex optio recusandae eius deserunt maiores quia quia rerum assumenda.",
-    "icon_url": "http://placeimg.com/640/480"
-}

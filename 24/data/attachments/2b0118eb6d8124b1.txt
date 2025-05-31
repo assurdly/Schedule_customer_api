@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Ismael.Pagac@gmail.com",
-    "first_name": "Daija",
-    "last_name": "" 
-}
