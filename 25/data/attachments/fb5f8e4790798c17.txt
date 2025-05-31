@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Granite Sausages",
-    "description": "Autem suscipit repudiandae iste id recusandae consectetur temporibus enim. Expedita omnis sunt quae. Quia aut eaque saepe quisquam qui quod sed officiis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

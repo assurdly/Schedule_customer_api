@@ -1,5 +1,0 @@
-{
-    "name": "Refined Plastic Gloves",
-    "description": "Quas esse cumque enim exercitationem molestias eius. Dolorem voluptatem mollitia est. Rerum beatae saepe velit placeat.",
-    "icon_url": "http://placeimg.com/640/480"
-}
