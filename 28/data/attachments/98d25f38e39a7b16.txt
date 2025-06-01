@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Cotton Pizza",
-    "description": "Culpa quod corporis. Et dolores debitis hic sit qui porro in nihil necessitatibus. Nulla et officia similique sapiente at. Cumque voluptates deleniti quia et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

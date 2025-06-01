@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Fresh Soap",
-    "description": "Quod quas ipsam. Qui qui eaque quo sit officia. Rerum cumque amet qui nesciunt autem deleniti rerum quisquam autem. Repellendus aliquid quo dolores totam et facilis vitae. Voluptas quam et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
