@@ -1,0 +1,5 @@
+{
+    "name": "Generic Plastic Mouse",
+    "description": "Placeat quia dolores atque. Unde voluptatem error amet enim. Molestiae dolorum ex.",
+    "icon_url": "http://placeimg.com/640/480"
+}
