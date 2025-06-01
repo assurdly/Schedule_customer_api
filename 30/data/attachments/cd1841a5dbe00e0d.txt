@@ -1,7 +1,0 @@
-pm.test("Validate response message", function () {
-    const response = pm.response.json();
-    pm.expect(response.message).to.equal("jwt expired");
-});
-pm.test("Status code is 401", function () {
-    pm.response.to.have.status(401);
-});

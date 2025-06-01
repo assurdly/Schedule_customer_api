@@ -1,8 +1,0 @@
-pm.test("Response message is 'Invalid Auth Token'", function () {
-    const responseData = pm.response.json();
-    pm.expect(responseData.message).to.equal("Invalid Auth Token");
-});
-
-pm.test("Status code is 401", function () {
-    pm.response.to.have.status(401);
-});

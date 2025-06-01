@@ -1,0 +1,5 @@
+{
+    "name": "Small Wooden Chair",
+    "description": "Consequuntur aut illum aut maiores accusantium molestias totam et. Enim consequuntur ut velit cupiditate. Fuga sint quibusdam id voluptate in nihil laborum exercitationem. Vel velit quia quos. Nihil dolores facilis impedit saepe. Vitae veritatis aspernatur quaerat quas doloribus et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

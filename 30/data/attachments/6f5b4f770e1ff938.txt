@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Rubber Chips",
-    "description": "Est in error amet velit voluptatum consequatur sit optio. Et itaque mollitia rem. Architecto sit est. Quam ab sed quam hic ratione occaecati eum. Odit eius dicta. Doloremque voluptatem possimus quis pariatur exercitationem suscipit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
