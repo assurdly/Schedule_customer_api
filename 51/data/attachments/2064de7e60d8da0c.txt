@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Chicken",
+    "description": "Non accusantium cupiditate voluptatum architecto voluptatibus laborum voluptatem fugiat delectus. Praesentium exercitationem sequi. Ut omnis deleniti facilis laborum quibusdam velit fuga eligendi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
