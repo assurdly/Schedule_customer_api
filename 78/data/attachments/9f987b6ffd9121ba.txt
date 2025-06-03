@@ -1,0 +1,5 @@
+{
+    "name": "Small Metal Keyboard",
+    "description": "Ut consequatur possimus libero sunt corporis. Suscipit dolor sit unde natus dolorem doloremque soluta. Autem ipsam et.",
+    "icon_url": "http://placeimg.com/640/480"
+}
