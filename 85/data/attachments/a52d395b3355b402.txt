@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Metal Ball",
+    "description": "Et ad atque quos non quod odit magni. Occaecati quaerat rerum debitis ad. Et ut porro porro. Dolore odit aut. Quasi officiis qui dolorum eos ipsam ut repellendus aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

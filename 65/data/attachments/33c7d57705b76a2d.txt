@@ -1,5 +1,0 @@
-{
-    "name": "Gorgeous Cotton Gloves",
-    "description": "Sit neque et. Eos ipsam nulla eligendi. Rem sapiente ipsa ea dolore eum. Quidem ea id ex sequi aperiam minus ullam dolorum. Dolor blanditiis est quo sed. Voluptatem debitis sed error nihil.",
-    "icon_url": "http://placeimg.com/640/480"
-}
