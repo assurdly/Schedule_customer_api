@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Steel Chair",
+    "description": "Natus nihil nisi voluptas qui dolor. Qui quae voluptas et velit. Dicta facilis eos et similique itaque temporibus et autem. Animi alias facilis corrupti et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

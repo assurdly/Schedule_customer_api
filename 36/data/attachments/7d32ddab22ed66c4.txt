@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Cotton Bacon",
-    "description": "Enim expedita ea voluptates. Quod ut porro perspiciatis quia iure. Iusto aut deserunt autem aperiam reiciendis enim nisi aspernatur. Dicta rem dolor.",
-    "icon_url": "http://placeimg.com/640/480"
-}
