@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Concrete Computer",
+    "description": "Quam ut et et aperiam. Maiores fuga aut adipisci. Repellat dicta similique officiis ut sapiente aspernatur dolorum. Doloremque et est tenetur.",
+    "icon_url": "http://placeimg.com/640/480"
+}

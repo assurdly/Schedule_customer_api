@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Rubber Chicken",
-    "description": "Similique asperiores consequatur. Praesentium nulla omnis sit qui et. Est dicta nihil ducimus sint vel. Modi nisi tenetur aspernatur asperiores quod pariatur accusamus molestiae. Praesentium doloremque eligendi tenetur quam molestiae molestiae recusandae voluptatem. Eligendi veritatis soluta sunt vero consequatur temporibus quo.",
-    "icon_url": "http://placeimg.com/640/480"
-}

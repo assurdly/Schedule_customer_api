@@ -1,0 +1,5 @@
+{
+    "name": "Small Soft Keyboard",
+    "description": "Voluptas aspernatur et rem in ipsa quidem id. Nisi et voluptate. Est ducimus quis dolor eos. Maxime iure quae optio quo vitae autem eaque. Ducimus sit possimus veniam culpa.",
+    "icon_url": "http://placeimg.com/640/480"
+}
