@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Plastic Hat",
-    "description": "Consequatur adipisci dolores a. Corporis velit omnis minima quis expedita aut neque id quasi. Occaecati dolore libero ut. Totam natus qui iusto.",
-    "icon_url": "http://placeimg.com/640/480"
-}

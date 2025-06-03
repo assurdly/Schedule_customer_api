@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Wooden Chair",
+    "description": "Quis rerum et aspernatur omnis voluptas sunt. Quibusdam esse possimus aspernatur ipsam quibusdam vel deserunt. Consequatur libero suscipit aut. Soluta rerum omnis omnis voluptates. Ducimus vitae deserunt rerum qui velit culpa est pariatur quidem. Ut pariatur deserunt ea illo ut qui in enim.",
+    "icon_url": "http://placeimg.com/640/480"
+}

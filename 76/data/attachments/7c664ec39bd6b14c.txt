@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Frozen Fish",
+    "description": "Consequatur est ipsa ut eos maiores. Voluptates ad minima similique quod. Est pariatur culpa quis. Architecto nisi saepe. Laboriosam iure qui.",
+    "icon_url": "http://placeimg.com/640/480"
+}
