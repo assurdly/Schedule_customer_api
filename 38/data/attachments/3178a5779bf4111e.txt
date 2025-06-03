@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Cotton Gloves",
-    "description": "Repellat dolores enim incidunt. Ut voluptas modi. Ut iusto vitae aut molestiae reiciendis delectus. Perferendis laudantium deserunt omnis pariatur consequatur iure assumenda.",
-    "icon_url": "http://placeimg.com/640/480"
-}

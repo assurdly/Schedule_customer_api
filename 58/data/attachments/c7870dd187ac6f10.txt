@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Granite Computer",
+    "description": "Dolorem ad et quibusdam blanditiis explicabo facilis corporis sint tempora. Quasi non natus tenetur doloremque. Similique quod esse veritatis. Debitis corrupti et autem error. Iure aliquid vitae reiciendis est sequi sunt non.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Frozen Soap",
+    "description": "Quas autem sunt commodi. Illum vel dolores. In quo veritatis hic distinctio natus corrupti. Consectetur reiciendis ullam id iste fuga voluptatum quisquam atque. Similique omnis hic et quis omnis numquam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

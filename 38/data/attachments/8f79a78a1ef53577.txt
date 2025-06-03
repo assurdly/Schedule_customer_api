@@ -1,5 +1,0 @@
-{
-    "name": "Practical Rubber Hat",
-    "description": "Sit rerum voluptates cum. Quia eveniet quia impedit. Cum odit qui voluptatem natus ut autem. Nemo labore fugiat corporis distinctio. Necessitatibus dolor mollitia.",
-    "icon_url": "http://placeimg.com/640/480"
-}
