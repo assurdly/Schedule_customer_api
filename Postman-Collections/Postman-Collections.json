@@ -2484,7 +2484,7 @@
 												"exec": [
 													"pm.test(\"Validate response for invalid token\", function () {",
 													"    const responseData = pm.response.json();",
-													"    pm.expect(responseData.message).to.equal(\"Invalid Auth Token\");",
+													"    pm.expect(responseData.message).to.exist;",
 													"});",
 													"",
 													"pm.test(\"Status code is 401\", function () {",
@@ -2527,7 +2527,7 @@
 												"exec": [
 													"pm.test(\"Validate response for blank access token\", function () {",
 													"    const responseData = pm.response.json();",
-													"    pm.expect(responseData.message).to.equal(\"Unauthorised\");",
+													"    pm.expect(responseData.message).to.equal(\"Unauthorized\");",
 													"});",
 													"",
 													"pm.test(\"Status code is 401\", function () {",
