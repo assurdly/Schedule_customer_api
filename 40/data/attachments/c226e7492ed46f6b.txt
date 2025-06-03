@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Cotton Pizza",
-    "description": "Reprehenderit libero perferendis ut. Iste accusamus commodi omnis aut possimus ipsum dolorem atque beatae. Quae quia in debitis perspiciatis nostrum nihil pariatur odit. Adipisci aut fugiat voluptatibus. Illo nesciunt ex assumenda voluptatem quia tempora.",
-    "icon_url": "http://placeimg.com/640/480"
-}
