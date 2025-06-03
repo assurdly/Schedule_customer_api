@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Concrete Table",
-    "description": "Placeat officia optio doloremque quisquam sed voluptatibus et sint. Modi explicabo dignissimos nobis id. Magni nihil nihil sed delectus amet.",
-    "icon_url": "http://placeimg.com/640/480"
-}
