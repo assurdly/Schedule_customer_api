@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Fresh Bike",
-    "description": "Error facilis tempora totam sed. Qui a ut eligendi. Eveniet vero quidem labore quis. Voluptates sunt reprehenderit suscipit saepe vero doloremque est. At sit ut eum et. Ut eum eaque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

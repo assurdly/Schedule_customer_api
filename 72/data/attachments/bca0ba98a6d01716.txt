@@ -1,0 +1,5 @@
+{
+    "name": "Generic Fresh Computer",
+    "description": "Illo suscipit iure est sapiente atque et. Suscipit quia doloremque est qui provident enim qui nisi nemo. At voluptatem culpa. Iste enim ullam eos quis sapiente labore ipsa nostrum explicabo. Rerum voluptatem consequatur iure voluptatum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Granite Hat",
+    "description": "Ratione voluptas voluptatibus molestias. Ex eligendi officiis velit qui dicta placeat. Est nostrum pariatur doloribus inventore tempora. Mollitia omnis voluptatum hic iusto repellat fugit. Dolores eum quia dignissimos reprehenderit aut voluptatum minima totam. Atque aut minima voluptas.",
+    "icon_url": "http://placeimg.com/640/480"
+}
