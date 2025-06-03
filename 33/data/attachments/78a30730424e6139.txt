@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Rubber Bike",
-    "description": "Non architecto error et et ex reiciendis dolores inventore inventore. Non in itaque id aut voluptas. Modi tempore qui animi quia necessitatibus. Totam quos corporis amet aut maxime ducimus earum voluptas.",
-    "icon_url": "http://placeimg.com/640/480"
-}
