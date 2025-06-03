@@ -1,1 +1,0 @@
-{"status":"success","message":"Customer retrieved successfully","data":{"id":9,"first_name":"Jewell","last_name":"Lubowitz","email":"Regional@mailinator.com","phone_number":"08012345678","status":"verified","refresh_token":null,"last_login_at":"2025-05-30 16:43:37"}}

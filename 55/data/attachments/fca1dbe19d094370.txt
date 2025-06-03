@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Wooden Chicken",
+    "description": "Deserunt error doloremque. Esse aut delectus. Aperiam et enim.",
+    "icon_url": "http://placeimg.com/640/480"
+}

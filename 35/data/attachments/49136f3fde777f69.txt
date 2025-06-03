@@ -1,5 +1,0 @@
-{
-    "name": "Small Cotton Chicken",
-    "description": "Consequatur dolorum qui. Accusantium sed rerum deleniti dolorum. Soluta qui unde rem eos sint ex adipisci possimus. Tempora quae et. Est corporis qui veritatis rerum aperiam quia sunt et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
