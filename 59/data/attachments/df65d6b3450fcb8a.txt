@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Cotton Keyboard",
+    "description": "At adipisci suscipit voluptas blanditiis dolores cupiditate odio et. Consectetur blanditiis corrupti eius error a. Eum dolorem culpa dolor facilis aut delectus sed voluptatibus. Consectetur similique quis quia non. Et tempore voluptatem quia adipisci voluptas maxime quia placeat maiores. Qui ut praesentium in est unde libero voluptatem explicabo quaerat.",
+    "icon_url": "http://placeimg.com/640/480"
+}

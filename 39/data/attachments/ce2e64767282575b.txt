@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Concrete Cheese",
-    "description": "Qui ratione mollitia vero aut laboriosam velit. Quia tempore illo ducimus vel quas et qui. Nobis et consequatur explicabo omnis. Non dicta ullam necessitatibus quam ut omnis adipisci. Aut cumque molestias eveniet odit. Quos rerum autem quia inventore dolorum nemo facilis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
