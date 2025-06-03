@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Soft Cheese",
-    "description": "Nihil unde maxime ut ut nam enim necessitatibus molestiae. Ratione eos ex. Qui culpa cum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

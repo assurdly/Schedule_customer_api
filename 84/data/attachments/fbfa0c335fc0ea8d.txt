@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Steel Towels",
+    "description": "Minus consequatur ipsa. Aut ut dolorum. Officia id voluptas maxime et. Tempore pariatur voluptatem debitis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

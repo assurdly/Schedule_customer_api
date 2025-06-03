@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Steel Chicken",
+    "description": "Repellendus aperiam pariatur laborum voluptas ut. Qui enim aut. Rem eveniet ducimus eligendi. Ea quam quia. Quisquam porro voluptatum temporibus fugit soluta est quibusdam. Culpa voluptatem sed quis distinctio impedit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
