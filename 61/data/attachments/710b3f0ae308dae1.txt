@@ -1,7 +1,0 @@
-pm.test("Phone number is required", function () {
-    const jsonData = pm.response.json();
-    pm.expect(jsonData.message).to.equal("Phone number cannot be empty");
-});
-pm.test("Status code is 400", function () {
-    pm.response.to.have.status(400);
-});

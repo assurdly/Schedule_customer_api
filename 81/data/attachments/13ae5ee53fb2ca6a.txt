@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Metal Sausages",
+    "description": "Similique adipisci dignissimos quaerat similique non. Fugit minus laboriosam temporibus. Aut commodi voluptate aliquid quibusdam quam doloribus est. Ea blanditiis est. Aut dolorum cumque beatae doloremque. Aliquam ea illum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
