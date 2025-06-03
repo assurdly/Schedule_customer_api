@@ -1,1 +1,0 @@
-{"status":"success","message":"Customer retrieved successfully","data":{"id":9,"first_name":"Alfred","last_name":"Strosin","email":"HTTP@mailinator.com","phone_number":"08012345678","status":"verified","refresh_token":null,"last_login_at":"2025-06-01 17:11:30"}}

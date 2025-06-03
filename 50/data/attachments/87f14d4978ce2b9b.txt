@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Plastic Car",
-    "description": "Cum enim saepe et excepturi quos dolorum. Similique assumenda nulla in et aut in in mollitia. Sit sit qui deserunt sint quia voluptates.",
-    "icon_url": "http://placeimg.com/640/480"
-}
