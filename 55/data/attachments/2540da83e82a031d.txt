@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Metal Pants",
-    "description": "Magnam occaecati velit ut sit distinctio nemo odio dolorem. Suscipit a et. Harum blanditiis ut repellendus expedita iusto. Eligendi rem ab suscipit nemo rerum sint aut labore. Nulla asperiores explicabo inventore sit deserunt omnis aliquid numquam quia. Porro quo autem quae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
