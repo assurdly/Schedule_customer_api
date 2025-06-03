@@ -6507,7 +6507,7 @@
 									]
 								},
 								{
-									"name": "Create Subscriptions- Invalid bank code Copy",
+									"name": "Create Subscriptions- Invalid account number",
 									"event": [
 										{
 											"listen": "test",
