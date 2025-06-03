@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Cotton Shoes",
-    "description": "Rerum et quis reiciendis molestiae. Et voluptate quisquam quia id eum ut at aut et. Expedita aperiam porro labore.",
-    "icon_url": "http://placeimg.com/640/480"
-}

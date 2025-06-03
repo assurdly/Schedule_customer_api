@@ -1,5 +1,0 @@
-{
-    "name": "Refined Cotton Chair",
-    "description": "Est inventore adipisci fugiat. Dolores vel voluptatibus. Atque sint sint. Aut quidem aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}
