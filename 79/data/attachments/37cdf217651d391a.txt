@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Rubber Chair",
+    "description": "Commodi sit saepe nesciunt autem quia magni laudantium aut. Possimus dolorem natus veniam ut earum atque optio qui. Et harum autem aut molestias quo sed. Nemo deserunt doloremque at qui mollitia fugiat.",
+    "icon_url": "http://placeimg.com/640/480"
+}

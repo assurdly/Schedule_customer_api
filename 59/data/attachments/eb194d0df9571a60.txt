@@ -1,5 +1,0 @@
-{
-    "name": "Practical Plastic Chicken",
-    "description": "Qui ab temporibus dolorem rerum laboriosam. Eligendi voluptate rerum incidunt. Qui enim rem quis voluptates eos qui id nulla.",
-    "icon_url": "http://placeimg.com/640/480"
-}
