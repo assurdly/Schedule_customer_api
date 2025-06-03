@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Plastic Soap",
+    "description": "Aperiam beatae quis. Temporibus reiciendis consequatur voluptates vero aut totam. Dolorem recusandae veniam necessitatibus omnis voluptatem. Reprehenderit quis repellendus animi autem voluptatibus. Error ratione temporibus facilis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

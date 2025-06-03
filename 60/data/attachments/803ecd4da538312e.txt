@@ -1,5 +1,0 @@
-{
-    "name": "Refined Granite Tuna",
-    "description": "Rerum doloribus voluptas quisquam aperiam vel rerum iure consequatur. Excepturi sit ut quis odit repellendus. Consectetur culpa eum et beatae esse magnam saepe occaecati. Qui debitis velit eaque earum dicta mollitia tenetur voluptatem sint.",
-    "icon_url": "http://placeimg.com/640/480"
-}

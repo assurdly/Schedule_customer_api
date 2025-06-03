@@ -1,5 +1,0 @@
-{
-    "name": "Generic Plastic Mouse",
-    "description": "Recusandae aperiam ea ipsam. Tempore accusamus aut sed ad odit est iusto. Minus quas deleniti illum aliquid ipsum molestiae quidem. Autem fugit placeat qui. Sed amet dolorem facere id.",
-    "icon_url": "http://placeimg.com/640/480"
-}
