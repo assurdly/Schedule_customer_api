@@ -6360,7 +6360,7 @@
 													"});\r",
 													"\r",
 													"pm.test(\"Response body contains correct error message\", function () {\r",
-													"    pm.expect(jsonData.message).to.include(\"frequency must be one of the following values\");\r",
+													"    pm.expect(jsonData.message).to.include(\"Bank not found\");\r",
 													"});\r",
 													""
 												],
@@ -6384,7 +6384,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 100,\n    \"frequency\": \"\",\n    \"start_date\": \"2025-06-03\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-03\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"ffsshh\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
