@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Wooden Fish",
+    "description": "Adipisci dignissimos nihil dolor minima. Sint rem sequi sit voluptate reiciendis optio labore rem. Eveniet et non nulla distinctio tempore dolor repellat fugit mollitia.",
+    "icon_url": "http://placeimg.com/640/480"
+}
