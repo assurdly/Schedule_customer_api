@@ -5846,6 +5846,46 @@
 							"item": [
 								{
 									"name": "Create Subscriptions- Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "30d0c8d8-09cf-47e1-8efd-5a4321a03202",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 201\", function () {\r",
+													"    pm.response.to.have.status(201);\r",
+													"});\r",
+													"\r",
+													"pm.test('Data object should exist', function () {\r",
+													"    pm.expect(jsonData.data).to.exist;\r",
+													"    pm.expect(jsonData.data).to.be.an('object');\r",
+													"});\r",
+													"\r",
+													"\r",
+													"pm.test('Response should have the expected structure', function () {\r",
+													"    pm.expect(jsonData).to.have.property('status');\r",
+													"    pm.expect(jsonData).to.have.property('message');\r",
+													"    pm.expect(jsonData.data).to.have.property('id');\r",
+													"    pm.expect(jsonData.data).to.have.property('status');\r",
+													"    pm.expect(jsonData.data).to.have.property('amount');\r",
+													"    pm.expect(jsonData.data).to.have.property('frequency');\r",
+													"    pm.expect(jsonData.data).to.have.property('start_date');\r",
+													"    pm.expect(jsonData.data).to.have.property('end_date');\r",
+													"    pm.expect(jsonData.data).to.have.property('customer_id');\r",
+													"    pm.expect(jsonData.data).to.have.property('product_group_id');\r",
+													"    pm.expect(jsonData.data).to.have.property('product_id');\r",
+													"    pm.expect(jsonData.data).to.have.property('meta');\r",
+													"});\r",
+													"\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "9bc99f11-2875-45a4-afa0-917b42a00e9d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -5854,14 +5894,14 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "POST",
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 100,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-01\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"17\",\n    \"product_id\": \"34\",\n    \"amount\": 1500,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-03\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -5984,7 +6024,7 @@
 									]
 								},
 								{
-									"name": "Create Subscriptions- Success Copy",
+									"name": "Create Subscriptions- blank frequency",
 									"id": "c4ac1b4a-6975-4994-8527-0852d3a92eaf",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
