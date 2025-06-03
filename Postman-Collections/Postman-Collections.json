@@ -5845,7 +5845,7 @@
 							"name": "Create Subscriptions",
 							"item": [
 								{
-									"name": "Create Subscriptions",
+									"name": "Create Subscriptions- Success",
 									"id": "9bc99f11-2875-45a4-afa0-917b42a00e9d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
