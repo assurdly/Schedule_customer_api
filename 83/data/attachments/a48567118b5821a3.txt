@@ -1,0 +1,5 @@
+{
+    "name": "Refined Wooden Tuna",
+    "description": "Voluptatem tenetur eveniet hic. Odio itaque sed culpa accusantium. Et voluptates error voluptates ea est ab consequatur vel. Dolores placeat rerum saepe.",
+    "icon_url": "http://placeimg.com/640/480"
+}

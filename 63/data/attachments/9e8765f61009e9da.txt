@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Frozen Ball",
-    "description": "Necessitatibus mollitia cum laboriosam. Libero rerum sunt magni at perspiciatis tenetur. Soluta voluptates ipsam aut. Sunt ut iusto exercitationem et sed sapiente libero.",
-    "icon_url": "http://placeimg.com/640/480"
-}
