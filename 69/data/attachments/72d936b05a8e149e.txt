@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Metal Pants",
+    "description": "A facilis alias tenetur nisi at ut perspiciatis voluptas veritatis. Minus tempora ea corporis omnis. Sunt et dolore est ad.",
+    "icon_url": "http://placeimg.com/640/480"
+}

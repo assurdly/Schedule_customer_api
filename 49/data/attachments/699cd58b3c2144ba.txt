@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Steel Salad",
-    "description": "Doloribus sunt nostrum eos recusandae. Cum et omnis quidem suscipit eos doloremque sunt assumenda consequatur. Doloremque quibusdam unde et. Accusantium suscipit iure voluptatem. Dignissimos suscipit culpa earum nam est sit et et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
