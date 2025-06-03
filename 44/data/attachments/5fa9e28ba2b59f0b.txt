@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Metal Shoes",
-    "description": "Repellendus sed veritatis. Optio tempore suscipit quia exercitationem. Molestiae consequatur numquam sed at cum qui in rem eum. Et explicabo non quia quam reprehenderit sit unde dicta.",
-    "icon_url": "http://placeimg.com/640/480"
-}
