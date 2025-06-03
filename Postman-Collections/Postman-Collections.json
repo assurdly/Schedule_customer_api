@@ -1879,7 +1879,7 @@
 													"});",
 													"",
 													"pm.test(\"Response message for blank phone number\", function () {",
-													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");",
+													"    pm.expect(pm.response.json().message).to.equal(\"Please enter a valid phone number\");",
 													"});",
 													""
 												],
