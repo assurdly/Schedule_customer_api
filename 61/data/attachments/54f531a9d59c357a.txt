@@ -1,0 +1,5 @@
+{
+    "name": "Generic Concrete Gloves",
+    "description": "Iusto cum excepturi eos. Nemo numquam nobis. Fuga rerum architecto temporibus voluptatem autem in et laboriosam. Voluptatum quia sit repudiandae debitis fuga ullam sunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}

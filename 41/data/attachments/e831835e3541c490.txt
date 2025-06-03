@@ -1,5 +1,0 @@
-{
-    "name": "Small Fresh Sausages",
-    "description": "Excepturi id voluptas earum dolores. Voluptas consequuntur provident fuga. Quibusdam eius delectus reiciendis vero.",
-    "icon_url": "http://placeimg.com/640/480"
-}
