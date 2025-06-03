@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Plastic Pants",
+    "description": "Rerum sunt doloremque. Deleniti velit modi. Ut cum repellendus ut dignissimos omnis ducimus veritatis.",
+    "icon_url": "http://placeimg.com/640/480"
+}
