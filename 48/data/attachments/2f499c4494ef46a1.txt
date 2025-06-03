@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Wooden Chips",
-    "description": "Qui velit fuga accusamus autem. Non deserunt saepe repudiandae aut aperiam quam. Non ab et nesciunt explicabo voluptatum. Et nemo et qui aperiam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

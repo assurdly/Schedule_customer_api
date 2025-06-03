@@ -1,5 +1,0 @@
-{
-    "name": "Generic Granite Soap",
-    "description": "Sapiente veniam in non sint qui. Possimus reprehenderit natus reiciendis ipsum aliquam repellat. Et voluptas nihil quidem eum qui earum quos repellat. Itaque sint voluptas. Repellat cumque tempore.",
-    "icon_url": "http://placeimg.com/640/480"
-}
