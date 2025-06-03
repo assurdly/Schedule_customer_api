@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Concrete Bacon",
+    "description": "Quam dolores aperiam dolorem. Ullam quibusdam similique sapiente animi quis tenetur deleniti ut. Quod facilis molestiae sed recusandae odio et soluta est. Velit voluptatem nulla ipsa sint in aut. Aut qui voluptates harum odio et amet nemo non.",
+    "icon_url": "http://placeimg.com/640/480"
+}
