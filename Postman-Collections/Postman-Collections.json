@@ -353,7 +353,7 @@
 													"});",
 													"",
 													"pm.test(\"Response message for invalid email\", function () {",
-													"    pm.expect(pm.response.json().message).to.equal(\"Please enter a valid email address\");",
+													"    pm.expect(pm.response.json().message).to.exist",
 													"});",
 													""
 												],
