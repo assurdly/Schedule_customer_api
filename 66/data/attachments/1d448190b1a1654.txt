@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Metal Chicken",
-    "description": "Sed maxime et. Ducimus nihil est vel. Est deserunt voluptas ullam asperiores qui molestiae maxime velit voluptatibus. Aut provident in temporibus pariatur similique. Ut voluptas enim quas et. Accusamus odio quia.",
-    "icon_url": "http://placeimg.com/640/480"
-}

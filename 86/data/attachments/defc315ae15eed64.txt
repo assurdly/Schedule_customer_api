@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Wooden Car",
+    "description": "Dolorem nulla quo ab sapiente aut magnam. Voluptas dolorem laudantium ex et quos. Est eos qui sed inventore natus itaque debitis laboriosam sint. Quia unde consequuntur enim expedita quam quisquam unde accusantium.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Frozen Soap",
+    "description": "Voluptas et eos. Consectetur sit et amet minima quaerat animi. Ullam similique consequuntur earum eum ut fuga.",
+    "icon_url": "http://placeimg.com/640/480"
+}
