@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Granite Car",
-    "description": "Iure et et et porro ut. Eos et tempora ut id qui. Ut nobis sunt voluptates et odio omnis libero voluptatem facilis. Commodi est qui ut rerum eligendi ducimus necessitatibus.",
-    "icon_url": "http://placeimg.com/640/480"
-}

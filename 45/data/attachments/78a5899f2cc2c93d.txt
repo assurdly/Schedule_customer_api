@@ -1,1 +1,0 @@
-{"status":"success","message":"Customer retrieved successfully","data":{"id":9,"first_name":"Quentin","last_name":"Swaniawski","email":"North@mailinator.com","phone_number":"08012345678","status":"verified","refresh_token":null,"last_login_at":"2025-05-31 07:40:12"}}

@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Rubber Ball",
-    "description": "Quod qui velit ut. Laborum ut eaque officia non repudiandae eius atque. Eveniet nam sed adipisci dolorem vero. Perferendis dolores quia sed provident eaque maxime commodi. Non itaque nihil aliquam est dolor aperiam porro.",
-    "icon_url": "http://placeimg.com/640/480"
-}
