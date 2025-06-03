@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Plastic Keyboard",
-    "description": "Facilis dolor consequatur eum unde porro non. Saepe minima quis aut quod quasi at culpa. Dignissimos ipsum molestiae eaque. Atque at quos ab rerum. Vitae cumque aut. Et doloremque pariatur velit ut et nostrum perspiciatis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
