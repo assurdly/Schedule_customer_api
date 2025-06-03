@@ -5987,7 +5987,7 @@
 							"id": "afd595b0-b7bd-4e5c-a32b-0042e05ba6b3"
 						},
 						{
-							"name": "New Folder Copy",
+							"name": "Get Subscriptions",
 							"item": [
 								{
 									"name": "Get Subscriptions",
@@ -6159,7 +6159,7 @@
 							"id": "90482a35-a6a9-4276-9794-ead15acfb5e2"
 						},
 						{
-							"name": "New Folder Copy",
+							"name": "Get subscription stats",
 							"item": [
 								{
 									"name": "Get Subscriptions stats",
@@ -6286,10 +6286,10 @@
 							"id": "85ce1ad8-603f-49b1-8d9a-fa91e8f7a276"
 						},
 						{
-							"name": "New Folder Copy",
+							"name": "Fetch  a subscription",
 							"item": [
 								{
-									"name": "Get Subscriptions by ID",
+									"name": "Fetch a subscription",
 									"id": "98ab7301-d2c8-4cb2-9e2e-2a9365daf546",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
