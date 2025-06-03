@@ -1,5 +1,0 @@
-{
-    "name": "Practical Plastic Bacon",
-    "description": "Beatae aut ut quos nihil optio pariatur. Necessitatibus vitae et. Eum soluta culpa expedita neque. In impedit quas aspernatur facere quia nostrum totam eum. Cum voluptate ut eveniet.",
-    "icon_url": "http://placeimg.com/640/480"
-}
