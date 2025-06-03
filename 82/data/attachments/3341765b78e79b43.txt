@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Chips",
+    "description": "Natus repellendus quam exercitationem placeat culpa rerum corporis dolores. Reiciendis eligendi accusantium omnis. Explicabo aut provident.",
+    "icon_url": "http://placeimg.com/640/480"
+}

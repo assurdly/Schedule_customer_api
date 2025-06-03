@@ -1,5 +1,0 @@
-{
-    "name": "Generic Metal Table",
-    "description": "Culpa minima temporibus quia itaque aliquid eum. Et placeat aliquam iure harum corrupti unde. Molestiae consequatur cupiditate.",
-    "icon_url": "http://placeimg.com/640/480"
-}
