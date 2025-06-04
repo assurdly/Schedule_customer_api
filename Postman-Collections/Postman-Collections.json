@@ -5417,7 +5417,7 @@
 							"name": "Delete customer profile",
 							"item": [
 								{
-									"name": "New Folder",
+									"name": "Delete Customer profile",
 									"item": [
 										{
 											"name": "Delete customer profile",
@@ -5544,7 +5544,7 @@
 									"id": "a07aab7f-9dec-4bdb-87e4-d7ad0c9b5b58"
 								},
 								{
-									"name": "New Folder",
+									"name": "Confirm Deletion",
 									"item": [
 										{
 											"name": "Confirm delete customer profile",
