@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Steel Chair",
+    "description": "Molestiae voluptate repellat exercitationem repudiandae quis dolores. Voluptate qui quam omnis nobis harum iure illo dolorem odit. Corporis rerum suscipit nobis ut porro dolorum ad placeat.",
+    "icon_url": "http://placeimg.com/640/480"
+}
