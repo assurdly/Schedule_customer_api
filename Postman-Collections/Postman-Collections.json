@@ -5417,157 +5417,148 @@
 							"name": "Delete customer profile",
 							"item": [
 								{
-									"name": "Delete customer profile",
-									"id": "29070d28-68e9-43bf-b861-4f0aa4bd2be4",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "{{access_token}}"
-											}
-										},
-										"method": "DELETE",
-										"header": [],
-										"url": "{{base_url}}/customers/profile"
-									},
-									"response": [
+									"name": "New Folder",
+									"item": [
 										{
-											"id": "6453dad5-ac87-4f38-a2fd-dfb80070b0ae",
-											"name": "delete customer profile response",
-											"originalRequest": {
+											"name": "Delete customer profile",
+											"id": "29070d28-68e9-43bf-b861-4f0aa4bd2be4",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"auth": {
+													"type": "bearer",
+													"bearer": {
+														"token": "{{access_token}}"
+													}
+												},
 												"method": "DELETE",
 												"header": [],
 												"url": "{{base_url}}/customers/profile"
 											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
+											"response": [
 												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "235"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"eb-di9cOiYYa8MEEZf4lt+bnqAfnPE\""
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 29 May 2025 10:54:03 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Keep-Alive",
-													"value": "timeout=5"
+													"id": "6453dad5-ac87-4f38-a2fd-dfb80070b0ae",
+													"name": "delete customer profile response",
+													"originalRequest": {
+														"method": "DELETE",
+														"header": [],
+														"url": "{{base_url}}/customers/profile"
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Access-Control-Allow-Origin",
+															"value": "*"
+														},
+														{
+															"key": "Access-Control-Allow-Credentials",
+															"value": "true"
+														},
+														{
+															"key": "Access-Control-Expose-Headers",
+															"value": "x-encryption-key,x-encryption-iv"
+														},
+														{
+															"key": "Content-Security-Policy",
+															"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+														},
+														{
+															"key": "Cross-Origin-Opener-Policy",
+															"value": "same-origin"
+														},
+														{
+															"key": "Cross-Origin-Resource-Policy",
+															"value": "cross-origin"
+														},
+														{
+															"key": "X-DNS-Prefetch-Control",
+															"value": "off"
+														},
+														{
+															"key": "X-Frame-Options",
+															"value": "SAMEORIGIN"
+														},
+														{
+															"key": "Strict-Transport-Security",
+															"value": "max-age=15552000; includeSubDomains"
+														},
+														{
+															"key": "X-Download-Options",
+															"value": "noopen"
+														},
+														{
+															"key": "X-Content-Type-Options",
+															"value": "nosniff"
+														},
+														{
+															"key": "Origin-Agent-Cluster",
+															"value": "?1"
+														},
+														{
+															"key": "X-Permitted-Cross-Domain-Policies",
+															"value": "none"
+														},
+														{
+															"key": "Referrer-Policy",
+															"value": "no-referrer"
+														},
+														{
+															"key": "X-XSS-Protection",
+															"value": "0"
+														},
+														{
+															"key": "Content-Type",
+															"value": "application/json; charset=utf-8"
+														},
+														{
+															"key": "Content-Length",
+															"value": "235"
+														},
+														{
+															"key": "ETag",
+															"value": "W/\"eb-di9cOiYYa8MEEZf4lt+bnqAfnPE\""
+														},
+														{
+															"key": "Date",
+															"value": "Thu, 29 May 2025 10:54:03 GMT"
+														},
+														{
+															"key": "Connection",
+															"value": "keep-alive"
+														},
+														{
+															"key": "Keep-Alive",
+															"value": "timeout=5"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent successfully for account deletion. Please verify to proceed.\",\n    \"data\": {\n        \"message\": \"OTP sent successfully for account deletion. Please verify to proceed.\",\n        \"reference\": \"TXN_SCHDL_20250529_45f425d8\"\n    }\n}"
 												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"OTP sent successfully for account deletion. Please verify to proceed.\",\n    \"data\": {\n        \"message\": \"OTP sent successfully for account deletion. Please verify to proceed.\",\n        \"reference\": \"TXN_SCHDL_20250529_45f425d8\"\n    }\n}"
+											]
 										}
-									]
+									],
+									"id": "a07aab7f-9dec-4bdb-87e4-d7ad0c9b5b58"
 								},
 								{
-									"name": "Confirm delete customer profile",
-									"id": "dead3358-d1df-4e0b-9a19-6afbad0bc9dc",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "{{customer_access_token}}"
-											}
-										},
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"otp\": \"88405\",\r\n    \"reference\": \"TXN_SCHDL_20250529_88f382b8\",\r\n    \"reason\": \"I am just tired\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{base_url}}/customers/confirm-delete"
-									},
-									"response": [
+									"name": "New Folder",
+									"item": [
 										{
-											"id": "7be5f481-10a2-40e0-9b66-d7a9a6f76d5e",
-											"name": "Confirm delete customer profile response",
-											"originalRequest": {
+											"name": "Confirm delete customer profile",
+											"id": "dead3358-d1df-4e0b-9a19-6afbad0bc9dc",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"auth": {
+													"type": "bearer",
+													"bearer": {
+														"token": "{{customer_access_token}}"
+													}
+												},
 												"method": "POST",
 												"header": [],
 												"body": {
@@ -5581,100 +5572,121 @@
 												},
 												"url": "{{base_url}}/customers/confirm-delete"
 											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
+											"response": [
 												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "79"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"4f-lzbFYT0m65k1DvWJWCCg46v4nE8\""
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 29 May 2025 18:41:15 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Keep-Alive",
-													"value": "timeout=5"
+													"id": "7be5f481-10a2-40e0-9b66-d7a9a6f76d5e",
+													"name": "Confirm delete customer profile response",
+													"originalRequest": {
+														"method": "POST",
+														"header": [],
+														"body": {
+															"mode": "raw",
+															"raw": "{\r\n    \"otp\": \"88405\",\r\n    \"reference\": \"TXN_SCHDL_20250529_88f382b8\",\r\n    \"reason\": \"I am just tired\"\r\n}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": "{{base_url}}/customers/confirm-delete"
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Access-Control-Allow-Origin",
+															"value": "*"
+														},
+														{
+															"key": "Access-Control-Allow-Credentials",
+															"value": "true"
+														},
+														{
+															"key": "Access-Control-Expose-Headers",
+															"value": "x-encryption-key,x-encryption-iv"
+														},
+														{
+															"key": "Content-Security-Policy",
+															"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+														},
+														{
+															"key": "Cross-Origin-Opener-Policy",
+															"value": "same-origin"
+														},
+														{
+															"key": "Cross-Origin-Resource-Policy",
+															"value": "cross-origin"
+														},
+														{
+															"key": "X-DNS-Prefetch-Control",
+															"value": "off"
+														},
+														{
+															"key": "X-Frame-Options",
+															"value": "SAMEORIGIN"
+														},
+														{
+															"key": "Strict-Transport-Security",
+															"value": "max-age=15552000; includeSubDomains"
+														},
+														{
+															"key": "X-Download-Options",
+															"value": "noopen"
+														},
+														{
+															"key": "X-Content-Type-Options",
+															"value": "nosniff"
+														},
+														{
+															"key": "Origin-Agent-Cluster",
+															"value": "?1"
+														},
+														{
+															"key": "X-Permitted-Cross-Domain-Policies",
+															"value": "none"
+														},
+														{
+															"key": "Referrer-Policy",
+															"value": "no-referrer"
+														},
+														{
+															"key": "X-XSS-Protection",
+															"value": "0"
+														},
+														{
+															"key": "Content-Type",
+															"value": "application/json; charset=utf-8"
+														},
+														{
+															"key": "Content-Length",
+															"value": "79"
+														},
+														{
+															"key": "ETag",
+															"value": "W/\"4f-lzbFYT0m65k1DvWJWCCg46v4nE8\""
+														},
+														{
+															"key": "Date",
+															"value": "Thu, 29 May 2025 18:41:15 GMT"
+														},
+														{
+															"key": "Connection",
+															"value": "keep-alive"
+														},
+														{
+															"key": "Keep-Alive",
+															"value": "timeout=5"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"message\": \"Customer account deleted successfully\"\n    }\n}"
 												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"message\": \"Customer account deleted successfully\"\n    }\n}"
+											]
 										}
-									]
+									],
+									"id": "e3985199-d5c7-476d-98ca-ff9b3ded0d35"
 								}
 							],
 							"id": "a056b1e5-a65d-407e-8c7e-fe8b28149933"
