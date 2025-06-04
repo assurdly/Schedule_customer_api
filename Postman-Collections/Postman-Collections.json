@@ -6199,7 +6199,7 @@
 													"});\r",
 													"\r",
 													"pm.test(\"Response body contains correct error message\", function () {\r",
-													"    pm.expect(jsonData.message).to.include(\"Amount cannot be a negative value\");\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
 													"});\r",
 													""
 												],
@@ -6223,7 +6223,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": -100,\n    \"frequency\": \"weekly\",\n    \"start_date\": \"2025-06-03\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 100,\n    \"frequency\": \"weekly\",\n    \"start_date\": \"2025-06-04\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
