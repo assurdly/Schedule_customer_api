@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Granite Shirt",
+    "description": "Repellat est omnis ducimus eum ab veniam ut. Magnam assumenda sed aut rem odio. Quod ut at sunt recusandae. Harum iusto doloremque ullam quaerat est perspiciatis possimus aspernatur voluptatem. Minima autem ut esse asperiores.",
+    "icon_url": "http://placeimg.com/640/480"
+}

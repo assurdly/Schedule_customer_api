@@ -1,1 +1,0 @@
-{"status":"error","message":"transaction.customer.email must be a valid email address, transaction.customer.email cannot be empty","data":{}}
