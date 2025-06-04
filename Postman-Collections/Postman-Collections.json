@@ -5556,14 +5556,14 @@
 												"auth": {
 													"type": "bearer",
 													"bearer": {
-														"token": "{{customer_access_token}}"
+														"token": "{{access_token}}"
 													}
 												},
 												"method": "POST",
 												"header": [],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n    \"otp\": \"88405\",\r\n    \"reference\": \"TXN_SCHDL_20250529_88f382b8\",\r\n    \"reason\": \"I am just tired\"\r\n}",
+													"raw": "{\r\n    \"otp\": \"16954\",\r\n    \"reference\": \"{{reference}}\",\r\n    \"reason\": \"I am just tired\"\r\n}",
 													"options": {
 														"raw": {
 															"language": "json"
