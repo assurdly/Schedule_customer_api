@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Rubber Pants",
-    "description": "Rerum minus pariatur aut aliquam et dolor nostrum quae. Pariatur nobis ipsa sapiente commodi. Rerum deserunt expedita eos impedit magni et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

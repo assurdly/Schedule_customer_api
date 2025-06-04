@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Fresh Soap",
+    "description": "Omnis asperiores tempore dignissimos tempore quo provident nulla corporis vel. Minus repellat adipisci amet magnam assumenda est. Modi ipsam aperiam molestiae dolores quas veritatis suscipit. Sint a nobis error deserunt explicabo doloribus. Itaque deserunt est fuga eum est. Est fugit qui sit illo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
