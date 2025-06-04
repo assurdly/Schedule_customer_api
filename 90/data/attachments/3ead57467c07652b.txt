@@ -1,9 +1,0 @@
-const jsonData = pm.response.json();
-
-pm.test("Response code is 400", function () {
-    pm.response.to.have.status(400);
-});
-
-pm.test("Response body contains correct error message", function () {
-    pm.expect(jsonData.message).to.include("Amount cannot be a negative value");
-});

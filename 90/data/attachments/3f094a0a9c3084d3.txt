@@ -1,5 +1,0 @@
-{
-    "name": "Refined Plastic Chips",
-    "description": "Dolor cum labore sed rerum velit aliquam. Tempora et voluptates est debitis sunt distinctio. Ut ratione aut molestiae doloremque est.",
-    "icon_url": "http://placeimg.com/640/480"
-}
