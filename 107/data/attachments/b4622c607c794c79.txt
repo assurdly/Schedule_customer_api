@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Wooden Mouse",
+    "description": "Et animi hic animi. Et incidunt harum aut ipsum et. Illo molestiae enim enim cupiditate nihil. Expedita vitae ducimus est quas est. Voluptate sit qui corporis consequatur dolor fuga. Incidunt illum voluptates asperiores et unde.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Practical Fresh Keyboard",
+    "description": "Eos mollitia hic provident eveniet repellendus. Sed est non id sequi harum omnis qui voluptate. Architecto minima rerum et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

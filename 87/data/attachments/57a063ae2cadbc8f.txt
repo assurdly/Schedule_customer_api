@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Frozen Towels",
-    "description": "Voluptas quia ipsum hic dolores ab. Qui soluta ab officia enim molestiae eos consequatur veritatis. Animi deleniti aut. Minus illo consequatur impedit. Corrupti nemo porro molestiae fugiat. Non aut ad blanditiis quis tempora cum amet adipisci mollitia.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "phone_number": "WEW12232323",
-    "otp": "28691",
-    "reference": "TEST_REF_12345"
-}
