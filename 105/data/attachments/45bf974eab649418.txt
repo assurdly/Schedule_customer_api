@@ -1,0 +1,5 @@
+{
+    "name": "Small Steel Car",
+    "description": "Aut et nemo amet. Molestiae est dolores maiores aliquam ad a. Non velit at quas. Nihil quos id. Nulla quae aliquid est vitae natus eius id. Aut velit delectus praesentium sed provident nulla excepturi quia.",
+    "icon_url": "http://placeimg.com/640/480"
+}

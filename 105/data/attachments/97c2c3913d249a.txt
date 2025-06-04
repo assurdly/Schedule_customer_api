@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Wooden Chicken",
+    "description": "Fuga ut cum fugit et. Reiciendis ut earum ducimus doloremque aut nobis tempore. Laboriosam laudantium in ratione dolorum. Numquam necessitatibus rem iure. Rem molestias reprehenderit est fugiat eligendi. Expedita enim unde vel excepturi sed aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}
