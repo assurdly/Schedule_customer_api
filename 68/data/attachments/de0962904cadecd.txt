@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Soft Chips",
-    "description": "Quo nesciunt corporis aut occaecati nam laborum. Atque delectus laudantium occaecati est dolor libero. Repudiandae aut ut et dolore deleniti. Est quis quia molestiae dolorem et nesciunt doloremque beatae labore. Explicabo perferendis autem voluptatem et. Repellendus quia quia nesciunt deserunt reprehenderit eaque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

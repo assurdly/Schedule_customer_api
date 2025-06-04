@@ -1,0 +1,5 @@
+{
+    "name": "Refined Rubber Computer",
+    "description": "Distinctio placeat eligendi ullam. Quisquam aliquam iure omnis molestiae dolores rerum voluptatem mollitia. Vitae tempora at. Voluptas quis esse fuga voluptas quia necessitatibus nobis. Aperiam sed sint.",
+    "icon_url": "http://placeimg.com/640/480"
+}

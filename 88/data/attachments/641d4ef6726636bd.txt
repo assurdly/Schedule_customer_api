@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Fresh Sausages",
+    "description": "Inventore ea quia vitae iusto deserunt nostrum nihil. Molestiae nobis impedit. Voluptatibus quia rerum est laborum minima quos pariatur.",
+    "icon_url": "http://placeimg.com/640/480"
+}
