@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Keyboard",
+    "description": "Similique ullam inventore a. Quia ducimus labore sunt ipsum. Quo soluta delectus quas tenetur rem placeat. Sit assumenda occaecati sunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}

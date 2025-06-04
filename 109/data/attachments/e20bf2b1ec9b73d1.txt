@@ -1,0 +1,5 @@
+{
+    "name": "Practical Cotton Chicken",
+    "description": "Voluptatum cumque unde. Quis perspiciatis iste voluptas iusto provident velit odio. Qui architecto ab numquam excepturi. Occaecati sapiente quia aut commodi dolore labore. Velit molestiae tenetur labore autem et doloremque vero quas. Voluptatum et perspiciatis rerum eos illum sapiente.",
+    "icon_url": "http://placeimg.com/640/480"
+}
