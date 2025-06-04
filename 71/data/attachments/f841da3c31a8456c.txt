@@ -1,6 +1,0 @@
-{
-    "phone_number": "08012345678",
-    "email": "Guinea-Bissau@mailinator.com",
-   "first_name": "Price", 
-    "last_name": "Rippin" 
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Metal Table",
-    "description": "Ipsum rerum iste. Recusandae voluptas accusamus ut autem. Non voluptatem placeat ut magnam consectetur.",
-    "icon_url": "http://placeimg.com/640/480"
-}

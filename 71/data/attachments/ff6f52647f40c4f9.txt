@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Rubber Mouse",
-    "description": "Suscipit doloribus est eius rerum unde. Possimus nemo tempore est quo non. Fuga ut earum placeat voluptatibus et praesentium illo. Ea quisquam dolorem cupiditate reiciendis eveniet ea eveniet in. Reiciendis a aut consequuntur. Rerum quis dolorem recusandae excepturi qui quaerat inventore illo fugit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
