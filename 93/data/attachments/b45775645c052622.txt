@@ -1,0 +1,6 @@
+{
+    "phone_number": "",
+    "email": "Lucius_Windler@gmail.com",
+    "first_name": "Buddy",
+    "last_name": "Kuhlman" 
+}

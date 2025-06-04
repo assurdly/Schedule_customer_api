@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Plastic Sausages",
+    "description": "Cum saepe itaque harum vitae culpa. Magni ipsum et id praesentium labore molestiae. Architecto ipsum id quis error magni. Ipsa quae quas at. Unde repudiandae debitis quas cum. Deleniti velit necessitatibus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Steel Bike",
-    "description": "Vero voluptas ut ipsam est sunt quos eum. Esse amet in laboriosam ut et consectetur odio quaerat ex. Asperiores dolorem quaerat iusto qui debitis omnis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

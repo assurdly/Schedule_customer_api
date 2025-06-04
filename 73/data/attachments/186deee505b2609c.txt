@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Cotton Pizza",
-    "description": "Iusto neque iure veritatis voluptate hic temporibus aut odio quo. Dolor ut delectus rerum ut velit. Tempora vel accusantium molestiae dolores reprehenderit quaerat voluptatem iure.",
-    "icon_url": "http://placeimg.com/640/480"
-}
