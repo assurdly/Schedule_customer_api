@@ -2039,7 +2039,7 @@
 													"pm.collectionVariables.set(\"id\", jsonData.data.customer.id);\r",
 													"\r",
 													"// Validate message is \"Verification successful\"\r",
-													"pm.expect(jsonData.message).to.equal(\"Verification successful\");\r",
+													"pm.expect(jsonData.message).to.equal(\"Login successful\");\r",
 													"\r",
 													"// Verify customer object is returned\r",
 													"pm.expect(jsonData.data.customer).to.exist;\r",
@@ -2065,7 +2065,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"phone_number\": \"08012345678\",\n    \"otp\": \"12345\",\n    \"reference\": \"{{reference}}\"\n}",
+											"raw": "{\n    \"phone_number\": \"07080507367\",\n    \"otp\": \"68970\",\n    \"reference\": \"{{reference}}\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
