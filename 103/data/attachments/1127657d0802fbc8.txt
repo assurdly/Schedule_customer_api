@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Metal Ball",
+    "description": "Rem nemo odit et consequuntur. Hic cupiditate assumenda hic quae magni neque sit. Nulla eum quasi rerum inventore aperiam iure aliquid non. Quia nam quia qui quam autem quo sit sint et. Omnis quam voluptas culpa fuga alias veniam est quis ullam. Minus unde enim labore eaque in saepe quibusdam tempora dolorem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

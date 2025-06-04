@@ -1,5 +1,0 @@
-{
-    "name": "Refined Rubber Bike",
-    "description": "Repellendus ut architecto eum nostrum enim quia autem. Rerum facere rem aut. Vero voluptatibus porro et animi.",
-    "icon_url": "http://placeimg.com/640/480"
-}

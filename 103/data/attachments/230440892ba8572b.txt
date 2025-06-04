@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Frozen Cheese",
+    "description": "Fugiat doloremque odit laborum autem quisquam sit dolore est sint. Fugit consequatur id. Non tenetur blanditiis qui nostrum eveniet nam debitis sequi. Error facilis et quidem non.",
+    "icon_url": "http://placeimg.com/640/480"
+}
