@@ -1,5 +1,0 @@
-{
-    "name": "Practical Fresh Sausages",
-    "description": "Minima ipsa ipsum. Quod distinctio nam dolores non. Vel perspiciatis qui praesentium. Non aliquid mollitia tempora laboriosam quae ut laboriosam. Aperiam distinctio voluptatem esse et maiores ut tempore iusto.",
-    "icon_url": "http://placeimg.com/640/480"
-}

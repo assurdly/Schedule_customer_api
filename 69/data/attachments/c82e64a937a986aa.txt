@@ -1,6 +1,0 @@
-{
-    "phone_number": "08012345678",
-    "email": "non-volatile@mailinator.com",
-   "first_name": "Jayme", 
-    "last_name": "Nitzsche" 
-}

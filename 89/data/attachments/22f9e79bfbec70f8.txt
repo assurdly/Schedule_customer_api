@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Concrete Pants",
+    "description": "Et rerum dolores possimus. Sed vel consectetur qui aut ea cum aliquam. Aliquam omnis est.",
+    "icon_url": "http://placeimg.com/640/480"
+}
