@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Steel Shoes",
-    "description": "Facere nobis quo enim culpa ut omnis praesentium cum. Consequatur iusto non. Nulla eos aut porro distinctio deleniti. Quibusdam adipisci suscipit. Accusantium maxime eligendi molestias rerum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

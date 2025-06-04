@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Cotton Salad",
+    "description": "Aut deserunt autem porro eos autem dolorem cupiditate sapiente facere. Fugiat beatae eos ut est nulla et quae aliquid. Nesciunt eaque vitae aspernatur repudiandae. Tempore quam quaerat non maxime rerum quis nisi assumenda. Fugit ut optio magni dolorem voluptates voluptatem magnam at molestiae. Excepturi assumenda maiores natus enim voluptas aperiam quo molestias.",
+    "icon_url": "http://placeimg.com/640/480"
+}
