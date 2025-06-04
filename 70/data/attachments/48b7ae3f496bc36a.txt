@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Wooden Hat",
-    "description": "Dolore non neque culpa aut voluptatem et. In saepe earum nam explicabo natus maxime inventore ex. Ut illum et aperiam ut quaerat aperiam in.",
-    "icon_url": "http://placeimg.com/640/480"
-}

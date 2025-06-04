@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Metal Cheese",
-    "description": "Eveniet culpa ut ratione officiis quam consequatur modi velit. Aliquam mollitia numquam consectetur nisi cumque cum. Illo quas numquam magni autem mollitia quia neque accusantium qui. Est rerum consequuntur. Reprehenderit aut sint fugit aspernatur ut accusamus aut qui. Quae aliquid cumque at vitae voluptatum quidem reiciendis non iste.",
-    "icon_url": "http://placeimg.com/640/480"
-}

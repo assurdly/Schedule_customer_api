@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Plastic Table",
+    "description": "Perferendis porro explicabo corrupti doloribus nemo magni officiis delectus. Sed non est ex et est commodi eos illo mollitia. Dolore adipisci voluptatem a.",
+    "icon_url": "http://placeimg.com/640/480"
+}
