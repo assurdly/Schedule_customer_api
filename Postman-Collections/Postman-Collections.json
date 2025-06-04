@@ -1458,7 +1458,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"phone_number\" : \"08012345678\"\n}",
+											"raw": "{\n    \"phone_number\" : \"07080507367\",\n    \"action\": \"login\" //login||signup\n}",
 											"options": {
 												"raw": {
 													"language": "json"
