@@ -59,7 +59,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"08012345678\",\r\n    \"email\": \"{{$randomWord}}@mailinator.com\"\r\n    //\"first_name\": \"lanre\", //optional\r\n   // \"last_name\": \"lanre\" //optional\r\n}",
+											"raw": "{\r\n    \"phone_number\": \"08012345679\",\r\n    \"email\": \"{{$randomWord}}@mailinator.com\",\r\n    \"action\": \"signup\"\r\n    //\"first_name\": \"lanre\", //optional\r\n   // \"last_name\": \"lanre\" //optional\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
