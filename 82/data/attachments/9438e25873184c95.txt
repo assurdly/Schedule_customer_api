@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Cotton Soap",
-    "description": "Repellat temporibus atque quas. Vitae autem dolores saepe eos assumenda. Dolore nihil sint iusto cum enim est. Et vero voluptate a aut minima reprehenderit molestias recusandae expedita. Explicabo laboriosam dolor voluptatem repudiandae odit ut ullam voluptas.",
-    "icon_url": "http://placeimg.com/640/480"
-}

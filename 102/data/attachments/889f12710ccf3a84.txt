@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Fresh Salad",
+    "description": "Vero nihil cum quia iusto. Explicabo suscipit adipisci voluptatum rerum cum. Pariatur velit ut quis magnam reiciendis cupiditate at aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

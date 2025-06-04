@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Rubber Gloves",
+    "description": "Ullam et aut nihil dolorem debitis ratione et sint. Et harum et id deserunt et eaque consectetur nisi. Et non perspiciatis. Ut dolores vel excepturi autem. Aliquid et quibusdam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
