@@ -1,0 +1,5 @@
+{
+    "name": "Practical Wooden Chair",
+    "description": "Facilis veniam labore at. Optio dolor molestias quia nesciunt mollitia. Occaecati corporis accusamus blanditiis cupiditate sit numquam inventore. Recusandae atque ex repudiandae. Vel sequi adipisci magni deleniti. Autem dolor velit commodi debitis fuga provident provident sunt esse.",
+    "icon_url": "http://placeimg.com/640/480"
+}
