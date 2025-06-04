@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Concrete Salad",
-    "description": "Ullam doloremque sed qui et numquam reprehenderit ipsa sit architecto. Dolor quo quis similique est aut perspiciatis sed modi praesentium. Consequatur porro ratione.",
-    "icon_url": "http://placeimg.com/640/480"
-}

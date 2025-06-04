@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Steel Sausages",
+    "description": "Dolore excepturi dolor. Quod expedita dolores in omnis aperiam tempore. Possimus ipsa commodi ut in quia nobis labore. Placeat autem assumenda ea possimus fugiat molestiae ex.",
+    "icon_url": "http://placeimg.com/640/480"
+}
