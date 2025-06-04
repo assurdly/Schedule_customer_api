@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Rubber Ball",
+    "description": "Facilis eligendi velit. Ratione distinctio ipsum esse ea omnis. Velit quibusdam consequuntur iure ducimus sunt porro.",
+    "icon_url": "http://placeimg.com/640/480"
+}

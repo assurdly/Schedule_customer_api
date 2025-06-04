@@ -1,0 +1,21 @@
+const response = pm.response.json();
+
+// Set reference as collection variable
+pm.collectionVariables.set("reference", response.data.reference);
+
+// Validate the customer object
+pm.test('Customer object should exist', () => {
+    pm.expect(response.data.customer).to.exist;
+    pm.expect(response.data.customer).to.be.an('object');
+    pm.expect(response.data.customer.id).to.exist;
+    pm.expect(response.data.customer.first_name).to.exist;
+    pm.expect(response.data.customer.last_name).to.exist;
+    pm.expect(response.data.customer.email).to.exist;
+    pm.expect(response.data.customer.phone_number).to.exist;
+    pm.expect(response.data.customer.status).to.exist;
+});
+
+pm.test("Response message for successful creation", function () {
+    pm.expect(pm.response.json().message).to.exist;
+});
+

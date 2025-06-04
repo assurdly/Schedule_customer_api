@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Fresh Cheese",
-    "description": "Quaerat sit magnam necessitatibus qui excepturi. Quidem ut dolor quidem saepe. Est repellendus nihil. At et ut sit aspernatur autem.",
-    "icon_url": "http://placeimg.com/640/480"
-}

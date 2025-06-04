@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Wooden Shirt",
-    "description": "Nisi voluptate est ut perspiciatis qui eum voluptas perferendis ut. Alias doloremque minima. Iusto libero nobis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
