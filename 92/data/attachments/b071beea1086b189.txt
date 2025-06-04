@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Plastic Chicken",
+    "description": "Et sit sunt et aut maiores veniam magnam nihil. Occaecati ratione quia omnis et natus. Consectetur perspiciatis aut reprehenderit animi corporis minus. Iusto quo aut. Animi voluptas fugit sint eos minus id minima ullam quis.",
+    "icon_url": "http://placeimg.com/640/480"
+}
