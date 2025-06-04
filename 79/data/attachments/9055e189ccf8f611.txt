@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Granite Chips",
-    "description": "Asperiores modi error veritatis similique saepe eum dolores occaecati sint. Nemo velit distinctio eum rerum aut voluptatem voluptas qui fuga. Quisquam doloremque omnis odio iure eum. Et culpa nesciunt non. Ipsam quaerat sunt ad sed est quia voluptatem ea. Ut expedita corporis velit suscipit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

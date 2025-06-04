@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Soft Table",
+    "description": "Placeat et distinctio voluptatem nesciunt qui. Id amet sit est fugit nisi asperiores. Nam explicabo totam aperiam qui eos. Iusto quos hic dolorum atque.",
+    "icon_url": "http://placeimg.com/640/480"
+}
