@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Plastic Shirt",
+    "description": "Qui fugit modi id. Blanditiis eum quis non laboriosam aut. Molestias perferendis earum non vel eum autem explicabo quidem. Recusandae omnis corporis aspernatur temporibus ullam in non. Ipsam qui corporis voluptatem vel aut saepe sit consequatur. Omnis facere nostrum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
