@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Fresh Towels",
-    "description": "Porro quibusdam quo. Magni quo omnis sint veniam. Qui voluptas omnis. Delectus sed fugit quam. Accusamus nostrum velit deserunt. Officia et commodi illo voluptatem incidunt consequatur.",
-    "icon_url": "http://placeimg.com/640/480"
-}
