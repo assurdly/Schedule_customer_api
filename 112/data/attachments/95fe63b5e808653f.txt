@@ -1,0 +1,5 @@
+{
+    "name": "Small Frozen Sausages",
+    "description": "Officia omnis distinctio quis aperiam aut esse. Cum voluptates voluptate iusto. Atque perferendis neque sit quas illo aperiam odit non.",
+    "icon_url": "http://placeimg.com/640/480"
+}
