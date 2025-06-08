@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Metal Cheese",
-    "description": "Neque magnam nisi voluptatem omnis velit perferendis. Accusamus architecto nemo. Consequatur facere esse totam possimus praesentium nemo. Libero iure quos vero fugiat consequatur eos quod similique tempore. Earum reprehenderit ut. Laborum quae cumque excepturi doloremque omnis quisquam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

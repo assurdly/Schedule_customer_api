@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Fresh Mouse",
+    "description": "Cumque rerum assumenda. Cupiditate nemo ratione dolor eaque illum sequi voluptatem voluptas. Quia nesciunt sint suscipit doloremque dolor.",
+    "icon_url": "http://placeimg.com/640/480"
+}
