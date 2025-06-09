@@ -2065,7 +2065,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"phone_number\": \"07080507367\",\n    \"otp\": \"68970\",\n    \"reference\": \"{{reference}}\"\n}",
+											"raw": "{\n    \"phone_number\": \"08012345678\",\n    \"otp\": \"{{otp}}\",\n    \"reference\": \"{{reference}}\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
