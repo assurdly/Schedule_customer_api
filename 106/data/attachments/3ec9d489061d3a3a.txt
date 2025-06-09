@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Soft Salad",
-    "description": "Adipisci aut ea soluta. Perspiciatis mollitia placeat ut eveniet veritatis nobis praesentium magnam officiis. Distinctio cum officia tenetur tenetur esse.",
-    "icon_url": "http://placeimg.com/640/480"
-}

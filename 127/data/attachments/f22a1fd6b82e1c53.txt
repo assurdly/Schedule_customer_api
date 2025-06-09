@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Fresh Chips",
+    "description": "Rerum laboriosam earum. Omnis in repellendus incidunt commodi occaecati ipsum sed qui. Maxime maiores illum voluptates minus illo sint officia omnis. Blanditiis autem fugit repudiandae quibusdam quia consectetur ut. Eveniet cumque culpa.",
+    "icon_url": "http://placeimg.com/640/480"
+}
