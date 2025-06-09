@@ -7148,6 +7148,41 @@
 							"item": [
 								{
 									"name": "Fetch a subscription - Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "632a13c4-879f-4ec4-a849-76cd006be2f6",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Response code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"// Validate the data object structure\r",
+													"pm.test(\"Data object is valid\", () => {\r",
+													"    pm.expect(jsonData.data).to.exist;\r",
+													"    pm.expect(jsonData.data).to.be.an('object');\r",
+													"\r",
+													"    const requiredFields = [\r",
+													"        'id', 'reference', 'status', 'amount', 'frequency', 'bank_code', 'account_number', 'customer_id', 'currency',  'product_group_id', 'product_id', 'meta'\r",
+													"    ];\r",
+													"\r",
+													"    requiredFields.forEach(field => {\r",
+													"        pm.expect(jsonData.data).to.have.property(field);\r",
+													"    });\r",
+													"\r",
+													"\r",
+													"\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "98ab7301-d2c8-4cb2-9e2e-2a9365daf546",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
