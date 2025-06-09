@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Steel Shoes",
+    "description": "Soluta repudiandae quis quisquam aperiam non. Quis nam ea pariatur expedita quos voluptatibus. Mollitia aut ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

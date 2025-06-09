@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Fresh Car",
-    "description": "Ut et quis eum et. Dicta quia modi fugit voluptas. Cum facere numquam et qui soluta sint. Et tenetur ipsum fuga aut sit. Alias consequatur facilis natus nostrum commodi rerum quaerat beatae sapiente.",
-    "icon_url": "http://placeimg.com/640/480"
-}
