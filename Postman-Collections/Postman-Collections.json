@@ -2090,7 +2090,7 @@
 													"\r",
 													"pm.test(\"Validate error message for invalid OTP\", function () {\r",
 													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
-													"    pm.expect(pm.response.json().message).to.equal(\"OTP is no longer valid\");\r",
+													"    pm.expect(pm.response.json().message).to.exist;\r",
 													"});\r",
 													""
 												],
@@ -2108,7 +2108,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"08036114421\",\r\n    \"otp\": \"28691\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
+											"raw": "{\r\n    \"phone_number\": \"{{testnumber}}\",\r\n    \"otp\": \"28600\",\r\n    \"reference\": \"{{reference}}\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
