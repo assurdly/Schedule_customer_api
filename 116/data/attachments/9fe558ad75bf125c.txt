@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Fresh Chicken",
-    "description": "Aut voluptatem aut odit possimus. Assumenda illum libero ut et aut. Ipsam eveniet beatae odio perferendis numquam quae provident. Voluptate minima dignissimos doloremque et numquam animi inventore. Veritatis rerum ut. Assumenda voluptas soluta qui qui.",
-    "icon_url": "http://placeimg.com/640/480"
-}

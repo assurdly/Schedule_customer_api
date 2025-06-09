@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Granite Ball",
-    "description": "Amet impedit laboriosam nemo dignissimos omnis excepturi consequatur aut consectetur. Omnis minus voluptatibus quos voluptas rem voluptatum. Et in placeat quia. Sunt omnis ut aut itaque sint tempore illo. Dolores qui modi nostrum at nihil eos qui rerum autem. Temporibus omnis quia fuga nihil id sit dicta itaque in.",
-    "icon_url": "http://placeimg.com/640/480"
-}

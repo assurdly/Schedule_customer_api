@@ -1,0 +1,5 @@
+{
+    "name": "Refined Steel Car",
+    "description": "Quis quia eligendi. Praesentium laboriosam inventore. Rem molestiae ut debitis minima quos sed cumque sunt voluptatem. Voluptas facilis totam in voluptas dicta culpa maiores ipsa.",
+    "icon_url": "http://placeimg.com/640/480"
+}
