@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Pants",
+    "description": "Quaerat sit reprehenderit aspernatur placeat non. Quo commodi quia non natus sit beatae officiis similique. A officiis velit. A hic est maiores sunt similique sint. Culpa nihil inventore architecto vero sint.",
+    "icon_url": "http://placeimg.com/640/480"
+}

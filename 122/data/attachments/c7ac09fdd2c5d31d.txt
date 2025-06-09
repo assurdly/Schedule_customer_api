@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Fresh Car",
-    "description": "Enim porro id dolorem et rem est eum aut. Ad nam ducimus corrupti asperiores consequatur dicta maxime quas. Non amet rerum velit est nisi eos sed iste. Quis veritatis dolorum sed exercitationem sapiente molestias consequuntur eaque corrupti. Qui et ratione accusamus.",
-    "icon_url": "http://placeimg.com/640/480"
-}
