@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Soft Hat",
-    "description": "Similique harum ut. Reprehenderit aspernatur dolorem voluptatum consequuntur pariatur non possimus. Nam et ipsam impedit officia natus reprehenderit nostrum consequatur. Ipsam eum et eaque nesciunt mollitia quo doloremque ut. Eos perspiciatis aut consequatur dicta. Aut rerum et quam rerum id repudiandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
