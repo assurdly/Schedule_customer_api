@@ -7334,6 +7334,29 @@
 								},
 								{
 									"name": "Fetch a subscription - Invalid ID",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "63d0e43a-d9b2-4fb9-8e21-28adab11660a",
+												"exec": [
+													"const jsonData = pm.response.json();    \r",
+													"\r",
+													"pm.test(\"Status code is 404\", function () {\r",
+													"    pm.response.to.have.status(404);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response body contains 'Subscription not found'\", function () {\r",
+													"    pm.expect(jsonData.message).to.eql(\"Subscription not found\");\r",
+													"});\r",
+													"\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "82d3c801-d29c-4374-ae39-3c0449d2d603",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -7358,9 +7381,8 @@
 											],
 											"variable": [
 												{
-													"id": "91e1c6e9-6a82-4bd3-a6a6-c6279e7a3473",
 													"key": "subscription_id",
-													"value": "15"
+													"value": "100"
 												}
 											]
 										}
