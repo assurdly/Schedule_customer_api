@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Plastic Pizza",
-    "description": "Expedita repudiandae velit nulla. Est maiores eos voluptatem sed odit esse vel possimus nulla. Aspernatur enim sed quaerat nisi explicabo dolores assumenda. Quasi cum quo quasi est aut dolore quo sed.",
-    "icon_url": "http://placeimg.com/640/480"
-}

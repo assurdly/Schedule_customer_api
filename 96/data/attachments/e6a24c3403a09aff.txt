@@ -1,5 +1,0 @@
-{
-    "name": "Practical Rubber Hat",
-    "description": "Ut sed et eos recusandae numquam asperiores. Impedit dolorum aliquam. Ipsa magnam qui. Ullam eius assumenda beatae id est quis. Cupiditate facere voluptatum ipsum omnis excepturi. Eos numquam et expedita inventore dolore in.",
-    "icon_url": "http://placeimg.com/640/480"
-}

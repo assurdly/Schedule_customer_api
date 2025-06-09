@@ -1,0 +1,5 @@
+{
+    "name": "Small Rubber Soap",
+    "description": "Sit ducimus quia. Repellendus aut est ex. Qui repudiandae enim enim doloribus distinctio. Aut sunt error. Eligendi tempore aperiam eveniet aliquam. Iste dignissimos est laboriosam est deserunt enim ut maiores.",
+    "icon_url": "http://placeimg.com/640/480"
+}
