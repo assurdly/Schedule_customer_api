@@ -1,5 +1,0 @@
-{
-    "name": "Refined Fresh Tuna",
-    "description": "Voluptatibus nihil cumque non voluptate dolorem illum consequatur et vitae. Earum non id consequatur. Consequatur sed amet. Magni facilis est.",
-    "icon_url": "http://placeimg.com/640/480"
-}
