@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Plastic Ball",
+    "description": "Quia error incidunt sit perspiciatis minima sunt. Aut vel voluptatem voluptas voluptatem sed vel. Voluptas blanditiis numquam id error dicta. Nulla aut quo velit at sit quam aut qui. Amet cupiditate cupiditate velit aut et eligendi cupiditate.",
+    "icon_url": "http://placeimg.com/640/480"
+}

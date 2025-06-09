@@ -1,6 +1,0 @@
-{
-    "phone_number": "0803614421",
-    "email": "schedule_customer@assurdly.com",
-   "first_name": "Mateo", 
-    "last_name": "McClure" 
-}

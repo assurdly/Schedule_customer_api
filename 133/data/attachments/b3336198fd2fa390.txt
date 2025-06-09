@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Frozen Chair",
+    "description": "Temporibus ducimus aspernatur perferendis qui nemo et illum. Quis occaecati et adipisci. Laboriosam nobis labore ut ut a aut omnis voluptas ut. Est quibusdam animi et.",
+    "icon_url": "http://placeimg.com/640/480"
+}
