@@ -8571,39 +8571,45 @@
 							"id": "bf8750c1-0db5-4af7-ac10-ada29bebddeb"
 						},
 						{
-							"name": "Cancel Subscription- Success",
-							"id": "873d0e67-e35a-46ac-88ba-5410aa699bcb",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{customer_access_token}}"
-									}
-								},
-								"method": "POST",
-								"header": [],
-								"url": {
-									"raw": "{{base_url}}/subscriptions/:subscription_id",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"subscriptions",
-										":subscription_id"
-									],
-									"variable": [
-										{
-											"id": "b2536f85-59e4-4d2d-8b9a-c7c6f88e8a78",
-											"key": "subscription_id",
-											"value": "7"
+							"name": "Cancel subscriptions",
+							"item": [
+								{
+									"name": "Cancel Subscription- Success",
+									"id": "873d0e67-e35a-46ac-88ba-5410aa699bcb",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{customer_access_token}}"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/subscriptions/:subscription_id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"subscriptions",
+												":subscription_id"
+											],
+											"variable": [
+												{
+													"id": "b2536f85-59e4-4d2d-8b9a-c7c6f88e8a78",
+													"key": "subscription_id",
+													"value": "7"
+												}
+											]
 										}
-									]
+									},
+									"response": []
 								}
-							},
-							"response": []
+							],
+							"id": "e3f24a6f-12f3-4056-ada3-667e647378cb"
 						}
 					],
 					"id": "8161d1d2-0225-4cdb-83e1-a8cfc515885d"
