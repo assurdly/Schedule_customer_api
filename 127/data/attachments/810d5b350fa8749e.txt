@@ -1,5 +1,0 @@
-{
-    "name": "Small Concrete Computer",
-    "description": "Qui quod perferendis quos voluptatem in fugiat excepturi provident. Veritatis impedit ut quis. Cupiditate tempora inventore natus nemo totam nam voluptas aspernatur. Maxime consequuntur eligendi aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

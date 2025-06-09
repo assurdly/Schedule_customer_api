@@ -1,0 +1,12 @@
+const jsonData = pm.response.json();
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("validate response data structure", function () {
+    pm.expect(jsonData).to.have.property("data");
+    pm.expect(jsonData.data).to.have.property("data");
+    pm.expect(jsonData.data).to.have.property("meta");
+    pm.expect(jsonData.data.data).to.be.an("array"); 
+})

@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Rubber Keyboard",
+    "description": "Vitae aut cumque sapiente odit recusandae quam quo. Sapiente cum repudiandae. Dicta quia repellendus non odit. At minus ut rem sint doloremque cupiditate beatae culpa. Odio consequatur minima sequi ab placeat ipsam dignissimos commodi laudantium.",
+    "icon_url": "http://placeimg.com/640/480"
+}
