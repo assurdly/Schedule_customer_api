@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Rubber Chair",
+    "description": "Et eveniet fuga corporis est numquam. Laborum et et reprehenderit voluptatem doloribus. Ut distinctio ea quo possimus omnis. Consequuntur id modi explicabo consequatur sequi ut et voluptatem. Omnis ut voluptas voluptatem autem nihil voluptatem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,6 +1,0 @@
-{
-    "phone_number": "",
-    "email": "Daphnee.Moen@gmail.com",
-    "first_name": "Kaleb",
-    "last_name": "Weimann" 
-}
