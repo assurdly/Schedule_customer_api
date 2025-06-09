@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Wooden Table",
+    "description": "Beatae quidem ratione. Dolores aut qui. Unde soluta asperiores rerum accusamus exercitationem impedit voluptas sequi. Ut ut voluptatem delectus fuga quae aliquam a est et. Quia quae et eaque.",
+    "icon_url": "http://placeimg.com/640/480"
+}

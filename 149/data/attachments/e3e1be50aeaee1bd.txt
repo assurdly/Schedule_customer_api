@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Frozen Fish",
+    "description": "Praesentium voluptatibus porro eum molestiae sit quaerat dolorum. Vel quaerat quis placeat dolore. Similique magni repellat est. Aliquid amet necessitatibus ullam esse neque similique repudiandae.",
+    "icon_url": "http://placeimg.com/640/480"
+}
