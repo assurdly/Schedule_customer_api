@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Frozen Chips",
-    "description": "Officia ullam sit doloribus. Enim qui est dolorem et vero consectetur. Cum delectus iusto aut expedita. Voluptatibus nihil culpa voluptatem molestias sunt suscipit sit consequuntur.",
-    "icon_url": "http://placeimg.com/640/480"
-}

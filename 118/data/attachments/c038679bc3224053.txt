@@ -1,0 +1,6 @@
+{
+    "phone_number": "08012345678",
+    "email": "cross-media@mailinator.com",
+   "first_name": "Linda", 
+    "last_name": "Rempel" 
+}
