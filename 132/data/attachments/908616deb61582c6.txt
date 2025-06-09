@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Soft Keyboard",
+    "description": "Doloribus et et velit tenetur minima asperiores et ducimus. Doloribus voluptate dicta at optio. Corrupti aut est modi quia quos sit amet voluptatem.",
+    "icon_url": "http://placeimg.com/640/480"
+}
