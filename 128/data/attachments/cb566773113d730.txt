@@ -1,6 +1,0 @@
-{
-    "phone_number": "08012345678",
-    "email": "synergistic@mailinator.com",
-   "first_name": "Pat", 
-    "last_name": "Lowe" 
-}

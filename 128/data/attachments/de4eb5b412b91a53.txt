@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Granite Ball",
-    "description": "Ratione optio repellat id. Suscipit recusandae quia voluptatum. Eveniet nihil omnis et impedit ut vel et nisi qui.",
-    "icon_url": "http://placeimg.com/640/480"
-}
