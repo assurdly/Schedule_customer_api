@@ -1,1 +1,0 @@
-{"status":"success","message":"Test mode: OTP resent successfully. Use \"12345\" to verify.","reference":"TEST_REF_12345"}

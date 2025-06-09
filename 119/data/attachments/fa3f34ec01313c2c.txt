@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Steel Tuna",
-    "description": "Ut minima nostrum perferendis voluptate iure laudantium. Deleniti molestiae adipisci repellendus. Soluta libero ab blanditiis illum ad iusto voluptatem voluptatibus. Iure suscipit quia a voluptas est. Soluta dolor rerum eius magni. Deserunt dolorem id quos ea.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Gorgeous Concrete Bike",
-    "description": "Facilis sit blanditiis numquam libero. Vel soluta ut voluptatem totam aut. Suscipit explicabo minus odio. Nihil praesentium perspiciatis quisquam sed fugit dolore quasi. Ut provident pariatur voluptatem.",
-    "icon_url": "http://placeimg.com/640/480"
-}
