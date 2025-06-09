@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Metal Fish",
-    "description": "Aut quia eos. Sit dignissimos eos sed. Quia natus ad minima nihil eius dolore qui perspiciatis. Ut quam nobis consequatur nulla est magnam consequuntur praesentium aut. Sunt culpa vitae ea corrupti autem sint iure commodi nemo.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,9 @@
+const jsonData = pm.response.json();
+
+pm.test("Status code is 404", function () {
+    pm.response.to.have.status(404);
+});
+
+pm.test("Valid Response message is returned", function () {
+   pm.expect(jsonData.message).to.eql('Category not found')
+});
