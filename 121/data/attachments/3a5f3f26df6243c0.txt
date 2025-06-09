@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Cheese",
+    "description": "Consequatur debitis sint molestiae voluptates dolorem libero eaque illum. Nam quia dicta et repudiandae velit qui. Facilis dignissimos inventore rerum molestiae nulla placeat at nemo.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Granite Fish",
-    "description": "Quisquam cum nemo quos vel eveniet. Doloremque laborum qui deleniti est labore at eaque. Harum et culpa soluta magnam optio. Laudantium qui ut qui sapiente dicta sint omnis quibusdam libero. Tempore nesciunt sint ipsam dignissimos.",
-    "icon_url": "http://placeimg.com/640/480"
-}
