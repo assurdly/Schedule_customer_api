@@ -6848,7 +6848,7 @@
 							"name": "Get Subscriptions",
 							"item": [
 								{
-									"name": "Get Subscriptions",
+									"name": "Get Subscriptions - Success",
 									"id": "a3d58648-421b-4022-b3bb-30c53189542e",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -7141,7 +7141,29 @@
 									]
 								},
 								{
-									"name": "Get Subscriptions stats - success Copy",
+									"name": "Get Subscriptions stats - Invalid Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "1b8840c3-395b-4a9f-8456-41abcf5ce0ff",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"error message is returned\", function () {\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "7228ce03-9416-4935-880e-ca94db31754b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -7150,7 +7172,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{access_token}}"
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZSI6ImF1dGgiLCJpYXQiOjE3NDk0NjQzMjgsImV4cCI6MTc0OTQ2NzkyOH0.BUWiDO6q-YcfGkAIqj8xsYRZg-cFeGANLGLGjxFRIqo"
 											}
 										},
 										"method": "GET",
@@ -7160,6 +7182,146 @@
 									"response": [
 										{
 											"id": "a812359f-6151-4ed7-9a07-66884914b1ba",
+											"name": "Get Subscriptions stats",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": "{{base_url}}/subscriptions/stats"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1545"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"609-+cP66+Kxe+0ZcNIlDqvRgZXw92Q\""
+												},
+												{
+													"key": "Date",
+													"value": "Fri, 30 May 2025 00:50:08 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"acitve\": 1,\n        \"inacitve\": 1,\n        \"paused\": 1,\n        \"cancelled\": 1\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Get Subscriptions stats - No Auth Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "1b8840c3-395b-4a9f-8456-41abcf5ce0ff",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"error message is returned\", function () {\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "569d1cf9-2452-4eaf-b3f4-1974180c418a",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/subscriptions/stats"
+									},
+									"response": [
+										{
+											"id": "eb46982f-90d7-4c2c-9832-f6664c38f384",
 											"name": "Get Subscriptions stats",
 											"originalRequest": {
 												"method": "GET",
