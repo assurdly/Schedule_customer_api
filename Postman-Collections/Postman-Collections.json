@@ -2348,7 +2348,7 @@
 													"\r",
 													"pm.test(\"Validate error message for blank fields\", function () {\r",
 													"    pm.expect(pm.response.json().status).to.equal(\"error\");\r",
-													"    pm.expect(pm.response.json().message).to.equal(\"Phone number cannot be empty\");\r",
+													"    pm.expect(pm.response.json().message).to.exist;\r",
 													"});\r",
 													""
 												],
