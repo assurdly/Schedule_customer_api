@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Wooden Chips",
+    "description": "Nostrum natus aut. Ducimus quia aliquam est quia atque nobis. Tenetur aliquid maxime eos ut aliquid velit. Voluptatem sit error voluptatem itaque eligendi et provident. Quas earum et officia ut. Praesentium minus ex laborum labore ea aut architecto.",
+    "icon_url": "http://placeimg.com/640/480"
+}

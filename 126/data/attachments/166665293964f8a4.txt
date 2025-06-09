@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Metal Bike",
+    "description": "Id quod iusto molestiae voluptate. Magnam pariatur reprehenderit voluptate. At aut voluptatem ullam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
