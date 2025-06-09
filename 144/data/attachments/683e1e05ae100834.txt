@@ -1,0 +1,14 @@
+const jsonData = pm.response.json();
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Valid Response Data is returned", function () {
+    pm.expect(jsonData.status).to.eql("success");
+    pm.expect(jsonData.data).to.have.property("id");
+    pm.expect(jsonData.data).to.have.property("name");
+    pm.expect(jsonData.data).to.have.property("description");
+    pm.expect(jsonData.data).to.have.property("status");
+    pm.expect(jsonData.data).to.have.property("icon_url");
+});

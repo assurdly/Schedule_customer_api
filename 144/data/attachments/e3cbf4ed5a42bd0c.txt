@@ -1,0 +1,5 @@
+{
+    "name": "Generic Plastic Shirt",
+    "description": "Quam est qui quia quod hic maiores. Non quaerat autem enim ipsam necessitatibus quo. Rerum velit quisquam aut nemo. Ut consequatur consequatur animi quaerat quo et dolor aperiam explicabo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
