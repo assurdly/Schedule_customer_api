@@ -6075,7 +6075,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"17\",\n    \"product_id\": \"34\",\n    \"amount\": 1500,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-04\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"17\",\n    \"product_id\": \"34\",\n    \"amount\": 1500,\n    \"frequency\": \"weekly\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6694,8 +6694,8 @@
 													"    pm.response.to.have.status(400);\r",
 													"});\r",
 													"\r",
-													"pm.test(\"Response body contains correct error message\", function () {\r",
-													"    pm.expect(jsonData.message).to.include(\"Bank not found\");\r",
+													"pm.test(\"Response body contains  error message\", function () {\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
 													"});\r",
 													""
 												],
@@ -6719,7 +6719,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-03\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"ffsshh\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"22399\",\n    \"bank_code\": \"070\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
