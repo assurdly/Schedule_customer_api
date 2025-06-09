@@ -1,5 +1,0 @@
-{
-    "name": "Practical Cotton Tuna",
-    "description": "Tempore hic qui pariatur et pariatur aut. Architecto quia qui totam incidunt aut voluptatem cupiditate. Eaque ea eaque. Id necessitatibus atque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

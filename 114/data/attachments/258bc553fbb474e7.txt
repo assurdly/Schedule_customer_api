@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Wooden Tuna",
-    "description": "Laudantium reiciendis quia veritatis. Tempore dignissimos ratione porro deleniti nihil molestiae. Ab velit voluptas tempora sit dolorum earum voluptatem. Sapiente et corporis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
