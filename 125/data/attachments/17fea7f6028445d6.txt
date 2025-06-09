@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Fresh Fish",
-    "description": "Et explicabo error libero beatae commodi cumque. Ut laudantium cumque in dicta. Consequatur magnam et deleniti. Quam maxime quasi expedita. Quam aliquid velit esse nihil atque commodi minus qui.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Plastic Car",
+    "description": "Et vel harum itaque officia. Adipisci aliquam reprehenderit quia eum. Enim velit quis porro excepturi aut deleniti voluptates non excepturi. Et id enim. Quasi rerum laudantium perspiciatis alias quia quisquam ex dolores. Iusto nisi iusto rerum ducimus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
