@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Plastic Bike",
-    "description": "Unde et cumque eum voluptas. Perspiciatis officia nemo veniam iusto earum in voluptas quas. Earum doloremque laboriosam consequatur perspiciatis sit. Explicabo a ex veritatis enim numquam quia neque ad. Dolorem maxime recusandae error.",
-    "icon_url": "http://placeimg.com/640/480"
-}

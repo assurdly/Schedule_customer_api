@@ -1,0 +1,5 @@
+{
+    "name": "Practical Rubber Table",
+    "description": "Ut iste architecto reiciendis sit id repellat. Quas expedita sit molestias ut. Nulla sit necessitatibus suscipit eos et. Ab reiciendis ab culpa libero qui praesentium et laborum dolores. Sequi dolores debitis nulla qui eos inventore in.",
+    "icon_url": "http://placeimg.com/640/480"
+}

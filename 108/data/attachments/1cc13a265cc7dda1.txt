@@ -1,5 +1,0 @@
-{
-    "phone_number": "07080507367",
-    "otp": "68970",
-    "reference": "TXN_SCHDL_20250604_79770aca"
-}
