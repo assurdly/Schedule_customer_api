@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Metal Sausages",
+    "description": "Qui natus aspernatur in ipsa ut assumenda at sequi. Voluptatem necessitatibus repellat qui dolore ut. Molestias ipsa iste laboriosam id vitae repudiandae. Similique assumenda ut ut distinctio numquam. Quas in eum omnis illum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Granite Chair",
-    "description": "Ea iste ea quos deserunt. Quo inventore quae ut. In sint debitis doloribus commodi modi et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
