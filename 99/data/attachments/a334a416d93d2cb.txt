@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Cotton Hat",
-    "description": "Veniam omnis minus modi quo ut perferendis. Deserunt nobis nemo. Quod recusandae ducimus possimus soluta quo praesentium excepturi aspernatur distinctio. Minima consequuntur consectetur officia vero. Dolorem culpa unde voluptatum et ipsam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

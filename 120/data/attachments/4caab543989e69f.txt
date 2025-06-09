@@ -1,0 +1,5 @@
+{
+    "name": "Practical Metal Soap",
+    "description": "Vitae natus placeat tenetur enim debitis est voluptatem placeat. Enim nobis sunt sed a natus dolorem dolorem. Consequatur eos cumque voluptas aut. Vero adipisci voluptas est ea vel qui.",
+    "icon_url": "http://placeimg.com/640/480"
+}
