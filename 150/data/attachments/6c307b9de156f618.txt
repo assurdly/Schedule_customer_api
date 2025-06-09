@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Cotton Tuna",
+    "description": "Laboriosam laboriosam sunt vel qui eveniet modi et voluptatum. Porro blanditiis repellendus quos reiciendis magni occaecati. Rerum adipisci nostrum ut nobis quod laboriosam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

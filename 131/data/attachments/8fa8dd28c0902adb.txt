@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Concrete Bacon",
-    "description": "Sit ipsam assumenda sit quas et. Cum voluptas sed ab illum nostrum omnis nostrum beatae. Voluptatibus delectus ratione omnis aut non quis reiciendis qui. Quam qui temporibus corrupti ut reprehenderit pariatur laudantium nihil. Ea suscipit voluptas suscipit. Soluta ipsa porro ratione temporibus ipsum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Generic Metal Shirt",
-    "description": "Exercitationem impedit et impedit inventore. Soluta veniam adipisci aut et explicabo ratione et dolorum. Aut numquam accusantium sed.",
-    "icon_url": "http://placeimg.com/640/480"
-}

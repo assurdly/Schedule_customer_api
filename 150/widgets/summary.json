@@ -1,1 +1,1 @@
-{"reportName":"Schedule - API Quality Readiness with history","testRuns":[],"statistic":{"failed":17,"broken":0,"skipped":0,"passed":44,"unknown":0,"total":61},"time":{"start":1749474538476,"stop":1749474546156,"duration":7680,"minDuration":90,"maxDuration":684,"sumDuration":7506}}
+{"reportName":"Schedule - API Quality Readiness with history","testRuns":[],"statistic":{"failed":17,"broken":0,"skipped":0,"passed":44,"unknown":0,"total":61},"time":{"start":1749475075940,"stop":1749475088245,"duration":12305,"minDuration":161,"maxDuration":844,"sumDuration":12136}}
