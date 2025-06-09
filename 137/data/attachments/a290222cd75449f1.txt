@@ -1,0 +1,5 @@
+{
+    "name": "Small Soft Sausages",
+    "description": "Iure sunt cumque error adipisci minima laboriosam cum reprehenderit doloribus. Voluptas perspiciatis quo quae veritatis velit voluptatum ut consectetur tenetur. Ab quidem officia. Magni ut ducimus quas molestiae commodi facere qui laboriosam nam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

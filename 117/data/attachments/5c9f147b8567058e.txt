@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Metal Shirt",
-    "description": "Nesciunt aut labore quas illo beatae voluptates quis corrupti accusamus. Eum perspiciatis excepturi. Dolores totam magni officiis. Quas laborum dicta impedit harum voluptatibus doloribus et. Sequi distinctio voluptate vel aut et quia nemo.",
-    "icon_url": "http://placeimg.com/640/480"
-}
