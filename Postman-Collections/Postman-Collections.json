@@ -5300,6 +5300,30 @@
 					"item": [
 						{
 							"name": "Get Mandates",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8a8ce1b6-e546-4493-8fc0-cec369b171be",
+										"exec": [
+											"const jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"validate response data structure\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"data\");\r",
+											"    pm.expect(jsonData.data).to.have.property(\"data\");\r",
+											"    pm.expect(jsonData.data).to.have.property(\"meta\");\r",
+											"    pm.expect(jsonData.data.data).to.be.an(\"array\"); \r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "90fa682b-1383-4bc1-9d44-c6241a9f8868",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -5333,6 +5357,344 @@
 							"response": [
 								{
 									"id": "58017f1f-5906-4e2f-9b55-1f22a8336978",
+									"name": "Get Mandates",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/mandates?status=active",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"mandates"
+											],
+											"query": [
+												{
+													"key": "status",
+													"value": "active"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Expose-Headers",
+											"value": "x-encryption-key,x-encryption-iv"
+										},
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "cross-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "462"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"1ce-lv+2uS8H0B5URL+aIWYjmBdp5co\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 30 May 2025 01:33:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"account_number\": \"2468101214\",\n                \"account_name\": \"CIROMA CHUKWUMA ADEKUNLE\",\n                \"bank_name\": \"United Bank For Africa\",\n                \"bank_code\": \"033\",\n                \"extended_data\": {\n                    \"mandate_status\": \"active\",\n                    \"mandate_amount\": 100000\n                }\n            },\n            {\n                \"account_number\": \"2169151821\",\n                \"account_name\": \"CIROMA CHUKWUMA ADEKUNLE\",\n                \"bank_name\": \"Zenith Bank\",\n                \"bank_code\": \"057\",\n                \"extended_data\": {\n                    \"mandate_status\": \"active\",\n                    \"mandate_amount\": 100000\n                }\n            }\n        ],\n        \"meta\": {\n            \"records\": 2\n        }\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Mandates - No Auth Token",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8a8ce1b6-e546-4493-8fc0-cec369b171be",
+										"exec": [
+											"const jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"validate response data structure\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"data\").and.to.be.empty;\r",
+											"    pm.expect(jsonData).to.have.property(\"message\").to.exist;\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "6b7a48a6-d65f-46b0-b0f4-e6b4a8f8795c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/mandates?status=active",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"mandates"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "active",
+											"description": "active || inactive"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "d617c9bd-5702-40d2-be2a-86a57cbe55fe",
+									"name": "Get Mandates",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/mandates?status=active",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"mandates"
+											],
+											"query": [
+												{
+													"key": "status",
+													"value": "active"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Expose-Headers",
+											"value": "x-encryption-key,x-encryption-iv"
+										},
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "cross-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "462"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"1ce-lv+2uS8H0B5URL+aIWYjmBdp5co\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 30 May 2025 01:33:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"account_number\": \"2468101214\",\n                \"account_name\": \"CIROMA CHUKWUMA ADEKUNLE\",\n                \"bank_name\": \"United Bank For Africa\",\n                \"bank_code\": \"033\",\n                \"extended_data\": {\n                    \"mandate_status\": \"active\",\n                    \"mandate_amount\": 100000\n                }\n            },\n            {\n                \"account_number\": \"2169151821\",\n                \"account_name\": \"CIROMA CHUKWUMA ADEKUNLE\",\n                \"bank_name\": \"Zenith Bank\",\n                \"bank_code\": \"057\",\n                \"extended_data\": {\n                    \"mandate_status\": \"active\",\n                    \"mandate_amount\": 100000\n                }\n            }\n        ],\n        \"meta\": {\n            \"records\": 2\n        }\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Mandates - Invalid Token",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8a8ce1b6-e546-4493-8fc0-cec369b171be",
+										"exec": [
+											"const jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"validate response data structure\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"data\").and.to.be.empty;\r",
+											"    pm.expect(jsonData).to.have.property(\"message\").to.exist;\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "adb3d4ab-ded5-46e4-9eeb-b65d53e00801",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/mandates?status=active",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"mandates"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "active",
+											"description": "active || inactive"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "f58d3d3d-ad01-42f3-af54-8ddb985ecf9d",
 									"name": "Get Mandates",
 									"originalRequest": {
 										"method": "GET",
