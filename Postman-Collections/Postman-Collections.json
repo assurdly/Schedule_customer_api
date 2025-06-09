@@ -1458,7 +1458,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"phone_number\" : \"07080507367\",\n    \"action\": \"login\" //login||signup\n}",
+											"raw": "{\n    \"phone_number\" : \"{{testnumber}}\",\n    \"action\": \"login\" //login||signup\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2065,7 +2065,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"phone_number\": \"08012345678\",\n    \"otp\": \"{{otp}}\",\n    \"reference\": \"{{reference}}\"\n}",
+											"raw": "{\n    \"phone_number\": \"{{testnumber}}\",\n    \"otp\": \"{{otp}}\",\n    \"reference\": \"{{reference}}\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -2568,6 +2568,29 @@
 							"item": [
 								{
 									"name": "resend otp - Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "06f9bb05-8af1-4381-b9b1-afbf2b976d07",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Validate response code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate response data\", function (){\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"    pm.expect(jsonData.reference).to.exist;\r",
+													"})\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "a7dd6208-bdc9-4983-a387-e1743a3d7d04",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -2577,7 +2600,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"08012345678\"\r\n}",
+											"raw": "{\r\n    \"phone_number\": \"{{testnumber}}\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -7006,7 +7029,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
