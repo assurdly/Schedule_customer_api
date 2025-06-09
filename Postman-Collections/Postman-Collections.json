@@ -7433,6 +7433,29 @@
 							"item": [
 								{
 									"name": "Get Subscriptions stats - success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "5a5654e8-bfd3-4fed-82d4-a302154110f7",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response body has correct structure\", function () {\r",
+													"    pm.expect(jsonData).to.have.property(\"message\", \"success\");\r",
+													"    pm.expect(jsonData).to.have.property(\"data\");\r",
+													"    pm.expect(jsonData.data).to.be.an(\"array\");\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "904e5619-ce88-4984-b1b8-97265c43d12d",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
