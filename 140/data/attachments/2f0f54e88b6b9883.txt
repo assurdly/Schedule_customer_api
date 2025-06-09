@@ -1,0 +1,5 @@
+{
+    "name": "Generic Rubber Shoes",
+    "description": "Suscipit odio sint eum error voluptas. Itaque repellat consequatur nobis incidunt laborum aut consequuntur. Aliquid est reprehenderit autem natus magni nulla sunt. Necessitatibus ipsam repellendus modi rerum dolorem assumenda. Blanditiis distinctio fugiat aut facilis maiores vel.",
+    "icon_url": "http://placeimg.com/640/480"
+}

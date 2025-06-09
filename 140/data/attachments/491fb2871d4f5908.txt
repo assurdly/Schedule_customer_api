@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Metal Keyboard",
+    "description": "Officiis nulla iste. Rem fugiat dolores id tempora repellat. Aut est neque sed quia. Qui libero fuga. Culpa maxime suscipit itaque. Ut fugiat fugiat quidem ducimus vel voluptas dolorum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

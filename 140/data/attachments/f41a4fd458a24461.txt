@@ -1,0 +1,10 @@
+const jsonData = pm.response.json();
+
+pm.test("Status code is 401", function () {
+    pm.response.to.have.status(401);
+});
+
+pm.test("error message is returned", function () {
+    pm.expect(jsonData.message).to.exist;
+});
+

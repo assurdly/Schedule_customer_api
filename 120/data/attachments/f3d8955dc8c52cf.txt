@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Soft Gloves",
-    "description": "Commodi dolorem voluptates aliquid exercitationem eveniet iste sequi. Vel aut in delectus sunt voluptatibus placeat ea. Incidunt accusamus quis suscipit doloribus quasi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
