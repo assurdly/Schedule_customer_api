@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Granite Keyboard",
+    "description": "Vel ut eius dignissimos saepe molestiae ducimus iste deserunt. Et eum sapiente magnam laudantium inventore natus odit. Nihil omnis quis dignissimos. Voluptas ipsum animi reprehenderit cupiditate optio quos delectus. Repellendus rem cumque voluptatem dolorum a eaque.",
+    "icon_url": "http://placeimg.com/640/480"
+}
