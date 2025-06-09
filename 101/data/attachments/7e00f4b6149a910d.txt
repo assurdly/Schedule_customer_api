@@ -1,5 +1,0 @@
-{
-    "phone_number": "07080507367",
-    "otp": "68970",
-    "reference": "null"
-}

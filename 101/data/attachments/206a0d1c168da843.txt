@@ -1,5 +1,0 @@
-{
-    "name": "Refined Cotton Bacon",
-    "description": "In hic explicabo accusamus sint ut officia quia. Minima qui et. Voluptatum placeat quasi soluta. Et est qui hic explicabo necessitatibus. Est quia provident molestiae veniam ipsam sunt ab aut. Rerum voluptatem accusamus dolorem aut vitae id nisi aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

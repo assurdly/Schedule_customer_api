@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Plastic Chair",
-    "description": "Tempore saepe quia iste voluptate ea quis. Saepe impedit et consequatur sequi. Aut mollitia voluptas in. Eum alias error vero ea error quas. Consectetur et pariatur necessitatibus et quos ut enim quisquam expedita. Quam illo soluta.",
-    "icon_url": "http://placeimg.com/640/480"
-}
