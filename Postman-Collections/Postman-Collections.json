@@ -2567,7 +2567,7 @@
 							"name": "Resend Otp",
 							"item": [
 								{
-									"name": "resend otp",
+									"name": "resend otp - Success",
 									"id": "a7dd6208-bdc9-4983-a387-e1743a3d7d04",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
