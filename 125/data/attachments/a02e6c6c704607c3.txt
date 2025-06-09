@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Cotton Bacon",
+    "description": "Dignissimos quae vero non. Et praesentium officia. Quia nisi rerum quos. Dolorem in autem maiores.",
+    "icon_url": "http://placeimg.com/640/480"
+}

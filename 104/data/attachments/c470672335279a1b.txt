@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Soft Ball",
-    "description": "Consectetur enim culpa esse odit soluta et sit cum. Repellendus ipsam laudantium deserunt. Veniam ut explicabo quidem sapiente minus enim in. Itaque eveniet laborum cumque ullam dignissimos veritatis. Placeat minima saepe possimus repellendus.",
-    "icon_url": "http://placeimg.com/640/480"
-}

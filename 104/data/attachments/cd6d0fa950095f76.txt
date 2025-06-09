@@ -1,5 +1,0 @@
-{
-    "name": "Small Wooden Cheese",
-    "description": "Quia optio harum ut odio possimus. Ut velit dolorem in ut rerum accusantium asperiores nesciunt voluptates. Consequatur consequatur omnis ipsa et labore illo fugit ea aut. Eligendi sit tempore.",
-    "icon_url": "http://placeimg.com/640/480"
-}
