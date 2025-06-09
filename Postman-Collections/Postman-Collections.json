@@ -2748,7 +2748,6 @@
 													"    pm.response.to.have.status(200);\r",
 													"});\r",
 													"\r",
-													"\r",
 													"pm.test(\"Data array is returned\", function () {\r",
 													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
 													"});\r",
@@ -2769,7 +2768,7 @@
 											}
 										}
 									],
-									"id": "6d476a5c-de95-4425-ab31-7f4804b5cc9a",
+									"id": "68fbf333-51c9-43bd-83a2-b0ec36cdb89b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -2832,7 +2831,492 @@
 									},
 									"response": [
 										{
-											"id": "2301f851-a300-4eda-b871-1db19661d375",
+											"id": "d5a1f911-f889-4b32-8825-686d6e2b834b",
+											"name": "Get Categories",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"{{$randomProductName}}\",\n    \"description\": \"{{$randomLoremParagraph}}\",\n    \"icon_url\": \"{{$randomImageUrl}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/categories",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"categories"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "test",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "2103"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"837-nNa91ArSLyDAMIsicfm55y9GAN8\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 03 May 2025 17:31:54 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": [\n        {\n            \"id\": 4,\n            \"name\": \"Handmade Plastic Soap\",\n            \"description\": \"Distinctio dignissimos consequatur. Beatae voluptate unde et non deserunt illum quo. Est modi officia. Iusto esse sit ipsam voluptatem est. Nihil est minus vel debitis consequatur. Adipisci cum ullam quia ab molestias.\",\n            \"status\": \"active\",\n            \"icon_url\": \"http://placeimg.com/640/480\",\n            \"created_on\": \"2025-05-03 18:08:47\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:08:47\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Handcrafted Cotton Tuna\",\n            \"description\": \"Quam quae eum quia quis consequatur quo magnam dicta qui. Earum atque ab voluptas enim dolore sed rerum a. Non qui autem ab fugit iusto officia maiores. Sint sed enim rerum aspernatur eius et. In voluptatibus consequatur neque illo.\",\n            \"status\": \"active\",\n            \"icon_url\": \"http://placeimg.com/640/480\",\n            \"created_on\": \"2025-05-03 18:08:07\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:08:07\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Unbranded Rubber Computer\",\n            \"description\": \"A distinctio tempore totam rerum natus sint laudantium ea repellendus. Est doloribus neque velit cumque occaecati quia. Asperiores tenetur incidunt occaecati soluta tempora ducimus numquam ut quia. Sapiente minima cupiditate sunt. Reiciendis sed voluptas illum vel perspiciatis at.\",\n            \"status\": \"active\",\n            \"icon_url\": null,\n            \"created_on\": \"2025-05-03 18:07:27\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:07:27\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 1,\n            \"name\": \"Test\",\n            \"description\": \"Provident aut fugit ab ea tempora id quibusdam corrupti. Dolor voluptas cum corporis porro pariatur deleniti rerum aut. Odit voluptatem similique rem quia repellat dolores fugiat. Libero expedita labore et quis quam. Facere in optio occaecati quos atque autem ipsam sit voluptates. Qui aut ducimus consequuntur ratione asperiores eum saepe nam quo.\",\n            \"status\": \"active\",\n            \"icon_url\": null,\n            \"created_on\": \"2025-05-03 18:04:34\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:04:34\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        }\n    ]\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch Categories - Invalid Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c970baa2-c6a3-4719-8d75-933e0f3f14de",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Unauthorized access returns 401\", function () {\r",
+													"    pm.expect(pm.response.code).to.eql(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response returns valid message\", function () {\r",
+													"    pm.expect(jsonData.message).to.eql('Invalid Auth Token')\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "6c013fb4-5bbe-4ea8-b38b-e5456cdad5d3",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{admin_access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/customer/categories",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"customer",
+												"categories"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "2",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "test",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "a6b961c6-7dfc-41b3-88c4-196863ce40e5",
+											"name": "Get Categories",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"{{$randomProductName}}\",\n    \"description\": \"{{$randomLoremParagraph}}\",\n    \"icon_url\": \"{{$randomImageUrl}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/categories",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"categories"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "test",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "2103"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"837-nNa91ArSLyDAMIsicfm55y9GAN8\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 03 May 2025 17:31:54 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": [\n        {\n            \"id\": 4,\n            \"name\": \"Handmade Plastic Soap\",\n            \"description\": \"Distinctio dignissimos consequatur. Beatae voluptate unde et non deserunt illum quo. Est modi officia. Iusto esse sit ipsam voluptatem est. Nihil est minus vel debitis consequatur. Adipisci cum ullam quia ab molestias.\",\n            \"status\": \"active\",\n            \"icon_url\": \"http://placeimg.com/640/480\",\n            \"created_on\": \"2025-05-03 18:08:47\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:08:47\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Handcrafted Cotton Tuna\",\n            \"description\": \"Quam quae eum quia quis consequatur quo magnam dicta qui. Earum atque ab voluptas enim dolore sed rerum a. Non qui autem ab fugit iusto officia maiores. Sint sed enim rerum aspernatur eius et. In voluptatibus consequatur neque illo.\",\n            \"status\": \"active\",\n            \"icon_url\": \"http://placeimg.com/640/480\",\n            \"created_on\": \"2025-05-03 18:08:07\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:08:07\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Unbranded Rubber Computer\",\n            \"description\": \"A distinctio tempore totam rerum natus sint laudantium ea repellendus. Est doloribus neque velit cumque occaecati quia. Asperiores tenetur incidunt occaecati soluta tempora ducimus numquam ut quia. Sapiente minima cupiditate sunt. Reiciendis sed voluptas illum vel perspiciatis at.\",\n            \"status\": \"active\",\n            \"icon_url\": null,\n            \"created_on\": \"2025-05-03 18:07:27\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:07:27\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        },\n        {\n            \"id\": 1,\n            \"name\": \"Test\",\n            \"description\": \"Provident aut fugit ab ea tempora id quibusdam corrupti. Dolor voluptas cum corporis porro pariatur deleniti rerum aut. Odit voluptatem similique rem quia repellat dolores fugiat. Libero expedita labore et quis quam. Facere in optio occaecati quos atque autem ipsam sit voluptates. Qui aut ducimus consequuntur ratione asperiores eum saepe nam quo.\",\n            \"status\": \"active\",\n            \"icon_url\": null,\n            \"created_on\": \"2025-05-03 18:04:34\",\n            \"created_by\": null,\n            \"modified_on\": \"2025-05-03 18:04:34\",\n            \"modified_by\": null,\n            \"deleted_flag\": 0,\n            \"deleted_by\": null\n        }\n    ]\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch Categories - No Auth",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "c970baa2-c6a3-4719-8d75-933e0f3f14de",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Unauthorized access returns 401\", function () {\r",
+													"    pm.expect(pm.response.code).to.eql(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response returns valid message\", function () {\r",
+													"    pm.expect(jsonData.message).to.eql('Unauthorized')\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "e89a91ec-9fe5-4d7c-8e56-b79afc8d17ae",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/customer/categories",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"customer",
+												"categories"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "2",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "test",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "23fa3f7e-5e26-4df5-9ba5-2d48b43044d1",
 											"name": "Get Categories",
 											"originalRequest": {
 												"method": "GET",
@@ -2990,10 +3474,10 @@
 									]
 								}
 							],
-							"id": "7d9a0272-2f32-48ff-b62f-0671ac019af2"
+							"id": "bd2df257-8a31-4565-9576-48c9ac98b5f0"
 						},
 						{
-							"name": "Get Category",
+							"name": "Fetch a Category",
 							"item": [
 								{
 									"name": "Fetch a Category - Success",
@@ -3004,6 +3488,7 @@
 												"id": "f07aa209-e3da-42eb-a75b-e6ed419ef242",
 												"exec": [
 													"const jsonData = pm.response.json();\r",
+													"\r",
 													"pm.test(\"Status code is 200\", function () {\r",
 													"    pm.response.to.have.status(200);\r",
 													"});\r",
@@ -3023,7 +3508,7 @@
 											}
 										}
 									],
-									"id": "1f2d4593-f502-4c02-aaf0-af11b7ba3c0c",
+									"id": "bf4a660d-7b18-41a8-b4b4-9126b657f1c6",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3043,11 +3528,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{base_url}}/categories/:category_id",
+											"raw": "{{base_url}}/customer/categories/:category_id",
 											"host": [
 												"{{base_url}}"
 											],
 											"path": [
+												"customer",
 												"categories",
 												":category_id"
 											],
@@ -3099,7 +3585,7 @@
 									},
 									"response": [
 										{
-											"id": "55fc5e48-bd39-440a-8794-5077d1fceaaa",
+											"id": "0878f7b6-6621-4579-aae4-74f3f2fb49e4",
 											"name": "Get Category",
 											"originalRequest": {
 												"method": "GET",
@@ -3264,7 +3750,7 @@
 									]
 								},
 								{
-									"name": "Fetch a Category  -  Invalid Category ID",
+									"name": "Fetch a Category -  Invalid Category ID",
 									"event": [
 										{
 											"listen": "test",
@@ -3272,6 +3758,7 @@
 												"id": "f07aa209-e3da-42eb-a75b-e6ed419ef242",
 												"exec": [
 													"const jsonData = pm.response.json();\r",
+													"\r",
 													"pm.test(\"Status code is 404\", function () {\r",
 													"    pm.response.to.have.status(404);\r",
 													"});\r",
@@ -3286,7 +3773,7 @@
 											}
 										}
 									],
-									"id": "6168032d-3720-4470-8ab0-780c86adf469",
+									"id": "f52da9f1-4c22-42c6-9bc0-025b5d15e26b",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -3306,11 +3793,12 @@
 											}
 										},
 										"url": {
-											"raw": "{{base_url}}/categories/:category_id",
+											"raw": "{{base_url}}/customer/categories/:category_id",
 											"host": [
 												"{{base_url}}"
 											],
 											"path": [
+												"customer",
 												"categories",
 												":category_id"
 											],
@@ -3355,14 +3843,527 @@
 											"variable": [
 												{
 													"key": "category_id",
-													"value": "105"
+													"value": "10"
 												}
 											]
 										}
 									},
 									"response": [
 										{
-											"id": "bf32ecb9-aa17-4ba6-b5a0-b5afd2a0facc",
+											"id": "abfe1cf7-579e-4735-8dc1-f52b917580b3",
+											"name": "Get Category",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"{{$randomProductName}}\",\n    \"description\": \"{{$randomLoremParagraph}}\",\n    \"icon_url\": \"{{$randomImageUrl}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/categories/:category_id",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"categories",
+														":category_id"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "test",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "category_id",
+															"value": "1"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "612"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"264-xJIu6SnYp0OTJ7CpPsKKSShvDXA\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 03 May 2025 17:38:05 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Test\",\n        \"description\": \"Provident aut fugit ab ea tempora id quibusdam corrupti. Dolor voluptas cum corporis porro pariatur deleniti rerum aut. Odit voluptatem similique rem quia repellat dolores fugiat. Libero expedita labore et quis quam. Facere in optio occaecati quos atque autem ipsam sit voluptates. Qui aut ducimus consequuntur ratione asperiores eum saepe nam quo.\",\n        \"status\": \"active\",\n        \"icon_url\": null,\n        \"created_on\": \"2025-05-03 18:04:34\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-03 18:04:34\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch a Category -  Invalid Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "f07aa209-e3da-42eb-a75b-e6ed419ef242",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Unauthorized access returns 401\", function () {\r",
+													"    pm.expect(pm.response.code).to.eql(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response returns valid message\", function () {\r",
+													"    pm.expect(jsonData.message).to.eql('Invalid Auth Token')\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "e7337e89-a478-4bbe-98bb-ac79c6a88cea",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZSI6ImF1dGgiLCJpYXQiOjE3NDY3ODIxODcsImV4cCI6MTc0Njc4NTc4N30.N3Hl4tnH6-H7-81owhDuJj3UtbMxtnbde_km6TPok"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/customer/categories/:category_id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"customer",
+												"categories",
+												":category_id"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "test",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"variable": [
+												{
+													"key": "category_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "3758422e-be58-42eb-8c5e-88a3333bca81",
+											"name": "Get Category",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"{{$randomProductName}}\",\n    \"description\": \"{{$randomLoremParagraph}}\",\n    \"icon_url\": \"{{$randomImageUrl}}\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/categories/:category_id",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"categories",
+														":category_id"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "test",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "category_id",
+															"value": "1"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "612"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"264-xJIu6SnYp0OTJ7CpPsKKSShvDXA\""
+												},
+												{
+													"key": "Date",
+													"value": "Sat, 03 May 2025 17:38:05 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Test\",\n        \"description\": \"Provident aut fugit ab ea tempora id quibusdam corrupti. Dolor voluptas cum corporis porro pariatur deleniti rerum aut. Odit voluptatem similique rem quia repellat dolores fugiat. Libero expedita labore et quis quam. Facere in optio occaecati quos atque autem ipsam sit voluptates. Qui aut ducimus consequuntur ratione asperiores eum saepe nam quo.\",\n        \"status\": \"active\",\n        \"icon_url\": null,\n        \"created_on\": \"2025-05-03 18:04:34\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-03 18:04:34\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch a Category- No Auth",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "f07aa209-e3da-42eb-a75b-e6ed419ef242",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Unauthorized access returns 401\", function () {\r",
+													"    pm.expect(pm.response.code).to.eql(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Response returns valid message\", function () {\r",
+													"    pm.expect(jsonData.message).to.eql('Unauthorized')\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "13dd25be-4860-4ce3-9150-9559b3cc4078",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/customer/categories/:category_id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"customer",
+												"categories",
+												":category_id"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": null,
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "test",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"variable": [
+												{
+													"key": "category_id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "56b0f275-1e56-4005-ad21-41691891cf85",
 											"name": "Get Category",
 											"originalRequest": {
 												"method": "GET",
@@ -3527,739 +4528,10 @@
 									]
 								}
 							],
-							"id": "d1f944e5-92be-4ef5-9e78-785524bc8fb3"
+							"id": "37056aa4-b423-47e7-a753-60882655a45d"
 						}
 					],
-					"id": "fd9b3355-3b80-49b6-893f-da5b145e0032"
-				},
-				{
-					"name": "Products",
-					"item": [
-						{
-							"name": "Fetch Products",
-							"item": [
-								{
-									"name": "Fetch Products - Success",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "255ee1cf-1bd9-4598-9f41-d35d076751dc",
-												"exec": [
-													"const jsonData = pm.response.json();\r",
-													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"});\r",
-													"\r",
-													"\r",
-													"pm.test(\"Data array is returned\", function () {\r",
-													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Each category has required fields\", function () {\r",
-													"    const jsonData = pm.response.json();\r",
-													"    jsonData.data.data.forEach(cat => {\r",
-													"        pm.expect(cat).to.have.property(\"id\");\r",
-													"        pm.expect(cat).to.have.property(\"name\");\r",
-													"        pm.expect(cat).to.have.property(\"description\");\r",
-													"        pm.expect(cat).to.have.property(\"icon_url\");\r",
-													"        pm.expect(cat).to.have.property(\"status\");\r",
-													"        pm.expect(cat).to.have.property(\"product_group_id\");\r",
-													"        pm.expect(cat).to.have.property(\"amount\");\r",
-													"    });\r",
-													"});"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "b2fe9bed-24a4-42eb-b373-54c132f13315",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "noauth"
-										},
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{base_url}}/products",
-											"host": [
-												"{{base_url}}"
-											],
-											"path": [
-												"products"
-											],
-											"query": [
-												{
-													"key": "limit",
-													"value": "3",
-													"disabled": true
-												},
-												{
-													"key": "page",
-													"value": "1",
-													"disabled": true
-												},
-												{
-													"key": "search",
-													"value": "critical",
-													"disabled": true
-												},
-												{
-													"key": "search_fields",
-													"value": "name",
-													"disabled": true
-												},
-												{
-													"key": "start_date",
-													"value": "2025-05-02",
-													"type": "text",
-													"disabled": true
-												},
-												{
-													"key": "end_date",
-													"value": "2025-05-03",
-													"type": "text",
-													"disabled": true
-												}
-											]
-										}
-									},
-									"response": [
-										{
-											"id": "99585eb3-3166-465d-9c12-23f80e945b26",
-											"name": "Fetch Products - Success",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{base_url}}/products",
-													"host": [
-														"{{base_url}}"
-													],
-													"path": [
-														"products"
-													],
-													"query": [
-														{
-															"key": "limit",
-															"value": "3",
-															"disabled": true
-														},
-														{
-															"key": "page",
-															"value": "1",
-															"disabled": true
-														},
-														{
-															"key": "search",
-															"value": "critical",
-															"disabled": true
-														},
-														{
-															"key": "search_fields",
-															"value": "name",
-															"disabled": true
-														},
-														{
-															"key": "start_date",
-															"value": "2025-05-02",
-															"type": "text",
-															"disabled": true
-														},
-														{
-															"key": "end_date",
-															"value": "2025-05-03",
-															"type": "text",
-															"disabled": true
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Date",
-													"value": "Fri, 16 May 2025 13:24:39 GMT"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "4043"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"fcb-ZY42lwaRPX+T5sCDxyGSiZ9iKWk\""
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 24,\n                \"created_on\": \"2025-05-16 06:44:26\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:44:26\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatawithdrawal\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 23,\n                \"created_on\": \"2025-05-16 06:38:02\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:38:02\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatamicrochip\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 22,\n                \"created_on\": \"2025-05-16 06:38:02\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:38:02\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataand\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 21,\n                \"created_on\": \"2025-05-16 06:32:56\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:32:56\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataVirtual\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 20,\n                \"created_on\": \"2025-05-16 06:32:56\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:32:56\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataBedfordshire\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 19,\n                \"created_on\": \"2025-05-16 06:28:59\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:28:59\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataUtah\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 18,\n                \"created_on\": \"2025-05-16 06:28:58\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-16 06:28:58\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatadeposit\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": null,\n                \"meta\": null,\n                \"product_group_id\": 1\n            },\n            {\n                \"id\": 16,\n                \"created_on\": \"2025-05-15 16:06:47\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:06:47\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataup\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"-100.00\",\n                \"meta\": null,\n                \"product_group_id\": 2\n            },\n            {\n                \"id\": 15,\n                \"created_on\": \"2025-05-15 16:06:19\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:06:19\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDatahack\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"100.00\",\n                \"meta\": null,\n                \"product_group_id\": 6\n            },\n            {\n                \"id\": 14,\n                \"created_on\": \"2025-05-15 16:05:36\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-15 16:05:36\",\n                \"modified_by\": null,\n                \"deleted_by\": null,\n                \"deleted_flag\": 0,\n                \"name\": \"MTNDataColombia\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"status\": \"pending\",\n                \"amount\": \"100.00\",\n                \"meta\": null,\n                \"product_group_id\": 6\n            }\n        ],\n        \"meta\": {\n            \"records\": 18,\n            \"page\": 1,\n            \"pages\": 2,\n            \"page_size\": 10\n        }\n    }\n}"
-										}
-									]
-								}
-							],
-							"id": "2d1023bd-45cd-4aa4-be8c-e5c665184ac6"
-						},
-						{
-							"name": "Fetch a product",
-							"item": [
-								{
-									"name": "Fetch a product - Success",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "829cedf7-75d9-4e6f-abad-32a5813b38cd",
-												"exec": [
-													"const jsonData = pm.response.json();\r",
-													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Valid Response Data is returned\", function () {\r",
-													"    pm.expect(jsonData.status).to.eql(\"success\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"id\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"name\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"description\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"status\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"icon_url\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"amount\")\r",
-													"    pm.expect(jsonData.data).to.have.property(\"product_group_id\");\r",
-													"});\r",
-													""
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "f7eae816-5cfc-457b-9878-63ff80e87139",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "noauth"
-										},
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{base_url}}/products/:product_id",
-											"host": [
-												"{{base_url}}"
-											],
-											"path": [
-												"products",
-												":product_id"
-											],
-											"query": [
-												{
-													"key": "limit",
-													"value": "3",
-													"disabled": true
-												},
-												{
-													"key": "page",
-													"value": "1",
-													"disabled": true
-												},
-												{
-													"key": "search",
-													"value": "critical",
-													"disabled": true
-												},
-												{
-													"key": "search_fields",
-													"value": "name",
-													"disabled": true
-												},
-												{
-													"key": "start_date",
-													"value": "2025-05-02",
-													"type": "text",
-													"disabled": true
-												},
-												{
-													"key": "end_date",
-													"value": "2025-05-03",
-													"type": "text",
-													"disabled": true
-												}
-											],
-											"variable": [
-												{
-													"key": "product_id",
-													"value": "23"
-												}
-											]
-										}
-									},
-									"response": [
-										{
-											"id": "54aa642d-38c5-427b-8a3d-df563bc19017",
-											"name": "Fetch a product - Success",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{base_url}}/products/:product_id",
-													"host": [
-														"{{base_url}}"
-													],
-													"path": [
-														"products",
-														":product_id"
-													],
-													"query": [
-														{
-															"key": "limit",
-															"value": "3",
-															"disabled": true
-														},
-														{
-															"key": "page",
-															"value": "1",
-															"disabled": true
-														},
-														{
-															"key": "search",
-															"value": "critical",
-															"disabled": true
-														},
-														{
-															"key": "search_fields",
-															"value": "name",
-															"disabled": true
-														},
-														{
-															"key": "start_date",
-															"value": "2025-05-02",
-															"type": "text",
-															"disabled": true
-														},
-														{
-															"key": "end_date",
-															"value": "2025-05-03",
-															"type": "text",
-															"disabled": true
-														}
-													],
-													"variable": [
-														{
-															"key": "product_id",
-															"value": "23"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Date",
-													"value": "Sun, 18 May 2025 14:56:20 GMT"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "444"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"1bc-hhg8tZzfN4rWbNOST26M0CXalAw\""
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 23,\n        \"created_on\": \"2025-05-16 06:38:02\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-16 06:38:02\",\n        \"modified_by\": null,\n        \"deleted_by\": null,\n        \"deleted_flag\": 0,\n        \"name\": \"MTNDatamicrochip\",\n        \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n        \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n        \"status\": \"pending\",\n        \"amount\": \"-100.00\",\n        \"meta\": null,\n        \"product_group_id\": 2\n    }\n}"
-										}
-									]
-								},
-								{
-									"name": "Fetch a product - Invalid product id",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "829cedf7-75d9-4e6f-abad-32a5813b38cd",
-												"exec": [
-													"const jsonData = pm.response.json();\r",
-													"pm.test(\"Status code is 404\", function () {\r",
-													"    pm.response.to.have.status(404);\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Valid Response message is returned\", function () {\r",
-													"   pm.expect(jsonData.message).to.eql('Product not found')\r",
-													"});"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "544c402b-935d-41d6-80f0-6932a4041aca",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "noauth"
-										},
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{base_url}}/products/:product_id",
-											"host": [
-												"{{base_url}}"
-											],
-											"path": [
-												"products",
-												":product_id"
-											],
-											"query": [
-												{
-													"key": "limit",
-													"value": "3",
-													"disabled": true
-												},
-												{
-													"key": "page",
-													"value": "1",
-													"disabled": true
-												},
-												{
-													"key": "search",
-													"value": "critical",
-													"disabled": true
-												},
-												{
-													"key": "search_fields",
-													"value": "name",
-													"disabled": true
-												},
-												{
-													"key": "start_date",
-													"value": "2025-05-02",
-													"type": "text",
-													"disabled": true
-												},
-												{
-													"key": "end_date",
-													"value": "2025-05-03",
-													"type": "text",
-													"disabled": true
-												}
-											],
-											"variable": [
-												{
-													"key": "product_id",
-													"value": "234"
-												}
-											]
-										}
-									},
-									"response": [
-										{
-											"id": "824a13b2-90bc-47c1-a6a1-1c3c9aeda44b",
-											"name": "Get Product Group",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{base_url}}/admin/product-groups/:product_group_id",
-													"host": [
-														"{{base_url}}"
-													],
-													"path": [
-														"admin",
-														"product-groups",
-														":product_group_id"
-													],
-													"query": [
-														{
-															"key": "limit",
-															"value": "3",
-															"disabled": true
-														},
-														{
-															"key": "page",
-															"value": "1",
-															"disabled": true
-														},
-														{
-															"key": "search",
-															"value": "critical",
-															"disabled": true
-														},
-														{
-															"key": "search_fields",
-															"value": "name",
-															"disabled": true
-														},
-														{
-															"key": "start_date",
-															"value": "2025-05-02",
-															"type": "text",
-															"disabled": true
-														},
-														{
-															"key": "end_date",
-															"value": "2025-05-03",
-															"type": "text",
-															"disabled": true
-														}
-													],
-													"variable": [
-														{
-															"key": "product_group_id",
-															"value": "1"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "1432"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"598-nEaiOm25Mc1HGb1df9qdsdLLdEE\""
-												},
-												{
-													"key": "Date",
-													"value": "Mon, 05 May 2025 08:10:46 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Keep-Alive",
-													"value": "timeout=5"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"biller_code\": \"000003\"\n                    },\n                    \"status\": \"ACTIVE\",\n                    \"bank_code\": \"070\",\n                    \"bank_name\": null,\n                    \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                    \"created_on\": \"2025-05-05 09:10:00\",\n                    \"account_name\": \"MTN utilities\",\n                    \"account_type\": null,\n                    \"contract_code\": null,\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"9020022570\",\n                    \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                    \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Successful\",\n            \"message\": \"Transaction processed successfully\"\n        },\n        \"name\": \"GLODataKina\",\n        \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n        \"status\": \"active\",\n        \"short_name\": \"GLO utilities\",\n        \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n        \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n        \"aggregator\": \"SwitchTech\",\n        \"biller_code\": \"000003\",\n        \"category_id\": 2,\n        \"created_on\": \"2025-05-05 09:10:16\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-05 09:10:32\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
-										}
-									]
-								}
-							],
-							"id": "87b90029-9312-44d3-9f09-69ae82cd4cbc"
-						}
-					],
-					"id": "e5e2f13c-8bfd-4532-83fe-7eeb62c63ce3"
+					"id": "43b8f9ae-7004-4a78-8c8c-a4486e7807c6"
 				},
 				{
 					"name": "Product Groups",
@@ -4268,12 +4540,12 @@
 							"name": "Fetch Product groups",
 							"item": [
 								{
-									"name": "Fetch Product Groups -Success",
+									"name": "Fetch Product Groups - Success",
 									"event": [
 										{
 											"listen": "test",
 											"script": {
-												"id": "1467487c-7baa-413d-a6f3-99115fbb9721",
+												"id": "a25b78e4-12f2-4f6b-b1b8-3c1a67f8d440",
 												"exec": [
 													"const jsonData = pm.response.json();\r",
 													"\r",
@@ -4281,12 +4553,11 @@
 													"    pm.response.to.have.status(200);\r",
 													"});\r",
 													"\r",
-													"\r",
 													"pm.test(\"Data array is returned\", function () {\r",
 													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
 													"});\r",
 													"\r",
-													"pm.test(\"Each category has required fields\", function () {\r",
+													"pm.test(\"Each product group has required fields\", function () {\r",
 													"    const jsonData = pm.response.json();\r",
 													"    jsonData.data.data.forEach(cat => {\r",
 													"        pm.expect(cat).to.have.property(\"id\");\r",
@@ -4294,10 +4565,6 @@
 													"        pm.expect(cat).to.have.property(\"description\");\r",
 													"        pm.expect(cat).to.have.property(\"icon_url\");\r",
 													"        pm.expect(cat).to.have.property(\"status\");\r",
-													"        pm.expect(cat).to.have.property(\"webhook_url\");\r",
-													"        pm.expect(cat).to.have.property(\"category_id\");\r",
-													"        \r",
-													"        \r",
 													"    });\r",
 													"});"
 												],
@@ -4306,7 +4573,7 @@
 											}
 										}
 									],
-									"id": "d86cb7ec-8215-4b59-9c6c-d6580abc7230",
+									"id": "7dcbd9b4-c37d-43a7-9c89-cff55dec72d5",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -4314,20 +4581,11 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{TOKEN}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
 										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"name\": \"MTNData{{$randomWord}}\",\n    \"short_name\": \"MTN utilities\",\n    \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n    \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n    \"aggregator\": \"SwitchTech\",\n    \"category_id\": \"1\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
 										"url": {
 											"raw": "{{base_url}}/product-groups",
 											"host": [
@@ -4374,7 +4632,254 @@
 									},
 									"response": [
 										{
-											"id": "2dd1faf6-27a2-4751-ba5e-0eb906cf18e0",
+											"id": "66fe2931-cbef-4ffe-9e22-c92612384f69",
+											"name": "Get Product Groups",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"MTNData{{$randomWord}}\",\n    \"short_name\": \"MTN utilities\",\n    \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n    \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n    \"aggregator\": \"SwitchTech\",\n    \"category_id\": \"1\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/admin/product-groups",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"admin",
+														"product-groups"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "3",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "critical",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1498"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"5da-C0zu6JSlQMzERwb0If1gfZKFnTM\""
+												},
+												{
+													"key": "Date",
+													"value": "Mon, 05 May 2025 08:10:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 1,\n                \"meta\": {\n                    \"data\": {\n                        \"error\": null,\n                        \"errors\": null,\n                        \"provider\": \"PaywithAccount\",\n                        \"client_info\": {\n                            \"id\": null,\n                            \"meta\": null,\n                            \"name\": null,\n                            \"colors\": null,\n                            \"css_url\": null,\n                            \"options\": null,\n                            \"logo_url\": null,\n                            \"merchant\": null,\n                            \"paginate\": false,\n                            \"bank_name\": null,\n                            \"console_url\": null,\n                            \"footer_text\": null,\n                            \"bank_cbn_code\": null,\n                            \"paginate_count\": 0,\n                            \"show_options_icon\": false,\n                            \"js_background_image\": null\n                        },\n                        \"provider_response\": {\n                            \"meta\": {\n                                \"biller_code\": \"000003\"\n                            },\n                            \"status\": \"ACTIVE\",\n                            \"bank_code\": \"070\",\n                            \"bank_name\": null,\n                            \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                            \"created_on\": \"2025-05-05 09:10:00\",\n                            \"account_name\": \"MTN utilities\",\n                            \"account_type\": null,\n                            \"contract_code\": null,\n                            \"currency_code\": \"NGN\",\n                            \"account_number\": \"9020022570\",\n                            \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                            \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                        },\n                        \"provider_response_code\": \"00\"\n                    },\n                    \"status\": \"Successful\",\n                    \"message\": \"Transaction processed successfully\"\n                },\n                \"name\": \"GLODataKina\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"status\": \"active\",\n                \"short_name\": \"GLO utilities\",\n                \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"aggregator\": \"SwitchTech\",\n                \"biller_code\": \"000003\",\n                \"category_id\": 2,\n                \"created_on\": \"2025-05-05 09:10:16\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-05 09:10:32\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null\n            }\n        ],\n        \"meta\": {\n            \"records\": 1,\n            \"page\": 1,\n            \"pages\": 1,\n            \"page_size\": 10\n        }\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Fetch Product Groups - Invalid Auth token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "a25b78e4-12f2-4f6b-b1b8-3c1a67f8d440",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Data array is returned\", function () {\r",
+													"    pm.expect(jsonData.data).to.have.property(\"data\").that.is.an(\"array\");\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Each product group has required fields\", function () {\r",
+													"    const jsonData = pm.response.json();\r",
+													"    jsonData.data.data.forEach(cat => {\r",
+													"        pm.expect(cat).to.have.property(\"id\");\r",
+													"        pm.expect(cat).to.have.property(\"name\");\r",
+													"        pm.expect(cat).to.have.property(\"description\");\r",
+													"        pm.expect(cat).to.have.property(\"icon_url\");\r",
+													"        pm.expect(cat).to.have.property(\"status\");\r",
+													"    });\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "9b29c5b6-c6c1-4baf-9150-1eb75d8abd73",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/product-groups",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"product-groups"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "3",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "critical",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "aef69b8a-594a-43ee-9dc3-12741348e2f8",
 											"name": "Get Product Groups",
 											"originalRequest": {
 												"method": "GET",
@@ -4529,42 +5034,14 @@
 									]
 								}
 							],
-							"id": "314e9328-02c9-4166-8e90-b72a7ed207fc"
+							"id": "dd689015-3bc8-420c-b847-ac3d151b46ef"
 						},
 						{
 							"name": "Fetch a product group",
 							"item": [
 								{
-									"name": "Fetch a Product Group - Success",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "30956b8f-809b-4d93-82b9-eaa6a41f65a6",
-												"exec": [
-													"const jsonData = pm.response.json();\r",
-													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Valid Response Data is returned\", function () {\r",
-													"    pm.expect(jsonData.status).to.eql(\"success\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"id\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"name\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"description\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"status\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"icon_url\");\r",
-													"    pm.expect(jsonData.data).to.have.property(\"category_id\");\r",
-													"});\r",
-													""
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "241a3bc2-e105-4b5c-911a-e7b94a90b292",
+									"name": "Fetch a Product Group",
+									"id": "9025f85d-0758-4d74-b7b0-7fd744149042",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -4630,245 +5107,7 @@
 									},
 									"response": [
 										{
-											"id": "ab1cea1a-e90e-4bf3-be65-99243d0a2b5f",
-											"name": "Get Product Group",
-											"originalRequest": {
-												"method": "GET",
-												"header": [],
-												"url": {
-													"raw": "{{base_url}}/admin/product-groups/:product_group_id",
-													"host": [
-														"{{base_url}}"
-													],
-													"path": [
-														"admin",
-														"product-groups",
-														":product_group_id"
-													],
-													"query": [
-														{
-															"key": "limit",
-															"value": "3",
-															"disabled": true
-														},
-														{
-															"key": "page",
-															"value": "1",
-															"disabled": true
-														},
-														{
-															"key": "search",
-															"value": "critical",
-															"disabled": true
-														},
-														{
-															"key": "search_fields",
-															"value": "name",
-															"disabled": true
-														},
-														{
-															"key": "start_date",
-															"value": "2025-05-02",
-															"type": "text",
-															"disabled": true
-														},
-														{
-															"key": "end_date",
-															"value": "2025-05-03",
-															"type": "text",
-															"disabled": true
-														}
-													],
-													"variable": [
-														{
-															"key": "product_group_id",
-															"value": "1"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												},
-												{
-													"key": "Access-Control-Allow-Credentials",
-													"value": "true"
-												},
-												{
-													"key": "Access-Control-Expose-Headers",
-													"value": "x-encryption-key,x-encryption-iv"
-												},
-												{
-													"key": "Content-Security-Policy",
-													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-												},
-												{
-													"key": "Cross-Origin-Opener-Policy",
-													"value": "same-origin"
-												},
-												{
-													"key": "Cross-Origin-Resource-Policy",
-													"value": "cross-origin"
-												},
-												{
-													"key": "X-DNS-Prefetch-Control",
-													"value": "off"
-												},
-												{
-													"key": "X-Frame-Options",
-													"value": "SAMEORIGIN"
-												},
-												{
-													"key": "Strict-Transport-Security",
-													"value": "max-age=15552000; includeSubDomains"
-												},
-												{
-													"key": "X-Download-Options",
-													"value": "noopen"
-												},
-												{
-													"key": "X-Content-Type-Options",
-													"value": "nosniff"
-												},
-												{
-													"key": "Origin-Agent-Cluster",
-													"value": "?1"
-												},
-												{
-													"key": "X-Permitted-Cross-Domain-Policies",
-													"value": "none"
-												},
-												{
-													"key": "Referrer-Policy",
-													"value": "no-referrer"
-												},
-												{
-													"key": "X-XSS-Protection",
-													"value": "0"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Content-Length",
-													"value": "1432"
-												},
-												{
-													"key": "ETag",
-													"value": "W/\"598-nEaiOm25Mc1HGb1df9qdsdLLdEE\""
-												},
-												{
-													"key": "Date",
-													"value": "Mon, 05 May 2025 08:10:46 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "keep-alive"
-												},
-												{
-													"key": "Keep-Alive",
-													"value": "timeout=5"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"biller_code\": \"000003\"\n                    },\n                    \"status\": \"ACTIVE\",\n                    \"bank_code\": \"070\",\n                    \"bank_name\": null,\n                    \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                    \"created_on\": \"2025-05-05 09:10:00\",\n                    \"account_name\": \"MTN utilities\",\n                    \"account_type\": null,\n                    \"contract_code\": null,\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"9020022570\",\n                    \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                    \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Successful\",\n            \"message\": \"Transaction processed successfully\"\n        },\n        \"name\": \"GLODataKina\",\n        \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n        \"status\": \"active\",\n        \"short_name\": \"GLO utilities\",\n        \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n        \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n        \"aggregator\": \"SwitchTech\",\n        \"biller_code\": \"000003\",\n        \"category_id\": 2,\n        \"created_on\": \"2025-05-05 09:10:16\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-05 09:10:32\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
-										}
-									]
-								},
-								{
-									"name": "Fetch a Product Group - Invalid Product id",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "30956b8f-809b-4d93-82b9-eaa6a41f65a6",
-												"exec": [
-													"const jsonData = pm.response.json();\r",
-													"pm.test(\"Status code is 404\", function () {\r",
-													"    pm.response.to.have.status(404);\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Valid Response message is returned\", function () {\r",
-													"   pm.expect(jsonData.message).to.eql('Product group not found')\r",
-													"});\r",
-													""
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "2fab1120-da93-4290-a1f8-1c2979b058ec",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "noauth"
-										},
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{base_url}}/product-groups/:product_group_id",
-											"host": [
-												"{{base_url}}"
-											],
-											"path": [
-												"product-groups",
-												":product_group_id"
-											],
-											"query": [
-												{
-													"key": "limit",
-													"value": "3",
-													"disabled": true
-												},
-												{
-													"key": "page",
-													"value": "1",
-													"disabled": true
-												},
-												{
-													"key": "search",
-													"value": "critical",
-													"disabled": true
-												},
-												{
-													"key": "search_fields",
-													"value": "name",
-													"disabled": true
-												},
-												{
-													"key": "start_date",
-													"value": "2025-05-02",
-													"type": "text",
-													"disabled": true
-												},
-												{
-													"key": "end_date",
-													"value": "2025-05-03",
-													"type": "text",
-													"disabled": true
-												}
-											],
-											"variable": [
-												{
-													"key": "product_group_id",
-													"value": "100"
-												}
-											]
-										}
-									},
-									"response": [
-										{
-											"id": "8aba6a5f-8488-43b7-be5f-b53f23b10109",
+											"id": "2aeadfba-aece-4434-be74-9396d0824d9e",
 											"name": "Get Product Group",
 											"originalRequest": {
 												"method": "GET",
@@ -5021,10 +5260,457 @@
 									]
 								}
 							],
-							"id": "c3eab1b5-61e5-436e-aa24-bcac74af2524"
+							"id": "3ed9bc1e-7ee5-4683-9fee-aa81a6dfeb41"
 						}
 					],
-					"id": "8dee4701-c67f-4485-a7f9-5faf188cee6d"
+					"id": "ce86478a-0a24-41ba-92b6-8bb3acc55262"
+				},
+				{
+					"name": "Products",
+					"item": [
+						{
+							"name": "Fetch Products",
+							"item": [
+								{
+									"name": "Fetch Products - Success",
+									"id": "73c0093a-9394-40c3-849c-a39184f5b3c5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/products",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"products"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "3",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "critical",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "9d202f27-be32-464e-ad31-917659f12d02",
+											"name": "Get Product Groups",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"name\": \"MTNData{{$randomWord}}\",\n    \"short_name\": \"MTN utilities\",\n    \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n    \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n    \"aggregator\": \"SwitchTech\",\n    \"category_id\": \"1\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/admin/product-groups",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"admin",
+														"product-groups"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "3",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "critical",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1498"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"5da-C0zu6JSlQMzERwb0If1gfZKFnTM\""
+												},
+												{
+													"key": "Date",
+													"value": "Mon, 05 May 2025 08:10:40 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 1,\n                \"meta\": {\n                    \"data\": {\n                        \"error\": null,\n                        \"errors\": null,\n                        \"provider\": \"PaywithAccount\",\n                        \"client_info\": {\n                            \"id\": null,\n                            \"meta\": null,\n                            \"name\": null,\n                            \"colors\": null,\n                            \"css_url\": null,\n                            \"options\": null,\n                            \"logo_url\": null,\n                            \"merchant\": null,\n                            \"paginate\": false,\n                            \"bank_name\": null,\n                            \"console_url\": null,\n                            \"footer_text\": null,\n                            \"bank_cbn_code\": null,\n                            \"paginate_count\": 0,\n                            \"show_options_icon\": false,\n                            \"js_background_image\": null\n                        },\n                        \"provider_response\": {\n                            \"meta\": {\n                                \"biller_code\": \"000003\"\n                            },\n                            \"status\": \"ACTIVE\",\n                            \"bank_code\": \"070\",\n                            \"bank_name\": null,\n                            \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                            \"created_on\": \"2025-05-05 09:10:00\",\n                            \"account_name\": \"MTN utilities\",\n                            \"account_type\": null,\n                            \"contract_code\": null,\n                            \"currency_code\": \"NGN\",\n                            \"account_number\": \"9020022570\",\n                            \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                            \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                        },\n                        \"provider_response_code\": \"00\"\n                    },\n                    \"status\": \"Successful\",\n                    \"message\": \"Transaction processed successfully\"\n                },\n                \"name\": \"GLODataKina\",\n                \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n                \"status\": \"active\",\n                \"short_name\": \"GLO utilities\",\n                \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n                \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n                \"aggregator\": \"SwitchTech\",\n                \"biller_code\": \"000003\",\n                \"category_id\": 2,\n                \"created_on\": \"2025-05-05 09:10:16\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-05-05 09:10:32\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null\n            }\n        ],\n        \"meta\": {\n            \"records\": 1,\n            \"page\": 1,\n            \"pages\": 1,\n            \"page_size\": 10\n        }\n    }\n}"
+										}
+									]
+								}
+							],
+							"id": "497ded35-a5f3-4737-ae31-ce32fc18c2b4"
+						},
+						{
+							"name": "Fetch a product",
+							"item": [
+								{
+									"name": "Fetch a product - Success",
+									"id": "084fede4-c322-4ce0-966a-a6e392b6e458",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/products/:product_id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"products",
+												":product_id"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "3",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"disabled": true
+												},
+												{
+													"key": "search",
+													"value": "critical",
+													"disabled": true
+												},
+												{
+													"key": "search_fields",
+													"value": "name",
+													"disabled": true
+												},
+												{
+													"key": "start_date",
+													"value": "2025-05-02",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "end_date",
+													"value": "2025-05-03",
+													"type": "text",
+													"disabled": true
+												}
+											],
+											"variable": [
+												{
+													"key": "product_id",
+													"value": "3"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "9a423cee-2a3c-4820-9c19-ef271b2fb663",
+											"name": "Get Product Group",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/admin/product-groups/:product_group_id",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"admin",
+														"product-groups",
+														":product_group_id"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "3",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"disabled": true
+														},
+														{
+															"key": "search",
+															"value": "critical",
+															"disabled": true
+														},
+														{
+															"key": "search_fields",
+															"value": "name",
+															"disabled": true
+														},
+														{
+															"key": "start_date",
+															"value": "2025-05-02",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": "2025-05-03",
+															"type": "text",
+															"disabled": true
+														}
+													],
+													"variable": [
+														{
+															"key": "product_group_id",
+															"value": "1"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1432"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"598-nEaiOm25Mc1HGb1df9qdsdLLdEE\""
+												},
+												{
+													"key": "Date",
+													"value": "Mon, 05 May 2025 08:10:46 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 1,\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"biller_code\": \"000003\"\n                    },\n                    \"status\": \"ACTIVE\",\n                    \"bank_code\": \"070\",\n                    \"bank_name\": null,\n                    \"reference\": \"TXN_SCHDL20250505_061ebdb6\",\n                    \"created_on\": \"2025-05-05 09:10:00\",\n                    \"account_name\": \"MTN utilities\",\n                    \"account_type\": null,\n                    \"contract_code\": null,\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"9020022570\",\n                    \"customer_email\": \"paywithaccountMTNDataBaby@onepipe.io\",\n                    \"account_reference\": \"TXN_SCHDL20250505_061ebdb6\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Successful\",\n            \"message\": \"Transaction processed successfully\"\n        },\n        \"name\": \"GLODataKina\",\n        \"description\": \"Group for utility-related products like electricity, water, and internet.\",\n        \"status\": \"active\",\n        \"short_name\": \"GLO utilities\",\n        \"webhook_url\": \"https://api-pwaschedule.bits.dev.onepipe.io/v1/webhook/biller\",\n        \"icon_url\": \"https://cdn.example.com/icons/utilities.svg\",\n        \"aggregator\": \"SwitchTech\",\n        \"biller_code\": \"000003\",\n        \"category_id\": 2,\n        \"created_on\": \"2025-05-05 09:10:16\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-05 09:10:32\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
+										}
+									]
+								}
+							],
+							"id": "9686a345-ce94-4393-b967-39a2c50a55a9"
+						}
+					],
+					"id": "b74df929-7194-4022-98e8-60f7cfd1a2de"
 				},
 				{
 					"name": "Notifications",
