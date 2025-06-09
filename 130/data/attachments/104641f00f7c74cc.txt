@@ -1,0 +1,5 @@
+{
+    "name": "Generic Wooden Shoes",
+    "description": "Iusto atque quos est soluta et voluptatem omnis. Incidunt qui ipsa magni qui nihil voluptas. Explicabo animi fugit ut sequi id.",
+    "icon_url": "http://placeimg.com/640/480"
+}
