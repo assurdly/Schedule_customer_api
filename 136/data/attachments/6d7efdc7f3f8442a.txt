@@ -1,1 +1,0 @@
-{"status":"error","message":"Invalid reference or no pending verification found for this phone number.","data":{}}

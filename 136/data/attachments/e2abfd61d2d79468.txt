@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Rubber Car",
-    "description": "Nobis ut quo et dolores. Quos maxime ea accusantium possimus ut. In qui laborum perferendis sit dolore ut tempora. Quia labore soluta id.",
-    "icon_url": "http://placeimg.com/640/480"
-}
