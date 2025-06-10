@@ -1,5 +1,0 @@
-{
-    "name": "Generic Soft Gloves",
-    "description": "Unde a aut esse fuga. Est ipsam qui enim odio blanditiis. Neque labore officia nisi rerum omnis quidem omnis. Unde sit aperiam nam. Est consectetur ea.",
-    "icon_url": "http://placeimg.com/640/480"
-}
