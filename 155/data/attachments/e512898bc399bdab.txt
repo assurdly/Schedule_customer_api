@@ -1,0 +1,9 @@
+{
+    "product_group_id": "2",
+    "product_id": "2",
+    "amount": 100,
+    "frequency": "",
+    "start_date": "2025-06-30",
+    "account_number": "0000000000",
+    "bank_code": "070"
+}

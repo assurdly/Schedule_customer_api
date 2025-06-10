@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Soft Chips",
+    "description": "Possimus aut itaque voluptates quia dolor omnis repudiandae. Commodi praesentium reprehenderit. Tenetur mollitia et fugiat debitis enim doloremque rem recusandae minima. Voluptatem nesciunt ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}
