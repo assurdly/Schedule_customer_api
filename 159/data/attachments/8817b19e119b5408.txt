@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Steel Table",
+    "description": "Unde omnis animi harum dolor quia vel possimus reprehenderit. Repudiandae ut quasi dolores. Inventore in repellendus ut quia nihil ut dolore eos. Voluptatem dolorum rem assumenda vero praesentium. Deleniti et voluptas quasi distinctio expedita quidem. Ut officia non.",
+    "icon_url": "http://placeimg.com/640/480"
+}

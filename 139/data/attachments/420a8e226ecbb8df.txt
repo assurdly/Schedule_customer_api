@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Steel Pants",
-    "description": "Alias repellat eum quam esse. Corporis soluta ut maxime et facere voluptatum. Sit aut porro.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "otp": "28691",
-    "reference": "ba2d4203-09cf-48d5-b408-24a3572edded"
-}

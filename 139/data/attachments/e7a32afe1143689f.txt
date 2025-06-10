@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Frozen Soap",
-    "description": "Rerum et aliquam. Dicta placeat sunt consequatur praesentium sequi rerum repellendus nemo adipisci. Provident et voluptas dolorem ut repudiandae delectus non. Qui impedit nobis. Qui enim et aut rem eligendi omnis quia quia eligendi. Vel accusamus quaerat rerum ipsam sapiente eos.",
-    "icon_url": "http://placeimg.com/640/480"
-}
