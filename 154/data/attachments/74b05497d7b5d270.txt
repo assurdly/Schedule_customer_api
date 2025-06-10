@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Plastic Chips",
+    "description": "Sit at velit itaque voluptas. Omnis esse deserunt molestiae unde et omnis alias velit veniam. Vero pariatur est corrupti ut dolor id culpa dolore ipsum. Eligendi exercitationem sit. A consequuntur tempora ad officia esse. Aut non sit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

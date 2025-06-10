@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Rubber Fish",
-    "description": "Et ab officia consectetur tempore. Eaque magnam dolor hic qui. Cumque quia fugiat nostrum veritatis suscipit et. Quidem est voluptatibus sit placeat est ad labore repellendus sit. Eum a consequatur temporibus et ex ea.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Plastic Ball",
+    "description": "Aut sunt odio. Quidem praesentium quis quibusdam repellat tempora esse odit aliquam dolor. Quod vel nam omnis commodi rerum. Perferendis cum ut sed sit fuga est consequatur. Commodi architecto dolorum debitis aut et voluptatibus accusantium explicabo eligendi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
