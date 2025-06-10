@@ -1,0 +1,5 @@
+{
+    "name": "Practical Cotton Pants",
+    "description": "Illo dicta omnis eos reprehenderit aut omnis et. Facere id sapiente assumenda dolores quo accusantium. Qui perspiciatis ducimus earum ex. Reprehenderit quia asperiores officiis quia sed expedita dignissimos.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Concrete Keyboard",
-    "description": "Eum sit eveniet. Itaque tempore iure corporis esse vel numquam. Et vel occaecati. Aut similique nihil incidunt perspiciatis tempore magnam dolore dolores ab.",
-    "icon_url": "http://placeimg.com/640/480"
-}
