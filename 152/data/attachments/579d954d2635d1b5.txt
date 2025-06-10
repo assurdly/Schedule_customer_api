@@ -1,0 +1,5 @@
+{
+    "name": "Generic Wooden Gloves",
+    "description": "Repellendus quidem excepturi adipisci omnis voluptas accusamus quisquam qui. Quae repudiandae commodi voluptatem ut facere. Rerum veniam cumque ullam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

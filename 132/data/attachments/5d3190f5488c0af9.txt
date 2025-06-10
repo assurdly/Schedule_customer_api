@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Soft Tuna",
-    "description": "Velit qui sunt id voluptate magnam saepe non. Unde minus optio officiis. Sed aut voluptatibus dolore cumque delectus libero aut quia quo. Dicta enim odio dolore ex temporibus hic sint. Fugiat enim consequuntur aut reiciendis velit magnam laudantium expedita quisquam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

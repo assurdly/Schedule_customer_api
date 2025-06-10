@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Cotton Towels",
+    "description": "Voluptatum beatae eos consectetur commodi qui animi porro. Culpa ex voluptatibus placeat. Ipsa voluptas adipisci quaerat sunt at quas inventore.",
+    "icon_url": "http://placeimg.com/640/480"
+}
