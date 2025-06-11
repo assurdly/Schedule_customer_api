@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Soft Table",
+    "description": "Natus harum vel. Id laudantium ipsa iusto et est. Et voluptatum molestiae. Ducimus incidunt rem qui.",
+    "icon_url": "http://placeimg.com/640/480"
+}

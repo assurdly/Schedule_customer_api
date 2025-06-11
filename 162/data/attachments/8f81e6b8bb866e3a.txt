@@ -1,0 +1,5 @@
+{
+    "name": "Practical Soft Chips",
+    "description": "Nobis sunt enim aliquam. Qui velit aut mollitia qui est dolorem. Quidem sed fugit et. Voluptates ut itaque. Quia fugiat eos repellendus quo dicta quod. At iure voluptatem odio explicabo.",
+    "icon_url": "http://placeimg.com/640/480"
+}

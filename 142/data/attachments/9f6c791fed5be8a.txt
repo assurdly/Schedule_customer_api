@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Soft Computer",
-    "description": "Cumque consequatur voluptas laudantium esse saepe nulla. Harum error ut eos dicta eos similique molestiae est ut. Odit nobis optio. Expedita ipsum delectus minima aperiam nulla. Sequi eius qui distinctio quasi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
