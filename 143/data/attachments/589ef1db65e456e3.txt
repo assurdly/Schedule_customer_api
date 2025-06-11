@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Wooden Chair",
-    "description": "Consequatur natus natus maxime. At perferendis consectetur eum aspernatur aut qui. Error ipsum ea commodi saepe dignissimos ducimus et adipisci.",
-    "icon_url": "http://placeimg.com/640/480"
-}

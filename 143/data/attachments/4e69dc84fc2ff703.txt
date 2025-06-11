@@ -1,5 +1,0 @@
-{
-    "name": "Refined Fresh Bacon",
-    "description": "Beatae iste unde laborum beatae eveniet. Ut eum quaerat autem. Et porro nam velit veritatis. Harum debitis atque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

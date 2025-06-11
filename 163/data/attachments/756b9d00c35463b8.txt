@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Rubber Sausages",
+    "description": "Autem animi fugiat perferendis. Quibusdam nam excepturi est enim asperiores dolore. Ut placeat quia dignissimos aut ut quam harum non dignissimos. Et quibusdam ut sit nihil vel sunt incidunt. Est dignissimos distinctio impedit ut illo dolore tempore harum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
