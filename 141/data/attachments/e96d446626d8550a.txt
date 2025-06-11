@@ -1,5 +1,0 @@
-{
-    "name": "Small Metal Hat",
-    "description": "A facilis et velit provident officia inventore tenetur. Maiores iusto molestias voluptate a dolor. Asperiores at cupiditate eos. Id sed ipsa et expedita consectetur dolore tempore et earum. Libero eum aliquam ut nihil. Non fugit animi rem consequatur aut et inventore quos.",
-    "icon_url": "http://placeimg.com/640/480"
-}

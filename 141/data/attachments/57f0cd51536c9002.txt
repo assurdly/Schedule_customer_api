@@ -1,9 +1,0 @@
-const jsonData = pm.response.json();
-
-pm.test("Unauthorized access returns 401", function () {
-    pm.expect(pm.response.code).to.eql(401);
-});
-
-pm.test("Response returns valid message", function () {
-    pm.expect(jsonData.message).to.exist;
-})
