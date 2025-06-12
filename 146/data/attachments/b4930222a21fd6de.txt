@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Cotton Shoes",
-    "description": "Totam recusandae aut qui vel. Natus enim dolores ipsum. Dolorem dolore doloribus dolor vero ullam quo culpa blanditiis. Beatae consequatur temporibus vitae reprehenderit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,7 +1,0 @@
-pm.test("Email is required", function () {
-    const jsonData = pm.response.json();
-    pm.expect(jsonData.message).to.equal("Please enter a valid email address");
-});
-pm.test("Status code is 400", function () {
-    pm.response.to.have.status(400);
-});

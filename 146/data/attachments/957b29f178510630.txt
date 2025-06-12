@@ -1,5 +1,0 @@
-{
-    "name": "Generic Soft Bike",
-    "description": "Voluptatem placeat minima qui necessitatibus. Aut sit debitis. Velit eos perspiciatis nisi ratione voluptatem sit. Fuga aut deleniti. Nam illo aliquid occaecati.",
-    "icon_url": "http://placeimg.com/640/480"
-}
