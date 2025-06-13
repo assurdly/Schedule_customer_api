@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Rubber Cheese",
+    "description": "Dignissimos velit harum qui sint assumenda non ut qui veritatis. Aut qui ut explicabo. Optio est fugit qui dolorem facere sint explicabo. A quasi at occaecati.",
+    "icon_url": "http://placeimg.com/640/480"
+}
