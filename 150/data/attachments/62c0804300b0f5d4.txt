@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Cotton Shirt",
-    "description": "Alias porro quia voluptatem ullam. Voluptatem molestias id quia iste ea culpa excepturi. Vel qui consequatur eveniet cum ut qui ut earum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

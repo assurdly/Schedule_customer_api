@@ -1,7 +1,0 @@
-pm.test("Status code is 400", function () {
-    pm.response.to.have.status(400);
-});
-
-pm.test("Response message for blank phone number", function () {
-    pm.expect(pm.response.json().message).to.equal("Please enter a valid phone number");
-});

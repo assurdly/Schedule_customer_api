@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Steel Gloves",
+    "description": "Cupiditate voluptatem velit laudantium. Quis perferendis perspiciatis repudiandae eos. Quia porro cupiditate atque voluptas voluptate. Fuga deserunt similique est. Ad dolores magnam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

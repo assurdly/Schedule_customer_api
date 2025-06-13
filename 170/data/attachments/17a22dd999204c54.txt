@@ -1,0 +1,1 @@
+{"status":"error","message":"POST /v1/subscriptions/7 Not Found"}
