@@ -1,7 +1,0 @@
-{
-    "phone_number": "{{testnumber}}",
-    "email": "Elouise@mailinator.com",
-    "action": "signup"
-    
-   
-}

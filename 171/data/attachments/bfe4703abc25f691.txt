@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Wooden Soap",
+    "description": "Modi qui est cum aspernatur at et fugiat est. Ex corrupti inventore cum. Et perferendis iusto accusamus aperiam voluptatem. Ipsam eligendi ducimus aut soluta et quaerat.",
+    "icon_url": "http://placeimg.com/640/480"
+}
