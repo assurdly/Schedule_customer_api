@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Granite Shoes",
+    "description": "Voluptas voluptates velit et voluptatum et. Sint aut ut ad autem doloribus. Voluptatem doloremque impedit ea iusto.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Cotton Keyboard",
-    "description": "Est aut omnis aut accusamus suscipit ratione dolor nemo et. Vero explicabo in odio hic odit praesentium laborum ut asperiores. Nemo nihil adipisci dolor. Eaque officiis rem optio magnam. Deleniti voluptatum quibusdam in voluptates.",
-    "icon_url": "http://placeimg.com/640/480"
-}
