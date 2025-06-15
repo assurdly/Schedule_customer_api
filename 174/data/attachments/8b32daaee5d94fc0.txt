@@ -1,0 +1,5 @@
+{
+    "name": "Practical Steel Keyboard",
+    "description": "Ut illum cum sed et blanditiis pariatur. Voluptatum provident impedit neque temporibus fugiat esse. Nam adipisci sit alias vel non. Dicta dolore velit. Et omnis necessitatibus et facere non laboriosam quia dolorem est.",
+    "icon_url": "http://placeimg.com/640/480"
+}
