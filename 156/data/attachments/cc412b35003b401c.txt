@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Soft Car",
-    "description": "Et adipisci natus et quaerat. Aut explicabo qui veritatis esse consectetur voluptatem provident. Eligendi qui ut. Est voluptas ex non sed in laudantium a perferendis. Nulla architecto dolores doloribus nisi alias occaecati ut qui at.",
-    "icon_url": "http://placeimg.com/640/480"
-}
