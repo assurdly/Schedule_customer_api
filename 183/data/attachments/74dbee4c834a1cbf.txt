@@ -1,0 +1,5 @@
+{
+    "name": "Generic Concrete Hat",
+    "description": "Voluptates ullam omnis eius quaerat necessitatibus officia. Deleniti odit veniam voluptates consequatur similique. Nesciunt architecto vel qui similique perferendis ratione. Cumque porro et assumenda voluptate sed. Incidunt rerum similique ut recusandae ut. Mollitia commodi aliquid voluptatem neque.",
+    "icon_url": "http://placeimg.com/640/480"
+}
