@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Steel Car",
+    "description": "Voluptates consequuntur totam excepturi quasi amet aliquid. A doloribus nesciunt aut nihil vero dolor. Aut minima rerum aut commodi reiciendis commodi.",
+    "icon_url": "http://placeimg.com/640/480"
+}

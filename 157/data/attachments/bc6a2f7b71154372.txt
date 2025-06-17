@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Soft Car",
-    "description": "Et error ullam distinctio cumque dolore consequatur. Voluptatibus rerum est et. Omnis possimus atque odit corrupti porro neque laboriosam nihil et. Sequi hic hic et velit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
