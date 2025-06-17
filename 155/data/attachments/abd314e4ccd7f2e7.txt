@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Frozen Tuna",
-    "description": "Cupiditate et eligendi officia ut earum. Nulla corrupti eum autem. Eligendi id perferendis. Earum laudantium unde dicta voluptatem tenetur dolorem sunt.",
-    "icon_url": "http://placeimg.com/640/480"
-}
