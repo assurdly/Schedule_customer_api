@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Soft Fish",
+    "description": "Sint at nemo deserunt maxime veniam et. Quibusdam sint sit ad. Quod et minima cupiditate hic rerum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
