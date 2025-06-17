@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Frozen Towels",
-    "description": "Beatae recusandae aut. Voluptas exercitationem itaque doloribus perferendis consequatur est veniam sint mollitia. Temporibus accusantium impedit voluptatum aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

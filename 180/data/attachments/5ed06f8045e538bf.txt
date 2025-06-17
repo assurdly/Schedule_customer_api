@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Soft Fish",
+    "description": "Rerum et nobis. Id sint totam quod. Exercitationem necessitatibus placeat veritatis dolor. Sed voluptatem voluptatem voluptatem voluptas laudantium nisi ex.",
+    "icon_url": "http://placeimg.com/640/480"
+}

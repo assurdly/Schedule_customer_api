@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Metal Car",
-    "description": "Animi itaque reprehenderit est non voluptatem quisquam ullam. Corrupti quisquam maiores repellendus ullam est. Reprehenderit commodi voluptas enim ea. Vitae nihil mollitia fugit sunt. Distinctio ea exercitationem mollitia nulla qui velit fugiat eveniet. Aperiam molestiae et magnam molestiae repellendus corporis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
