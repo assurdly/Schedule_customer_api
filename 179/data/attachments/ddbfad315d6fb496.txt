@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Shoes",
+    "description": "Distinctio perferendis repellendus ipsum. Molestiae eligendi ratione ipsam voluptate ut aliquid. Unde veritatis nam quaerat dolorem consequatur eaque quos vitae.",
+    "icon_url": "http://placeimg.com/640/480"
+}

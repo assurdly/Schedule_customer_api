@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Metal Mouse",
-    "description": "A consectetur at nihil ut rerum ut id. Doloremque quia velit voluptate inventore aut nam inventore. Suscipit adipisci rerum libero facilis corrupti. Minus necessitatibus quisquam voluptate eius. Mollitia nesciunt adipisci voluptatibus rerum numquam laudantium dolorem est. Perspiciatis rerum culpa accusantium ullam.",
-    "icon_url": "http://placeimg.com/640/480"
-}
