@@ -1,5 +1,0 @@
-{
-    "name": "Generic Plastic Cheese",
-    "description": "Veritatis impedit et aliquid modi explicabo ut. Ducimus provident vel harum iusto sit et dicta. Aliquid ducimus quo molestiae beatae. Consequatur sed at earum quis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Concrete Chicken",
+    "description": "Suscipit sequi enim doloremque et autem. Quo dolor est cupiditate quam sit enim. Repudiandae omnis autem necessitatibus laboriosam illum sequi repellat deserunt aliquam. Nihil explicabo omnis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

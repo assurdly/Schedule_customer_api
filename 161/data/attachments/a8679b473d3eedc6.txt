@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Granite Hat",
-    "description": "Nostrum et quo eligendi amet. Sed sint corrupti dolor aut vitae facilis iusto modi. Aut deserunt quos est nostrum officiis eos. Autem suscipit dolor in soluta neque necessitatibus. Vero porro quo qui asperiores aperiam adipisci delectus et facilis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
