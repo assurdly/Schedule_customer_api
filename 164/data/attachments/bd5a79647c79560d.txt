@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Steel Sausages",
-    "description": "Vel recusandae esse nesciunt fugit inventore. Sed numquam quas id sequi. Dicta veritatis officiis. Eos necessitatibus eum. Quaerat suscipit cum. Voluptatem temporibus voluptatem.",
-    "icon_url": "http://placeimg.com/640/480"
-}

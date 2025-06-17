@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Metal Keyboard",
+    "description": "Quaerat in aperiam nisi est hic qui maiores. Et asperiores fugit excepturi sunt aspernatur quod praesentium perferendis. Voluptatem nesciunt ut magni sed eius itaque doloribus nostrum esse. Quaerat tempore laborum excepturi. Officiis non et repudiandae eligendi quasi nihil cupiditate. Unde nam maxime ex ipsa reprehenderit quibusdam omnis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

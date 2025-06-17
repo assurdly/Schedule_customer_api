@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Soft Chicken",
-    "description": "Incidunt quod nesciunt cumque in velit id dolor repudiandae sit. Necessitatibus eum maiores cum minima temporibus repudiandae non rerum. Officiis autem assumenda repudiandae omnis dolorum. Ad id et qui. Odit rerum nam atque similique excepturi quae. Quis dolorem aut sunt ipsum qui quod architecto voluptas nisi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
