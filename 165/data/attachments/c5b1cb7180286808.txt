@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Plastic Fish",
-    "description": "Enim cum rerum facilis qui non. Non in totam esse distinctio sit. Consequatur deleniti officia qui non. Inventore qui dolorem iste ut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

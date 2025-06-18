@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Concrete Soap",
-    "description": "Et amet atque. Ut commodi rerum minima laborum maxime quo praesentium fuga sed. Porro neque praesentium odio.",
-    "icon_url": "http://placeimg.com/640/480"
-}
