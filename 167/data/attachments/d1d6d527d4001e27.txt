@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Plastic Soap",
-    "description": "Consequatur ea aspernatur est veniam totam excepturi ipsa ut facilis. Amet ab ea et eum. Amet ut modi.",
-    "icon_url": "http://placeimg.com/640/480"
-}

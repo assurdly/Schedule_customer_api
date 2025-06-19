@@ -1,5 +1,0 @@
-{
-    "name": "Practical Rubber Fish",
-    "description": "Quia qui soluta necessitatibus id dolorem eius neque. Nesciunt corrupti ea facilis illo maxime et facere possimus. Minima repellendus eos esse id. Saepe repellendus est tenetur cumque molestiae est exercitationem laboriosam. Ut qui quisquam. Non velit deleniti.",
-    "icon_url": "http://placeimg.com/640/480"
-}
