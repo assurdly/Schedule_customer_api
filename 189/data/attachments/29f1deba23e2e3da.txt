@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Cotton Car",
+    "description": "Tenetur commodi nihil inventore fugit pariatur et facilis voluptatem facere. Fuga ab et possimus dolorem animi suscipit incidunt. Minus magnam eaque est mollitia et voluptatem. Eum ipsum et fugit unde quia aut corrupti occaecati. Similique velit nisi quod.",
+    "icon_url": "http://placeimg.com/640/480"
+}

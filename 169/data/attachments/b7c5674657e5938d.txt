@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Fresh Keyboard",
-    "description": "Nulla quas odit error possimus ipsum beatae. Et repudiandae necessitatibus eveniet suscipit non eos qui dolores enim. Eum fugit veniam rerum consequatur est doloremque ex. Laudantium soluta ea velit qui quod porro distinctio adipisci.",
-    "icon_url": "http://placeimg.com/640/480"
-}

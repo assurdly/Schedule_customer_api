@@ -1,5 +1,0 @@
-{
-    "name": "Refined Cotton Shoes",
-    "description": "Autem maiores at odio iste corrupti illo. Laborum facere aliquam dicta animi est. Aperiam voluptas molestiae sit voluptates excepturi sit. Minus numquam tenetur perferendis. Consequatur corrupti aut itaque.",
-    "icon_url": "http://placeimg.com/640/480"
-}
