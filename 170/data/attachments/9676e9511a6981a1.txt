@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Granite Pants",
-    "description": "Necessitatibus et sed. Omnis praesentium maxime. Dicta sapiente rerum perferendis. Velit omnis ut ad quia.",
-    "icon_url": "http://placeimg.com/640/480"
-}
