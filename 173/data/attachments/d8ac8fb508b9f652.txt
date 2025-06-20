@@ -1,5 +1,0 @@
-{
-    "name": "Practical Fresh Fish",
-    "description": "Aspernatur maxime dolores sit facilis qui possimus. Et possimus omnis odio nobis consequatur non. Sed sapiente autem fuga optio eaque vel voluptas.",
-    "icon_url": "http://placeimg.com/640/480"
-}

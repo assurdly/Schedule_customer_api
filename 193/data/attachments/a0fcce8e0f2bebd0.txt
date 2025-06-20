@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Fresh Mouse",
+    "description": "Cumque accusantium possimus aliquam dignissimos dolor. Minima id possimus voluptates aperiam corrupti non. Voluptatem cumque nesciunt. Tempora doloremque adipisci. Iure sint itaque sequi id ut laborum. Nihil rerum dignissimos et harum quia qui nihil nemo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
