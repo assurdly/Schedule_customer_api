@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Fresh Mouse",
-    "description": "Rerum officia ut sit. Voluptatem animi rerum porro molestias adipisci. Odio omnis error.",
-    "icon_url": "http://placeimg.com/640/480"
-}
