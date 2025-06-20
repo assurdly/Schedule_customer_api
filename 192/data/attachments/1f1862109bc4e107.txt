@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Cotton Mouse",
+    "description": "Eaque suscipit qui. Sit quibusdam aut iusto reprehenderit nostrum enim. Necessitatibus nihil autem dolores nam nobis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

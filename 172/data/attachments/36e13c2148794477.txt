@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Wooden Computer",
-    "description": "Sit enim ab consequuntur. Ut eum perferendis fugiat consequatur saepe aut. Est perspiciatis quo recusandae et est dolor et debitis. Nam blanditiis iste ipsum voluptatem doloremque libero explicabo. Magni qui quidem quia. Magnam quas eum et sit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

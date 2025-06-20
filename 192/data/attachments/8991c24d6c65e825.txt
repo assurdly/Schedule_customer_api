@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Fresh Cheese",
+    "description": "Cumque et quo sed porro culpa. Consequatur saepe quis odit voluptates. Reprehenderit omnis nostrum maxime atque facilis sed voluptates ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}
