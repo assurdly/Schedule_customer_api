@@ -1,0 +1,5 @@
+{
+    "name": "Generic Metal Chair",
+    "description": "Animi eos at ea expedita eius est. Dolorum recusandae dolores consequatur. Ratione inventore suscipit. Et quia maxime reprehenderit unde sed aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Generic Wooden Fish",
-    "description": "Numquam cupiditate iusto debitis quasi et aut sequi. Animi eos quia sed corrupti sint laboriosam consequatur inventore. Ducimus non aspernatur quae. Non rerum distinctio ut occaecati nesciunt. Delectus eos autem adipisci ea qui et ipsa consectetur.",
-    "icon_url": "http://placeimg.com/640/480"
-}

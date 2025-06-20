@@ -1,4 +1,0 @@
-{
-    "first_name": "Lauretta",
-    "last_name": "Weber"
-}
