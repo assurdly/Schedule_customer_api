@@ -8671,7 +8671,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{customer_access_token}}"
+										"token": "{{access_token}}"
 									}
 								},
 								"method": "GET",
