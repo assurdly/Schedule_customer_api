@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Plastic Bacon",
-    "description": "Aut sit ab sit officiis non nam repellat. Omnis adipisci veniam fugit corrupti sint temporibus officiis et. Enim animi voluptatem sapiente provident ut rerum est vel esse. Et quia vitae quibusdam impedit eum laborum eos officiis. Et in sed sed doloremque.",
-    "icon_url": "http://placeimg.com/640/480"
-}
