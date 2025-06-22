@@ -9275,8 +9275,8 @@
 												"exec": [
 													"const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test('Status code is 401', function () {\r",
-													"    pm.response.to.have.status(401);\r",
+													"pm.test('Status code is 404', function () {\r",
+													"    pm.response.to.have.status(404);\r",
 													"});\r",
 													"\r",
 													"pm.test('Error message is being returned', function () {\r",
@@ -9300,12 +9300,27 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUwNTgxNzAzLCJleHAiOjE3NTA1ODUzMDN9.7inJc7yT9k-DyrINL4AmYjckdK97ATV_9Lthu339cPT"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": "{{base_url}}/transactions/1"
+										"url": {
+											"raw": "{{base_url}}/transactions/:id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"transactions",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "1003"
+												}
+											]
+										}
 									},
 									"response": [
 										{
@@ -9412,7 +9427,7 @@
 									]
 								},
 								{
-									"name": "Get Transactions by ID Copy 2",
+									"name": "Get Transactions by ID - Invalid Auth Token",
 									"event": [
 										{
 											"listen": "test",
@@ -9456,6 +9471,152 @@
 									"response": [
 										{
 											"id": "6d36686d-96d8-42b9-910e-184fdb200052",
+											"name": "Get Transactions by ID",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": "{{base_url}}/transactions/1"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "690"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"2b2-/Yo0UtlBw3txEsdKh+KS7rDdktM\""
+												},
+												{
+													"key": "Date",
+													"value": "Thu, 19 Jun 2025 08:13:32 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Transaction retrieved successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"type\": \"debit\",\n        \"amount\": \"1000.00\",\n        \"reference\": \"TEST_TXN_1750319917081\",\n        \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"direct_test\\\"}\",\n        \"status\": \"successful\",\n        \"created_on\": \"2025-06-19 08:58:37\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-06-19 08:58:37\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null,\n        \"customer_id\": 1,\n        \"subscription_id\": null,\n        \"customer_reference\": \"CUST_+2348160314935\",\n        \"subscription\": null,\n        \"customer\": {\n            \"id\": 1,\n            \"first_name\": \"test\",\n            \"last_name\": \"test\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"+2348160314935\",\n            \"status\": \"pending\",\n            \"last_login_at\": \"2025-06-19 09:10:51\",\n            \"isVerified\": true\n        }\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Get Transactions by ID - Invalid Auth Token Copy",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "2288f5d6-77da-4813-8cce-dabcac860da6",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test('Status code is 401', function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});\r",
+													"\r",
+													"pm.test('Error message is being returned', function () {\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"});\r",
+													"\r",
+													"pm.test('Data returns empty', function () {\r",
+													"    pm.expect(jsonData.data).to.deep.equal({});\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "0ce21149-d124-458b-bda6-d828a13d5ece",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUwNTgxNzAzLCJleHAiOjE3NTA1ODUzMDN9.7inJc7yT9k-DyrINL4AmYjckdK97ATV_9Lthu339cPT"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/transactions/1"
+									},
+									"response": [
+										{
+											"id": "055642ae-c346-4170-9678-14eab1590ed4",
 											"name": "Get Transactions by ID",
 											"originalRequest": {
 												"method": "GET",
