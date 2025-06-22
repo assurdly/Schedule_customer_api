@@ -10288,9 +10288,34 @@
 												"token": "{{access_token}}"
 											}
 										},
-										"method": "GET",
+										"method": "POST",
 										"header": [],
-										"url": "{{base_url}}/transactions/1"
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"reason\" :\"test\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{base_url}}/transactions/:id/dispute",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"transactions",
+												":id",
+												"dispute"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "10"
+												}
+											]
+										}
 									},
 									"response": []
 								}
