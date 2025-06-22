@@ -2214,7 +2214,7 @@
 											"script": {
 												"id": "c48b3c1f-875c-4185-934f-564c20730a07",
 												"exec": [
-													"pm.test(\"Status code is 400\", function () {\r",
+													"pm.test(\"Status code is 404\", function () {\r",
 													"    pm.response.to.have.status(404);\r",
 													"});\r",
 													"\r",
