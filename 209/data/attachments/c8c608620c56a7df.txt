@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Chicken",
+    "description": "Mollitia quis saepe voluptas ipsum porro placeat aliquam. Voluptatibus eum facilis quibusdam aut veniam adipisci vel enim rem. Aut unde rerum saepe facere eius in. Ut laudantium facere esse corporis quae et optio. Quis ea quas sed. Vel dolores dolore officiis eum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

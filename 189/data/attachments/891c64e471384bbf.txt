@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Plastic Chips",
-    "description": "Doloremque omnis earum quaerat officiis perferendis rem non. Eos labore incidunt fugit impedit fuga minus magnam. Tenetur qui earum.",
-    "icon_url": "http://placeimg.com/640/480"
-}
