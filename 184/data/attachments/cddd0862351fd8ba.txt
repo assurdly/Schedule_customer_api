@@ -1,8 +1,0 @@
-pm.test("Status code is 400", function () {
-    pm.response.to.have.status(404);
-});
-
-pm.test("Validate error message for invalid reference", function () {
-    pm.expect(pm.response.json().status).to.equal("error");
-    pm.expect(pm.response.json().message).to.exist;
-});
