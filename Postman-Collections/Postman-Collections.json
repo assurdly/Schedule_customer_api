@@ -8817,7 +8817,7 @@
 									]
 								},
 								{
-									"name": "Get Transactions Copy",
+									"name": "Get Transactions - Invalid Token",
 									"id": "02b2bfdc-0c46-40d7-a581-c22c2bf91d22",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
