@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Rubber Gloves",
-    "description": "Beatae sed aut libero aut ut ipsum rerum. Aut qui dolor pariatur voluptatem nam. Saepe temporibus et consequatur impedit laudantium temporibus.",
-    "icon_url": "http://placeimg.com/640/480"
-}
