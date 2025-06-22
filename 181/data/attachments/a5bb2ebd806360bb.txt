@@ -1,5 +1,0 @@
-{
-    "name": "Small Concrete Bike",
-    "description": "Alias voluptatem nihil culpa quis sed ad inventore unde. Consequatur et voluptatem. Eos sit dolore voluptas rem repudiandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
