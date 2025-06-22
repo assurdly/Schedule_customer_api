@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Wooden Chair",
+    "description": "Iusto adipisci amet doloribus natus earum. Non quod vero qui aliquid fugit. Est libero consequatur libero consequuntur quasi voluptas. Optio eos tenetur nihil quo rerum unde sit qui. Adipisci aut culpa placeat accusamus iste.",
+    "icon_url": "http://placeimg.com/640/480"
+}
