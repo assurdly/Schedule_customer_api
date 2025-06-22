@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Fresh Bacon",
+    "description": "Quia iusto nihil ut a sed. Mollitia eaque dolores velit esse quidem error et. Eligendi nostrum repudiandae. Voluptatem facere architecto in in recusandae et atque ut est.",
+    "icon_url": "http://placeimg.com/640/480"
+}

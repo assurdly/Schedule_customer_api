@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Frozen Tuna",
+    "description": "Dolores in dolorem nisi nesciunt. Velit est ullam. Id beatae quibusdam velit repellendus aut sed provident sint.",
+    "icon_url": "http://placeimg.com/640/480"
+}
