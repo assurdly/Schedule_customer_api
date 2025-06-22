@@ -5877,7 +5877,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"17\",\n    \"product_id\": \"34\",\n    \"amount\": 1500,\n    \"frequency\": \"weekly\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"17\",\n    \"product_id\": \"34\",\n    \"amount\": 1500,\n    \"frequency\": \"weekly\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\",\n    \"recipient_identifier\": \"09055755671\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6038,7 +6038,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 100,\n    \"frequency\": \"\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 100,\n    \"frequency\": \"\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\",\n    \"recipient_identifier\": \"09055755671\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6199,7 +6199,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": -100,\n    \"frequency\": \"weekly\",\n    \"start_date\": \"2025-06-10\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": -100,\n    \"frequency\": \"weekly\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"070\",\n    \"recipient_identifier\": \"09055755671\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
