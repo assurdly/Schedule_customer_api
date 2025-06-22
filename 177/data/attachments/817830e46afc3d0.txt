@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Soft Pizza",
-    "description": "Iste dolore ut cumque sapiente. Qui expedita quisquam reprehenderit. Commodi repellendus iure expedita non. Vel voluptates provident qui commodi aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

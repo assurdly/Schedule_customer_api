@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Soft Table",
+    "description": "Eius aspernatur dicta qui consequatur ut. Est voluptas et sequi corporis ut quidem voluptates. Nihil voluptatibus possimus quo dolorum. Illo et cupiditate.",
+    "icon_url": "http://placeimg.com/640/480"
+}

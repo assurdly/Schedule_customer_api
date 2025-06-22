@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Steel Bike",
+    "description": "Quia mollitia officia dolorem sunt magnam reiciendis. Quidem vel nam beatae veritatis laborum. Et omnis exercitationem natus consequatur iure cumque architecto ullam adipisci. Qui sint placeat cumque omnis sed eum est saepe mollitia. Dicta et similique placeat aut ut ut culpa esse velit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
