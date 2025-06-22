@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Cotton Soap",
+    "description": "Aut incidunt odit numquam architecto optio voluptas deleniti cum. Molestiae quasi maxime voluptas fugit sint ab numquam voluptas. In natus autem dolores cum nostrum dolores dicta. Ea blanditiis non exercitationem consequatur voluptates repellendus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

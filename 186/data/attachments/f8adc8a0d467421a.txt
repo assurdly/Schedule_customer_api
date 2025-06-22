@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Frozen Fish",
-    "description": "Dignissimos sint ut qui voluptate velit minima illo autem voluptatem. Sunt magni laboriosam ratione ducimus harum ipsum est quo laudantium. Ullam est et architecto voluptates et fugit sit. Fugit voluptate quasi.",
-    "icon_url": "http://placeimg.com/640/480"
-}

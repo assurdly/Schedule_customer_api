@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Fresh Table",
-    "description": "Qui ab ipsam non optio iure repellendus. Et et et quaerat soluta rerum id nihil et. Iure voluptate deleniti atque cumque mollitia aut. Sed voluptas vero est et qui fuga. Fugit autem molestiae expedita et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
