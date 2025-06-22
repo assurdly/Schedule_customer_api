@@ -1,5 +1,0 @@
-{
-    "name": "Generic Granite Pizza",
-    "description": "Omnis quo iure omnis dicta. Doloremque quod aperiam consectetur consequuntur qui. Ea ratione eveniet nobis ea. Unde consequuntur recusandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Small Rubber Sausages",
+    "description": "Maxime ut inventore. Et et consequatur numquam. Consequatur ipsa tempore rerum non consectetur est officiis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

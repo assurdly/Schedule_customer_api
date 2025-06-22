@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Steel Car",
+    "description": "Molestiae quas sit eos eius et cumque. Dolorem dolorem repellendus. Qui qui aut eos. Itaque consectetur nisi possimus quaerat aut voluptatem. Et quas consequatur rerum aliquid omnis soluta eius id.",
+    "icon_url": "http://placeimg.com/640/480"
+}
