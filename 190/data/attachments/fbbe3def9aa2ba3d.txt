@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Plastic Tuna",
-    "description": "Quasi aperiam harum et sunt sed eius. Sed quas quaerat. Quidem voluptatum quidem quasi in odit velit dolorem.",
-    "icon_url": "http://placeimg.com/640/480"
-}

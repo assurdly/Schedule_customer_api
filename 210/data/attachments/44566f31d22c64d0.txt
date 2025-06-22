@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Wooden Bacon",
+    "description": "Nobis perspiciatis nostrum voluptas corrupti recusandae cupiditate. Et recusandae dolorem dolorem magnam eveniet molestiae rerum corporis. Praesentium sequi cumque sit rerum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
