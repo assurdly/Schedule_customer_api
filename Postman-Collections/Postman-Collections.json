@@ -7277,8 +7277,7 @@
 													"\r",
 													"pm.test(\"Response body has correct structure\", function () {\r",
 													"    pm.expect(jsonData).to.have.property(\"message\", \"success\");\r",
-													"    pm.expect(jsonData).to.have.property(\"data\");\r",
-													"    pm.expect(jsonData.data).to.be.an(\"array\");\r",
+													"    pm.expect(jsonData.data).to.be.an(\"object\");\r",
 													"});"
 												],
 												"type": "text/javascript",
@@ -8027,7 +8026,7 @@
 											"variable": [
 												{
 													"key": "subscription_id",
-													"value": "100"
+													"value": "1005"
 												}
 											]
 										}
