@@ -1582,6 +1582,34 @@
 								},
 								{
 									"name": "customer login - new user",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "5649aa8a-4116-4e60-84de-29f964a70f72",
+												"exec": [
+													"const response = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Validate the status field\", function (){\r",
+													" pm.expect(response).to.have.property('status');\r",
+													" pm.expect(response.status).to.be.a('string');\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the error message\", function (){\r",
+													" pm.expect(response).to.have.property('message');\r",
+													" pm.expect(response.message).to.exist;\r",
+													"}),\r",
+													"\r",
+													"pm.test(\"Validate the error message\", function (){\r",
+													" pm.expect(response.data).to.be.an('object').and.empty;\r",
+													"});\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "422dbb1c-3b9a-4b1b-8590-aa24d7ce48d7",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
