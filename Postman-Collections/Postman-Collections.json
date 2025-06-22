@@ -6360,7 +6360,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"ffsshh\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"account_number\": \"0000000000\",\n    \"bank_code\": \"ffsshh\",\n    \"recipient_identifier\": \"09055755671\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -6521,7 +6521,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"start_date\": \"2025-06-30\",\n    \"account_number\": \"22399\",\n    \"bank_code\": \"070\"\n}",
+											"raw": "{\n    \"product_group_id\": \"2\",\n    \"product_id\": \"2\",\n    \"amount\": 2000,\n    \"frequency\": \"daily\",\n    \"account_number\": \"22399\",\n    \"bank_code\": \"070\",\n    \"recipient_identifier\": \"09055755671\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
