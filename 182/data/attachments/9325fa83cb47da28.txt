@@ -1,5 +1,0 @@
-{
-    "name": "Generic Concrete Mouse",
-    "description": "Et provident aut qui. Molestiae magnam numquam mollitia hic sed. Enim praesentium facere rem ex voluptas sit est consequatur. Ab iusto similique cumque.",
-    "icon_url": "http://placeimg.com/640/480"
-}
