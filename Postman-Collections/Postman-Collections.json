@@ -8949,6 +8949,31 @@
 							"item": [
 								{
 									"name": "Get Transactions by ID",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "2288f5d6-77da-4813-8cce-dabcac860da6",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test('Status code is 401', function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});\r",
+													"\r",
+													"pm.test('Error message is being returned', function () {\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"});\r",
+													"\r",
+													"pm.test('Data returns empty', function () {\r",
+													"    pm.expect(jsonData.data).to.deep.equal({});\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "cf34755c-a1ac-4e29-a60c-cb715b9553ae",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -8957,7 +8982,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUwNTgxNzAzLCJleHAiOjE3NTA1ODUzMDN9.7inJc7yT9k-DyrINL4AmYjckdK97ATV_9Lthu339cPT"
 											}
 										},
 										"method": "GET",
