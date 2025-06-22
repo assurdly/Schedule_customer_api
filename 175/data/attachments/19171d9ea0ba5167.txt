@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Metal Chair",
-    "description": "Illum aut tenetur officiis incidunt. Tempora eveniet natus sed. Voluptatum labore officia non. Sit sit voluptatem illo. Itaque voluptas porro ipsum nemo. Reiciendis eum quo numquam aperiam deserunt magnam ut.",
-    "icon_url": "http://placeimg.com/640/480"
-}
