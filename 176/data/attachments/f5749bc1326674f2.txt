@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Wooden Gloves",
-    "description": "Optio maxime et est aut quo et eos ipsa. Voluptas fugit quo perferendis quibusdam doloremque. Quia nulla rerum suscipit. Ad id porro deleniti id. Accusamus est enim iste possimus ex iusto et. Occaecati tempora labore ad veniam ut error dicta aut enim.",
-    "icon_url": "http://placeimg.com/640/480"
-}

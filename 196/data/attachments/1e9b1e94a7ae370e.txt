@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Frozen Cheese",
+    "description": "Itaque ipsum veritatis quidem accusantium eum. Eos voluptatem explicabo qui tempore corrupti. Facilis ut nisi vel fuga dolores quas ut molestiae.",
+    "icon_url": "http://placeimg.com/640/480"
+}

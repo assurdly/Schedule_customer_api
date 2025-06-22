@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Rubber Keyboard",
-    "description": "Aliquid ipsum iusto qui aut non nulla voluptas qui voluptatum. Totam quam iste laboriosam. Ut vel facere voluptas corrupti veritatis. Minus voluptatem velit debitis est nulla tempore dolor. Aspernatur illo ipsam. Consequatur sit et consequatur sequi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
