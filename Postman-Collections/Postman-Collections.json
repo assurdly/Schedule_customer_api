@@ -8690,295 +8690,278 @@
 					"item": [
 						{
 							"name": "Get Transactions",
-							"id": "3509609c-aaf7-4fab-9cb4-dcfd2890919e",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{base_url}}/transactions"
-							},
-							"response": [
+							"item": [
 								{
-									"id": "01b01f43-6f72-4c17-a9e9-607ce634ffbd",
 									"name": "Get Transactions",
-									"originalRequest": {
+									"id": "3509609c-aaf7-4fab-9cb4-dcfd2890919e",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
 										"method": "GET",
 										"header": [],
 										"url": "{{base_url}}/transactions"
 									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Access-Control-Allow-Credentials",
-											"value": "true"
-										},
-										{
-											"key": "Access-Control-Expose-Headers",
-											"value": "x-encryption-key,x-encryption-iv"
-										},
-										{
-											"key": "Content-Security-Policy",
-											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-										},
-										{
-											"key": "Cross-Origin-Opener-Policy",
-											"value": "same-origin"
-										},
-										{
-											"key": "Cross-Origin-Resource-Policy",
-											"value": "cross-origin"
-										},
-										{
-											"key": "X-DNS-Prefetch-Control",
-											"value": "off"
-										},
-										{
-											"key": "X-Frame-Options",
-											"value": "SAMEORIGIN"
-										},
-										{
-											"key": "Strict-Transport-Security",
-											"value": "max-age=15552000; includeSubDomains"
-										},
-										{
-											"key": "X-Download-Options",
-											"value": "noopen"
-										},
-										{
-											"key": "X-Content-Type-Options",
-											"value": "nosniff"
-										},
-										{
-											"key": "Origin-Agent-Cluster",
-											"value": "?1"
-										},
-										{
-											"key": "X-Permitted-Cross-Domain-Policies",
-											"value": "none"
-										},
-										{
-											"key": "Referrer-Policy",
-											"value": "no-referrer"
-										},
-										{
-											"key": "X-XSS-Protection",
-											"value": "0"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json; charset=utf-8"
-										},
-										{
-											"key": "Content-Length",
-											"value": "6916"
-										},
-										{
-											"key": "ETag",
-											"value": "W/\"1b04-HPXFtZc1WeyRLrUdMfBPa2Ad/jE\""
-										},
-										{
-											"key": "Date",
-											"value": "Thu, 19 Jun 2025 08:10:59 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive"
-										},
-										{
-											"key": "Keep-Alive",
-											"value": "timeout=5"
+											"id": "01b01f43-6f72-4c17-a9e9-607ce634ffbd",
+											"name": "Get Transactions",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": "{{base_url}}/transactions"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "6916"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"1b04-HPXFtZc1WeyRLrUdMfBPa2Ad/jE\""
+												},
+												{
+													"key": "Date",
+													"value": "Thu, 19 Jun 2025 08:10:59 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [
+												{
+													"expires": "Invalid Date"
+												}
+											],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Your transactions retrieved successfully\",          //The data is not complete, should contain full details of the subscription\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 12,\n                \"type\": \"debit\",\n                \"amount\": \"600.00\",\n                \"reference\": \"TXN_SCHDL_20250619_786d306d\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending2\\\",\\\"provider_reference\\\":\\\"PENDING2_1750320083429\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 09:01:23\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:23\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 9,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_15f70629\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750320081403\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:22\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 10,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_4587fa57\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750320082282\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:22\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 11,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_0acc0ec9\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750320082336\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:23\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 6,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_1da50680\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750320048187\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 7,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_8e10bb43\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750320048630\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 8,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_5e489d40\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750320048668\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 3,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_0ff61658\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750319977008\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 4,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_d375a537\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750319977352\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 5,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_5a720c53\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750319977387\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            }\n        ],\n        \"meta\": {\n            \"records\": 12,\n            \"page\": 1,\n            \"pages\": 2,\n            \"page_size\": 10\n        }\n    }\n}"
 										}
-									],
-									"cookie": [
-										{
-											"expires": "Invalid Date"
-										}
-									],
-									"responseTime": null,
-									"body": "{\n    \"status\": \"success\",\n    \"message\": \"Your transactions retrieved successfully\",          //The data is not complete, should contain full details of the subscription\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 12,\n                \"type\": \"debit\",\n                \"amount\": \"600.00\",\n                \"reference\": \"TXN_SCHDL_20250619_786d306d\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending2\\\",\\\"provider_reference\\\":\\\"PENDING2_1750320083429\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 09:01:23\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:23\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 9,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_15f70629\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750320081403\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:22\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 10,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_4587fa57\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750320082282\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:22\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 11,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_0acc0ec9\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750320082336\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:01:22\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:01:23\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 6,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_1da50680\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750320048187\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 7,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_8e10bb43\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750320048630\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 8,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_5e489d40\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750320048668\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 09:00:48\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 09:00:48\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 3,\n                \"type\": \"debit\",\n                \"amount\": \"2500.00\",\n                \"reference\": \"TXN_SCHDL_20250619_0ff61658\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_successful\\\",\\\"provider_reference\\\":\\\"SUCCESS_1750319977008\\\"}\",\n                \"status\": \"successful\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 4,\n                \"type\": \"debit\",\n                \"amount\": \"1200.00\",\n                \"reference\": \"TXN_SCHDL_20250619_d375a537\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_failed\\\",\\\"failure_reason\\\":\\\"Insufficient funds\\\",\\\"provider_reference\\\":\\\"FAILED_1750319977352\\\"}\",\n                \"status\": \"failed\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            },\n            {\n                \"id\": 5,\n                \"type\": \"debit\",\n                \"amount\": \"800.00\",\n                \"reference\": \"TXN_SCHDL_20250619_5a720c53\",\n                \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"test_pending\\\",\\\"provider_reference\\\":\\\"PENDING_1750319977387\\\"}\",\n                \"status\": \"pending\",\n                \"created_on\": \"2025-06-19 08:59:37\",\n                \"created_by\": null,\n                \"modified_on\": \"2025-06-19 08:59:37\",\n                \"modified_by\": null,\n                \"deleted_flag\": 0,\n                \"deleted_by\": null,\n                \"customer_id\": 1,\n                \"subscription_id\": null,\n                \"customer_reference\": \"+2348160314935\",\n                \"subscription\": null,\n                \"customer\": {\n                    \"id\": 1,\n                    \"first_name\": \"test\",\n                    \"last_name\": \"test\",\n                    \"email\": \"preciousolanrewaju1998@gmail.com\",\n                    \"phone_number\": \"+2348160314935\",\n                    \"status\": \"pending\",\n                    \"last_login_at\": \"2025-06-19 09:10:51\",\n                    \"isVerified\": true\n                }\n            }\n        ],\n        \"meta\": {\n            \"records\": 12,\n            \"page\": 1,\n            \"pages\": 2,\n            \"page_size\": 10\n        }\n    }\n}"
+									]
 								}
-							]
+							],
+							"id": "4b1564bf-7b53-4770-9a7d-9a8453b67f37"
 						},
 						{
-							"name": "Get Transactions by ID",
-							"id": "cf34755c-a1ac-4e29-a60c-cb715b9553ae",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{customer_access_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{base_url}}/transactions/1"
-							},
-							"response": [
+							"name": "Get transactions by ID",
+							"item": [
 								{
-									"id": "4c0621d8-0edb-4361-984b-c8b250e92ff2",
 									"name": "Get Transactions by ID",
-									"originalRequest": {
+									"id": "cf34755c-a1ac-4e29-a60c-cb715b9553ae",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{customer_access_token}}"
+											}
+										},
 										"method": "GET",
 										"header": [],
 										"url": "{{base_url}}/transactions/1"
 									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Access-Control-Allow-Credentials",
-											"value": "true"
-										},
-										{
-											"key": "Access-Control-Expose-Headers",
-											"value": "x-encryption-key,x-encryption-iv"
-										},
-										{
-											"key": "Content-Security-Policy",
-											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-										},
-										{
-											"key": "Cross-Origin-Opener-Policy",
-											"value": "same-origin"
-										},
-										{
-											"key": "Cross-Origin-Resource-Policy",
-											"value": "cross-origin"
-										},
-										{
-											"key": "X-DNS-Prefetch-Control",
-											"value": "off"
-										},
-										{
-											"key": "X-Frame-Options",
-											"value": "SAMEORIGIN"
-										},
-										{
-											"key": "Strict-Transport-Security",
-											"value": "max-age=15552000; includeSubDomains"
-										},
-										{
-											"key": "X-Download-Options",
-											"value": "noopen"
-										},
-										{
-											"key": "X-Content-Type-Options",
-											"value": "nosniff"
-										},
-										{
-											"key": "Origin-Agent-Cluster",
-											"value": "?1"
-										},
-										{
-											"key": "X-Permitted-Cross-Domain-Policies",
-											"value": "none"
-										},
-										{
-											"key": "Referrer-Policy",
-											"value": "no-referrer"
-										},
-										{
-											"key": "X-XSS-Protection",
-											"value": "0"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json; charset=utf-8"
-										},
-										{
-											"key": "Content-Length",
-											"value": "690"
-										},
-										{
-											"key": "ETag",
-											"value": "W/\"2b2-/Yo0UtlBw3txEsdKh+KS7rDdktM\""
-										},
-										{
-											"key": "Date",
-											"value": "Thu, 19 Jun 2025 08:13:32 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive"
-										},
-										{
-											"key": "Keep-Alive",
-											"value": "timeout=5"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"status\": \"success\",\n    \"message\": \"Transaction retrieved successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"type\": \"debit\",\n        \"amount\": \"1000.00\",\n        \"reference\": \"TEST_TXN_1750319917081\",\n        \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"direct_test\\\"}\",\n        \"status\": \"successful\",\n        \"created_on\": \"2025-06-19 08:58:37\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-06-19 08:58:37\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null,\n        \"customer_id\": 1,\n        \"subscription_id\": null,\n        \"customer_reference\": \"CUST_+2348160314935\",\n        \"subscription\": null,\n        \"customer\": {\n            \"id\": 1,\n            \"first_name\": \"test\",\n            \"last_name\": \"test\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"+2348160314935\",\n            \"status\": \"pending\",\n            \"last_login_at\": \"2025-06-19 09:10:51\",\n            \"isVerified\": true\n        }\n    }\n}"
-								}
-							]
-						},
-						{
-							"name": "Get Transactions Stat",
-							"id": "48866dcf-e49b-45d1-9d22-dd3565e1a5d5",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{base_url}}/transactions/stats",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"transactions",
-										"stats"
-									],
-									"query": [
-										{
-											"key": "start_date",
-											"value": null,
-											"type": "text",
-											"disabled": true
-										},
-										{
-											"key": "end_date",
-											"value": null,
-											"type": "text",
-											"disabled": true
+											"id": "4c0621d8-0edb-4361-984b-c8b250e92ff2",
+											"name": "Get Transactions by ID",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": "{{base_url}}/transactions/1"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "690"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"2b2-/Yo0UtlBw3txEsdKh+KS7rDdktM\""
+												},
+												{
+													"key": "Date",
+													"value": "Thu, 19 Jun 2025 08:13:32 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Transaction retrieved successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"type\": \"debit\",\n        \"amount\": \"1000.00\",\n        \"reference\": \"TEST_TXN_1750319917081\",\n        \"meta\": \"{\\\"test\\\":true,\\\"payment_method\\\":\\\"direct_test\\\"}\",\n        \"status\": \"successful\",\n        \"created_on\": \"2025-06-19 08:58:37\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-06-19 08:58:37\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null,\n        \"customer_id\": 1,\n        \"subscription_id\": null,\n        \"customer_reference\": \"CUST_+2348160314935\",\n        \"subscription\": null,\n        \"customer\": {\n            \"id\": 1,\n            \"first_name\": \"test\",\n            \"last_name\": \"test\",\n            \"email\": \"preciousolanrewaju1998@gmail.com\",\n            \"phone_number\": \"+2348160314935\",\n            \"status\": \"pending\",\n            \"last_login_at\": \"2025-06-19 09:10:51\",\n            \"isVerified\": true\n        }\n    }\n}"
 										}
 									]
 								}
-							},
-							"response": [
+							],
+							"id": "f5f01ea9-9e0f-482f-92d4-77aa32a9054f"
+						},
+						{
+							"name": "New Folder",
+							"item": [
 								{
-									"id": "a1374051-ea53-4215-a056-9c1ea6e0ddf2",
 									"name": "Get Transactions Stat",
-									"originalRequest": {
+									"id": "48866dcf-e49b-45d1-9d22-dd3565e1a5d5",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
 										"method": "GET",
 										"header": [],
 										"url": {
@@ -9006,100 +8989,135 @@
 											]
 										}
 									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
+									"response": [
 										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Access-Control-Allow-Credentials",
-											"value": "true"
-										},
-										{
-											"key": "Access-Control-Expose-Headers",
-											"value": "x-encryption-key,x-encryption-iv"
-										},
-										{
-											"key": "Content-Security-Policy",
-											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-										},
-										{
-											"key": "Cross-Origin-Opener-Policy",
-											"value": "same-origin"
-										},
-										{
-											"key": "Cross-Origin-Resource-Policy",
-											"value": "cross-origin"
-										},
-										{
-											"key": "X-DNS-Prefetch-Control",
-											"value": "off"
-										},
-										{
-											"key": "X-Frame-Options",
-											"value": "SAMEORIGIN"
-										},
-										{
-											"key": "Strict-Transport-Security",
-											"value": "max-age=15552000; includeSubDomains"
-										},
-										{
-											"key": "X-Download-Options",
-											"value": "noopen"
-										},
-										{
-											"key": "X-Content-Type-Options",
-											"value": "nosniff"
-										},
-										{
-											"key": "Origin-Agent-Cluster",
-											"value": "?1"
-										},
-										{
-											"key": "X-Permitted-Cross-Domain-Policies",
-											"value": "none"
-										},
-										{
-											"key": "Referrer-Policy",
-											"value": "no-referrer"
-										},
-										{
-											"key": "X-XSS-Protection",
-											"value": "0"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json; charset=utf-8"
-										},
-										{
-											"key": "Content-Length",
-											"value": "305"
-										},
-										{
-											"key": "ETag",
-											"value": "W/\"131-gBu9bDvdUyva2+/m/6hjU83Vo/Y\""
-										},
-										{
-											"key": "Date",
-											"value": "Fri, 20 Jun 2025 09:08:24 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive"
-										},
-										{
-											"key": "Keep-Alive",
-											"value": "timeout=5"
+											"id": "a1374051-ea53-4215-a056-9c1ea6e0ddf2",
+											"name": "Get Transactions Stat",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/transactions/stats",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"transactions",
+														"stats"
+													],
+													"query": [
+														{
+															"key": "start_date",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "end_date",
+															"value": null,
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "305"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"131-gBu9bDvdUyva2+/m/6hjU83Vo/Y\""
+												},
+												{
+													"key": "Date",
+													"value": "Fri, 20 Jun 2025 09:08:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Your transaction statistics retrieved successfully\",\n    \"data\": {\n        \"status\": \"success\",\n        \"message\": \"Customer transaction statistics retrieved successfully\",\n        \"data\": [\n            {\n                \"status\": \"successful\",\n                \"count\": 14\n            },\n            {\n                \"status\": \"failed\",\n                \"count\": 6\n            },\n            {\n                \"status\": \"monthly_successful_amount\",\n                \"count\": 16000\n            }\n        ]\n    }\n}"
 										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"status\": \"success\",\n    \"message\": \"Your transaction statistics retrieved successfully\",\n    \"data\": {\n        \"status\": \"success\",\n        \"message\": \"Customer transaction statistics retrieved successfully\",\n        \"data\": [\n            {\n                \"status\": \"successful\",\n                \"count\": 14\n            },\n            {\n                \"status\": \"failed\",\n                \"count\": 6\n            },\n            {\n                \"status\": \"monthly_successful_amount\",\n                \"count\": 16000\n            }\n        ]\n    }\n}"
+									]
 								}
-							]
+							],
+							"id": "c268ed3f-01c1-466c-8c20-fc524b05acaf"
 						},
 						{
 							"name": "Dispute Transaction",
