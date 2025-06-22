@@ -1,0 +1,5 @@
+{
+    "name": "Refined Frozen Ball",
+    "description": "Nostrum optio dolorem culpa aut asperiores hic. Sint omnis quibusdam. Deserunt ut qui rerum aut dolorem saepe.",
+    "icon_url": "http://placeimg.com/640/480"
+}

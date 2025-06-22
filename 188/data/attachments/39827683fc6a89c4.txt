@@ -1,5 +1,0 @@
-{
-    "name": "Refined Plastic Computer",
-    "description": "Enim animi architecto porro. Ut nihil iste. Adipisci dolorum sint error quam praesentium doloribus sit repudiandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}
