@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Rubber Ball",
+    "description": "Dolores rerum perspiciatis eum numquam harum. Eligendi velit ratione et doloribus sequi neque ut ex. Saepe soluta aut voluptates debitis iure saepe veritatis consequatur. Vel ea at quis impedit porro.",
+    "icon_url": "http://placeimg.com/640/480"
+}

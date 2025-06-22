@@ -1,0 +1,5 @@
+{
+    "name": "Generic Plastic Keyboard",
+    "description": "Voluptatem et ipsa ut saepe distinctio laborum nemo neque blanditiis. Maiores et suscipit est ut tempora et. Voluptas iure praesentium occaecati aliquam ea magnam.",
+    "icon_url": "http://placeimg.com/640/480"
+}

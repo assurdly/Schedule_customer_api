@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Metal Table",
-    "description": "Hic dolores deleniti iusto qui. Repellat dicta hic consequatur. Sed iusto enim impedit sed quos ut.",
-    "icon_url": "http://placeimg.com/640/480"
-}
