@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Steel Fish",
-    "description": "Sed in nesciunt ab. Est quos omnis soluta officia atque sunt. Voluptatem a amet omnis nisi facere eveniet atque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

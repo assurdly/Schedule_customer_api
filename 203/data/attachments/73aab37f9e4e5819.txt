@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Rubber Chicken",
+    "description": "Dolor molestiae et temporibus voluptatum nemo totam possimus debitis. Optio voluptas error possimus. Dolores aspernatur quo debitis nemo. Est vel non magnam aut aperiam voluptatem voluptas debitis. Reiciendis sit voluptatem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

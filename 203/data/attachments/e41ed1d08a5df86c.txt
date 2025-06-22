@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Frozen Bacon",
+    "description": "Nostrum ea officia ut magni dolor aperiam quia exercitationem minus. Accusamus consectetur fugiat sunt ea et quaerat. Quam nulla inventore. Et ea sequi aperiam praesentium aliquid et.",
+    "icon_url": "http://placeimg.com/640/480"
+}
