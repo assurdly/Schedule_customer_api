@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Cotton Soap",
+    "description": "In in temporibus eum nisi eos. Nostrum placeat neque inventore ut ut aliquid cum vitae. Unde beatae eum itaque occaecati consequatur aliquid velit tenetur. Earum nesciunt quis beatae sed recusandae consequatur dolore reiciendis. Excepturi et numquam enim repellat repellat eligendi facilis et sunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}
