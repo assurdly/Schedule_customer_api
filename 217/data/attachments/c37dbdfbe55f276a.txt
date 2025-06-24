@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Steel Shirt",
-    "description": "Vitae et qui ipsam ratione beatae nisi. Illo minus architecto. Provident recusandae minus hic. Pariatur nulla earum quam molestias similique delectus voluptas asperiores. Praesentium minus delectus. Non earum beatae asperiores iure omnis qui ut odit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
