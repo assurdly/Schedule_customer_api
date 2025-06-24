@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Wooden Soap",
+    "description": "Asperiores recusandae omnis eum numquam veniam. Odit consequatur sint ullam minima quidem omnis. Accusantium nihil cum natus sunt. Sit molestiae eius hic et in beatae dignissimos impedit. Reiciendis quis cum qui cumque et atque est qui aut. Inventore reiciendis reprehenderit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

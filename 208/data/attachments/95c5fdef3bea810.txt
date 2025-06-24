@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Wooden Keyboard",
-    "description": "Enim enim dolores quibusdam. Sed maxime autem consequatur voluptatem explicabo. Quae quia sed omnis in et excepturi voluptas vel vel.",
-    "icon_url": "http://placeimg.com/640/480"
-}
