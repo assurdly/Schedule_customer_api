@@ -1,0 +1,5 @@
+{
+    "name": "Small Cotton Bike",
+    "description": "Aliquam minus ipsum impedit quibusdam sed natus consequatur. Vitae maiores laborum vitae error reprehenderit rerum. Ut debitis ut dolore doloribus. Accusantium possimus dolorem mollitia rem.",
+    "icon_url": "http://placeimg.com/640/480"
+}
