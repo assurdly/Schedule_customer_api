@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Fresh Gloves",
+    "description": "Fugit qui nostrum sit saepe animi voluptatibus dignissimos non amet. Quia consequatur qui non nisi. Dolorem alias minus et quia dolorum impedit voluptas.",
+    "icon_url": "http://placeimg.com/640/480"
+}
