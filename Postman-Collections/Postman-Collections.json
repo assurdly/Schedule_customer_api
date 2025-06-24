@@ -6024,6 +6024,112 @@
 											"cookie": [],
 											"responseTime": null,
 											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subscription created successfully\",\n    \"data\": {\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"ussd_code\": null,\n                        \"payment_id\": 9999,\n                        \"activation_url\": \"https://paywithaccount.link/876d1\",\n                        \"virtual_account_name\": \"PWT - Demo Business\",\n                        \"virtual_account_number\": \"4567891011\",\n                        \"virtual_account_status\": \"active\",\n                        \"virtual_account_bank_code\": \"070\",\n                        \"virtual_account_bank_name\": \"Fidelity\",\n                        \"virtual_account_expiry_date\": \"2099-12-31 18:04:00\"\n                    },\n                    \"status\": \"REQUESTED\",\n                    \"bank_code\": \"070\",\n                    \"reference\": \"RC1999999/9999/9999999999\",\n                    \"created_on\": \"2025-05-29 05:25:00\",\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"0000000000\",\n                    \"customer_email\": \"l.adeosun.la+1@gmail.com\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Processing\",\n            \"message\": \"Kindly follow the instructions sent to you via SMS and Email to complete payment\"\n        },\n        \"product_group_id\": 2,\n        \"product_id\": 2,\n        \"amount\": \"100.00\",\n        \"frequency\": \"daily\",\n        \"start_date\": \"2025-06-01\",\n        \"end_date\": \"2026-12-01\",\n        \"account_number\": \"0000000000\",\n        \"bank_code\": \"070\",\n        \"customer_id\": 1,\n        \"reference\": \"RC1999999/9999/9999999999\",\n        \"status\": \"requested\",\n        \"currency\": \"NGN\",\n        \"id\": 2,\n        \"created_on\": \"2025-05-29 05:25:05\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-05-29 05:25:05\",\n        \"modified_by\": null,\n        \"deleted_flag\": 0,\n        \"deleted_by\": null\n    }\n}"
+										},
+										{
+											"id": "3f1afcee-9a30-4bcb-883c-43da00672c0c",
+											"name": "Create Subscriptions- Success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"product_group_id\": \"44\",\n    \"product_id\": \"70\",\n    \"amount\": 100,\n    \"frequency\": \"weekly\",\n    \"account_number\": \"1893258765\",\n    \"bank_code\": \"044\",\n    \"recipient_identifier\": \"0100266255\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{base_url}}/subscriptions"
+											},
+											"status": "Created",
+											"code": 201,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Date",
+													"value": "Tue, 24 Jun 2025 13:44:46 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1775"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"6ef-Pah/fuOtdnPdx1NL4eNWJuq/wE0\""
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Subscription created successfully\",\n    \"data\": {\n        \"id\": 107,\n        \"created_on\": \"2025-06-24 13:44:46\",\n        \"created_by\": null,\n        \"modified_on\": \"2025-06-24 13:44:46\",\n        \"modified_by\": null,\n        \"deleted_by\": null,\n        \"deleted_flag\": 0,\n        \"reference\": \"15061\",\n        \"mandate_reference\": \"RC1544159/1557/0009563963\",\n        \"status\": \"requested\",\n        \"amount\": \"100.00\",\n        \"frequency\": \"weekly\",\n        \"start_date\": \"2025-06-24\",\n        \"end_date\": \"2029-01-09\",\n        \"bank_code\": \"044\",\n        \"account_number\": \"1893258765\",\n        \"account_name\": \"AYOMIDE JONATHAN LIASU\",\n        \"customer_id\": 25,\n        \"recipient_identifier\": \"0100266255\",\n        \"currency\": \"NGN\",\n        \"reason\": null,\n        \"gateway_request_transaction_reference\": \"TXN_SCHDL_20250624_eff0e5d3\",\n        \"product_group_id\": 44,\n        \"product_id\": 70,\n        \"meta\": {\n            \"data\": {\n                \"error\": null,\n                \"errors\": null,\n                \"provider\": \"PaywithAccount\",\n                \"client_info\": {\n                    \"id\": null,\n                    \"meta\": null,\n                    \"name\": null,\n                    \"colors\": null,\n                    \"css_url\": null,\n                    \"options\": null,\n                    \"logo_url\": null,\n                    \"merchant\": null,\n                    \"paginate\": false,\n                    \"bank_name\": null,\n                    \"console_url\": null,\n                    \"footer_text\": null,\n                    \"bank_cbn_code\": null,\n                    \"paginate_count\": 0,\n                    \"show_options_icon\": false,\n                    \"js_background_image\": null\n                },\n                \"provider_response\": {\n                    \"meta\": {\n                        \"ussd_code\": null,\n                        \"payment_id\": 15061,\n                        \"activation_url\": null,\n                        \"virtual_account_name\": \"PWT - OnePipe Schedule Manager\",\n                        \"existing_subscription\": false,\n                        \"virtual_account_number\": \"4566278859\",\n                        \"virtual_account_status\": \"active\",\n                        \"virtual_account_bank_code\": \"070\",\n                        \"virtual_account_bank_name\": \"Fidelity\",\n                        \"virtual_account_expiry_date\": \"2025-06-25 14:44:00\"\n                    },\n                    \"status\": \"REQUESTED\",\n                    \"bank_code\": \"044\",\n                    \"reference\": \"RC1544159/1557/0009563963\",\n                    \"created_on\": \"2025-06-24 13:44:45\",\n                    \"currency_code\": \"NGN\",\n                    \"account_number\": \"1893258765\",\n                    \"customer_email\": \"didactic@mailinator.com\"\n                },\n                \"provider_response_code\": \"00\"\n            },\n            \"status\": \"Processing\",\n            \"message\": \"Kindly follow the instructions sent to you via SMS and Email to complete payment\"\n        }\n    }\n}"
 										}
 									]
 								},
