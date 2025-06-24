@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Plastic Car",
+    "description": "Quasi laboriosam distinctio ad ad culpa non consequatur esse repellat. Laboriosam qui rerum dicta quae ex eum minus corrupti ea. Itaque non voluptatem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

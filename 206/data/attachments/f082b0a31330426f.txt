@@ -1,5 +1,0 @@
-{
-    "name": "Generic Plastic Bike",
-    "description": "Rerum aliquam voluptatem non porro ipsum ipsam praesentium aut nihil. Ut qui atque ut rem natus. Debitis quo sed. Quis dignissimos eos harum quibusdam et harum placeat et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

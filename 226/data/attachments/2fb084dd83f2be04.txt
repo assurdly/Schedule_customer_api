@@ -1,0 +1,5 @@
+{
+    "name": "Practical Soft Cheese",
+    "description": "Laboriosam rerum minus enim enim quo expedita unde perspiciatis. Ut consequatur aut praesentium. Qui quisquam voluptatibus tenetur modi aut. Et sint sed rem quis nam. Excepturi magnam nulla minima totam sit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
