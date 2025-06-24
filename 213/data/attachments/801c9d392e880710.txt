@@ -1,5 +1,0 @@
-{
-    "name": "Practical Rubber Ball",
-    "description": "Odit omnis impedit. Qui dolore repellat illum. Et aperiam itaque ut et id impedit optio autem. Dolor ut et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

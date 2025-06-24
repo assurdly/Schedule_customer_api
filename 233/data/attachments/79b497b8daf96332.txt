@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Cotton Car",
+    "description": "Veniam quisquam laboriosam fugiat ipsum molestiae. Eum quae possimus ex dolorem ducimus. Sit quo quibusdam totam eos. Aut nihil voluptas voluptatem assumenda qui ut qui.",
+    "icon_url": "http://placeimg.com/640/480"
+}
