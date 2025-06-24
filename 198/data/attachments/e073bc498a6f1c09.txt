@@ -1,6 +1,0 @@
-{
-    "phone_number": "08012345678",
-    "email": "Quality-focused@mailinator.com",
-   "first_name": "Chanelle", 
-    "last_name": "McDermott" 
-}

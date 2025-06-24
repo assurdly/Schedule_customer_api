@@ -1,5 +1,0 @@
-{
-    "name": "Generic Rubber Soap",
-    "description": "Repellendus ut illum et aliquam non voluptas. Mollitia fugit aut consequatur totam qui voluptates incidunt labore. Dolorem sit quidem eaque officia qui reiciendis illo. Id voluptatibus non excepturi nisi repudiandae. Tempora nemo explicabo voluptas aliquid.",
-    "icon_url": "http://placeimg.com/640/480"
-}
