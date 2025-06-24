@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Wooden Bacon",
-    "description": "Vero dolores odit voluptatem et qui est. Ut officia quibusdam minima sunt eius mollitia dolores molestias. Voluptatem sit sint modi quas dolorem dolor omnis. Et non et sit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

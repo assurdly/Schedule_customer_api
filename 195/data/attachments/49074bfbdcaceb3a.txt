@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Steel Cheese",
-    "description": "Laborum sunt dignissimos similique. Quibusdam provident officia ipsam et dolore distinctio dolorem officiis. Consequatur et et neque eum qui velit explicabo amet ut. Repellendus facilis ut culpa enim quo laudantium placeat molestias. Deserunt exercitationem odit qui porro aliquid adipisci veritatis. Laudantium sit blanditiis repellendus recusandae cupiditate.",
-    "icon_url": "http://placeimg.com/640/480"
-}
