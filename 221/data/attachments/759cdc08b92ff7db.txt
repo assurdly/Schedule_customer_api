@@ -1,0 +1,5 @@
+{
+    "name": "Practical Plastic Chicken",
+    "description": "Sapiente explicabo totam vitae odit aut ex odit dolorem nihil. Voluptatem autem quaerat voluptatum totam quia excepturi. Omnis adipisci nam. Hic blanditiis ut velit est voluptatem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

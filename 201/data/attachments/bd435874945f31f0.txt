@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Rolando.Powlowski62@hotmail.com",
-    "first_name": "Isadore",
-    "last_name": "" 
-}
