@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Granite Soap",
-    "description": "Id et ut voluptatum sint et impedit officia fugiat. Illo consectetur temporibus ut. Placeat dolorem debitis. Voluptatibus sint laudantium aliquid dignissimos. Harum non quia odio accusamus recusandae nihil non ratione. Adipisci dolor occaecati dolorem vel nostrum quo.",
-    "icon_url": "http://placeimg.com/640/480"
-}
