@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Steel Chicken",
-    "description": "Ut quaerat voluptate enim eum nostrum eius quasi ut rerum. Perferendis reiciendis officia sunt in neque dolore. Delectus dolor rerum. Voluptas et et dolorem sunt inventore aliquam. Eos eius non quaerat eos eligendi praesentium suscipit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

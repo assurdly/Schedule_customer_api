@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Fresh Car",
+    "description": "Veniam possimus quia voluptatem cupiditate fuga odio harum ab. Temporibus consequuntur quisquam corrupti. Blanditiis in qui pariatur natus. Eligendi quos qui animi harum neque accusamus amet aut ipsa.",
+    "icon_url": "http://placeimg.com/640/480"
+}
