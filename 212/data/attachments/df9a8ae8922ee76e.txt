@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Fresh Hat",
-    "description": "Beatae ratione at enim voluptas nostrum adipisci tempore in eum. Ducimus aspernatur et corporis delectus sequi recusandae. Ut aut magnam et ducimus. Sit et et ex iusto quasi alias voluptatem. Non dolor voluptas a sequi. Facere ea optio quis sed aspernatur omnis consequatur doloremque illum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

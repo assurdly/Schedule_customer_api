@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Frozen Cheese",
-    "description": "Doloribus ut sed voluptate itaque qui libero nam. Beatae aliquid hic aliquam iure provident reprehenderit qui modi. Labore non consequatur. Suscipit quo temporibus porro et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
