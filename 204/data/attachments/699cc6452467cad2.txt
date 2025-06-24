@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Concrete Gloves",
-    "description": "Pariatur dolores repellat facere. Repudiandae ea voluptas voluptatem eos alias. Voluptatem dolores eum odit et quis harum ut. Fugit amet asperiores ea quos cum ut quo. Modi rerum laudantium nihil temporibus aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

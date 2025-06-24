@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Fresh Keyboard",
+    "description": "Et placeat voluptatibus omnis est esse et nemo alias. Earum necessitatibus sit quam tenetur. Quaerat quis ducimus eaque eveniet alias nulla magnam officia. Nobis et voluptates molestias eos repellendus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

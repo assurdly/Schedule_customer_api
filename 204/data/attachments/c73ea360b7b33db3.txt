@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Fresh Sausages",
-    "description": "Sapiente dolorem vel. Praesentium eos maxime minus maxime distinctio sequi sed. Suscipit aut velit quod qui aperiam debitis. In omnis laudantium velit ad aut ut recusandae. Omnis ex sit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
