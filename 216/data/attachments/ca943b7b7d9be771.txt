@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Fresh Tuna",
-    "description": "Veniam omnis itaque aut totam consectetur. Dolore explicabo dolores delectus et quas placeat facere provident. Et eum commodi at eligendi. Quam vitae qui ut porro ullam dolor enim sit ullam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

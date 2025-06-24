@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Concrete Salad",
-    "description": "Voluptatem eaque magnam dolorem porro molestiae perferendis corrupti dolor. A ipsum saepe illo numquam natus. Id quia laborum qui corporis qui. Minus omnis sint ut sit sit omnis facilis. Quibusdam voluptatibus ipsa quibusdam veniam eum laudantium facere deserunt amet. Maiores quia unde aut ut quibusdam.",
-    "icon_url": "http://placeimg.com/640/480"
-}
