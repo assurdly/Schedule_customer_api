@@ -10427,6 +10427,31 @@
 								}
 							],
 							"id": "bbe131dc-77b5-4268-9b0b-ba1d0a05354f"
+						},
+						{
+							"name": "Download transaction reference",
+							"item": [
+								{
+									"name": "download transaction receipt Copy",
+									"id": "c57489fa-305f-4336-bf3b-8e8a66ae32c1",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{customer_access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": "{{base_url}}/transactions/34/receipt"
+									},
+									"response": []
+								}
+							],
+							"id": "5e3b0740-3718-41b4-a5fc-ef6f9a20e6d3"
 						}
 					],
 					"id": "9fbdc5d3-8449-41aa-aabb-a7213e193763"
