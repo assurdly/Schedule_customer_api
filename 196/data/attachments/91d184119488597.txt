@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Rubber Soap",
-    "description": "Suscipit labore quia eligendi est dolores magnam nihil in quod. Enim ad eos illum voluptate placeat eum consequatur voluptatem. Officia dolor esse qui. Iusto ab quisquam quia. Nobis distinctio consequatur in ut omnis hic doloribus repellendus.",
-    "icon_url": "http://placeimg.com/640/480"
-}
