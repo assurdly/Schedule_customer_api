@@ -1,0 +1,5 @@
+{
+    "phone_number": "{{testnumber}}",
+    "otp": "28691",
+    "reference": "34ca2390-8b00-46f1-88a9-877b95f870c3"
+}

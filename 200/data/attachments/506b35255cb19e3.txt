@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Cotton Car",
-    "description": "Sit laboriosam qui aut rerum velit occaecati reprehenderit autem voluptates. Eligendi non enim itaque repellat est libero. Ea consequuntur magni. Minima dolorem aliquam illo excepturi ut sunt et. Eius voluptatem tempora et nemo nemo.",
-    "icon_url": "http://placeimg.com/640/480"
-}
