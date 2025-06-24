@@ -1,5 +1,0 @@
-{
-    "name": "Generic Cotton Cheese",
-    "description": "Voluptates culpa corrupti sint accusamus ea fugit. Architecto eius fuga expedita distinctio numquam minima beatae vel voluptas. Soluta qui tempore iusto aspernatur. Dolorum qui ut illum enim debitis est aut. Facilis aut cumque qui esse ut similique eum voluptates. Ducimus quos eveniet.",
-    "icon_url": "http://placeimg.com/640/480"
-}

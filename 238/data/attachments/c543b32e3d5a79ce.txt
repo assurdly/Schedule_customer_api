@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Rubber Sausages",
+    "description": "Et id odit neque velit in rerum adipisci doloribus. Quas et culpa est. Rem dolorem voluptatem molestiae magni. Facere cum sunt. Animi quam sed accusantium et iste earum saepe officia perferendis. Provident sint non incidunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}
