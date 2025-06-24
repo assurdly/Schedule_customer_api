@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Frozen Gloves",
+    "description": "Et quia aut. Corporis reprehenderit eligendi. Provident voluptates rerum aut adipisci et aut exercitationem velit id. Quia dolorum eveniet expedita cupiditate quibusdam architecto vel.",
+    "icon_url": "http://placeimg.com/640/480"
+}

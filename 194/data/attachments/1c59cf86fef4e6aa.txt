@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Soft Hat",
-    "description": "Illum occaecati provident neque commodi. Distinctio autem dolore sunt. Enim blanditiis autem ut ipsam adipisci qui in autem eos. Ab maiores ex eaque. Illum deleniti asperiores pariatur et ea dolores.",
-    "icon_url": "http://placeimg.com/640/480"
-}

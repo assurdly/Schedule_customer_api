@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Fresh Soap",
+    "description": "Tempore eos accusantium ut. Et quia magnam aut nostrum itaque iusto quidem. Recusandae officiis omnis ipsum voluptatum. Aliquid et laboriosam est voluptatem quas tenetur dolores in. Et error magnam in error ut occaecati officiis dolorem officiis. Illo nihil excepturi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
