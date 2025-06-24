@@ -1,5 +1,0 @@
-{
-    "name": "Generic Frozen Mouse",
-    "description": "Temporibus ut dolor dolores ducimus eum aut. Ut exercitationem sit sit consequatur. Facere reprehenderit voluptatem dolorem aut enim.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Steel Tuna",
-    "description": "Quibusdam qui rem et laboriosam rem repudiandae ipsam et dignissimos. Sed atque voluptas voluptatem non dolor magnam quidem. Itaque molestiae quia saepe distinctio consequuntur. Error laboriosam eos animi pariatur qui sed.",
-    "icon_url": "http://placeimg.com/640/480"
-}
