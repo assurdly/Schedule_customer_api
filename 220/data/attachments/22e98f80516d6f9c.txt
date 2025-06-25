@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Plastic Shirt",
-    "description": "Et saepe error impedit ut unde et. Et occaecati explicabo laborum. Iure est atque quia tenetur in et qui. Illum laboriosam quae quae. Officia tempore quia odit quia et totam. Sit enim aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

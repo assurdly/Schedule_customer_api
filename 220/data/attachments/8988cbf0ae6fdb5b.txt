@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Steel Bike",
-    "description": "Id distinctio amet ratione saepe. Nulla quas vitae quibusdam et debitis assumenda iste natus est. Eos rerum vero nostrum molestiae. Repellat assumenda exercitationem ipsam impedit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
