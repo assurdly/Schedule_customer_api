@@ -1,6 +1,0 @@
-{
-    "phone_number": "08012345678",
-    "email": "Nebraska@mailinator.com",
-   "first_name": "Rupert", 
-    "last_name": "Jerde" 
-}

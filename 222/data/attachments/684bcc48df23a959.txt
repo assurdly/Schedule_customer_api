@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Concrete Cheese",
-    "description": "Enim incidunt rerum repudiandae enim sit voluptas praesentium tenetur. Ut illum ut sint sint excepturi ab. Distinctio in consequuntur qui. Facilis natus ducimus sunt veniam asperiores aut sunt. Quidem eos in occaecati porro cupiditate.",
-    "icon_url": "http://placeimg.com/640/480"
-}

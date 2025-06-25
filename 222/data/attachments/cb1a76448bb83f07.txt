@@ -1,5 +1,0 @@
-{
-    "name": "Gorgeous Plastic Pants",
-    "description": "Possimus sequi natus dolores tempora sit autem est est. Doloremque non delectus ipsa dolor mollitia autem nesciunt qui. Est quam exercitationem. Sit iste praesentium ullam similique voluptatum rerum cupiditate mollitia.",
-    "icon_url": "http://placeimg.com/640/480"
-}

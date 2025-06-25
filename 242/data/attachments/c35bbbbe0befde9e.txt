@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Steel Salad",
+    "description": "Sunt doloremque cumque ex. Maiores id labore asperiores. Omnis ab distinctio id. Itaque consequatur quos explicabo inventore minima voluptas molestias adipisci et. Est molestiae architecto. Occaecati qui nemo et maiores asperiores quis necessitatibus deleniti.",
+    "icon_url": "http://placeimg.com/640/480"
+}
