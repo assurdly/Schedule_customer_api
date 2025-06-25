@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Wooden Soap",
-    "description": "Laudantium praesentium quis accusamus. Sit ipsum qui excepturi quod vel beatae magnam quaerat unde. Consequuntur quasi tempora corporis iusto. Necessitatibus rerum distinctio eos est quo. Expedita dolorem sed occaecati aut. Qui autem repellendus sed.",
-    "icon_url": "http://placeimg.com/640/480"
-}

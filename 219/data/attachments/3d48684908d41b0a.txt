@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Plastic Pizza",
-    "description": "Neque perferendis quo. Dolorem quibusdam voluptatibus voluptatum aut autem aut. Expedita expedita vel veritatis exercitationem voluptatem asperiores esse mollitia eum. Natus nesciunt culpa unde.",
-    "icon_url": "http://placeimg.com/640/480"
-}
