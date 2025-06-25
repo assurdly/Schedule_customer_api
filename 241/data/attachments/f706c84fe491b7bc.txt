@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Soft Salad",
+    "description": "Rerum eveniet voluptatem. Quam dolorem architecto iusto a iusto corrupti aliquam quia voluptas. Ut excepturi ea quia aliquid vel est. Laudantium et alias cum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

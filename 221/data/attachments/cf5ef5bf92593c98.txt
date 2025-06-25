@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Soft Keyboard",
-    "description": "Consequatur eveniet natus ab labore vitae sequi et. Nihil et sed voluptas. Ex ut quis architecto quis eum provident quisquam laborum tempora. Dicta exercitationem rerum fugiat velit. Totam qui aperiam tempora. Quia assumenda rerum magnam nobis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
