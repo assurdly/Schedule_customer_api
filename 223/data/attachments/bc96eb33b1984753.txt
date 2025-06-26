@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Soft Table",
-    "description": "Aut eum aut. Facilis consequatur provident hic autem error modi quia iusto. Quos amet ut cupiditate dicta eius et. Velit amet cupiditate temporibus qui molestias corrupti beatae in explicabo.",
-    "icon_url": "http://placeimg.com/640/480"
-}

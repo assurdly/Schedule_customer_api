@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Plastic Chicken",
-    "description": "Ratione quam commodi sunt molestiae totam. Nemo aut velit dolorem corporis delectus iure similique. Exercitationem placeat non molestiae cupiditate eum. Voluptatem rem earum eum delectus rerum.",
-    "icon_url": "http://placeimg.com/640/480"
-}
