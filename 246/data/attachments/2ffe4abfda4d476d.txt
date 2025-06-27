@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Wooden Towels",
+    "description": "Nobis voluptatem itaque sint ipsum. Laboriosam aliquid ut id sequi inventore error. Voluptatem eius eos alias. Ducimus maxime fuga dicta molestias et maiores laudantium.",
+    "icon_url": "http://placeimg.com/640/480"
+}
