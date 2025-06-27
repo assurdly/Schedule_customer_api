@@ -10686,12 +10686,28 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{customer_access_token}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
 										"header": [],
-										"url": "{{base_url}}/transactions/34/receipt"
+										"url": {
+											"raw": "{{base_url}}/transactions/:id/receipt",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"transactions",
+												":id",
+												"receipt"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "6"
+												}
+											]
+										}
 									},
 									"response": []
 								}
