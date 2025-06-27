@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Rubber Ball",
-    "description": "Molestiae omnis et ullam. Quisquam impedit accusamus explicabo. Placeat dolorem vitae molestiae temporibus provident. Aut quis nihil similique libero. Eveniet eum voluptatem et dolores sed modi nostrum.",
-    "icon_url": "http://placeimg.com/640/480"
-}
