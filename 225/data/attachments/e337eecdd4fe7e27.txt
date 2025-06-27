@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Wooden Mouse",
-    "description": "Quisquam natus consequatur ullam quia qui culpa quo vitae quam. Libero ex est laboriosam enim voluptas ut quisquam asperiores animi. Molestiae voluptatum qui quos iste voluptatem. Quam error placeat neque provident. Assumenda nam totam nobis. Fugit alias harum sunt sed mollitia doloribus ea assumenda.",
-    "icon_url": "http://placeimg.com/640/480"
-}
