@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Plastic Bike",
-    "description": "Illum molestias tempore praesentium in nihil. Et repellat praesentium odio consectetur ratione sed facere voluptas dolor. Temporibus ratione ut consequatur magni quos eius perspiciatis quaerat. Vel minima qui repellendus. Laboriosam sunt nihil rerum ipsam perferendis. Impedit omnis eaque delectus voluptatum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

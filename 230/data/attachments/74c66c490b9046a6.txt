@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Sandra.Predovic30@yahoo.com",
-    "first_name": "",
-    "last_name": "Considine" 
-}
