@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Steel Ball",
-    "description": "Explicabo doloribus saepe excepturi et rerum et rerum rerum similique. Ut quaerat expedita non veritatis eligendi. Consequuntur doloremque voluptatem hic. Fuga quae rerum. Hic mollitia sapiente sint omnis repellendus molestias. Accusamus minus doloremque ea qui.",
-    "icon_url": "http://placeimg.com/640/480"
-}

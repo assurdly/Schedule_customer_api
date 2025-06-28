@@ -1,0 +1,6 @@
+{
+    "phone_number": "08012345678",
+    "email": "monitor@mailinator.com",
+   "first_name": "Dianna", 
+    "last_name": "Murazik" 
+}

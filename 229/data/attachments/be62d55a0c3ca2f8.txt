@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Rubber Pizza",
-    "description": "Debitis architecto magnam qui nihil ea et. Nulla sequi quo expedita labore. Eum id numquam quia. Laudantium assumenda et provident at magni soluta perferendis accusantium animi. Omnis quis cum soluta aut aliquam. Dolorem beatae occaecati nulla vel consequatur.",
-    "icon_url": "http://placeimg.com/640/480"
-}
