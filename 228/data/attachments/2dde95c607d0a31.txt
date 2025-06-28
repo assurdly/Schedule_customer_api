@@ -1,5 +1,0 @@
-{
-    "name": "Refined Soft Bacon",
-    "description": "Quam in dignissimos similique. Ratione quis minima. Est nemo voluptas id.",
-    "icon_url": "http://placeimg.com/640/480"
-}

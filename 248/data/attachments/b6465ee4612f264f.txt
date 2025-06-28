@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Fresh Soap",
+    "description": "Assumenda autem molestiae et quia voluptatum quisquam distinctio optio. Culpa autem ipsam quis expedita et nobis. Molestias et architecto. Et fugit soluta aut consequatur cum autem dolorem tempore voluptatum. Deleniti odit repellat minima sed repudiandae quo facilis adipisci quo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
