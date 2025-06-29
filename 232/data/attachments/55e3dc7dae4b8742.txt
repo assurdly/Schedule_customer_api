@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Rubber Chicken",
-    "description": "Ipsam tenetur reiciendis. Minima iusto et sunt eos illum molestiae. Nisi sed ut perferendis aut quae reiciendis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

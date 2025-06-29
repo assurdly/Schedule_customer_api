@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Concrete Bike",
+    "description": "Quisquam atque nostrum reprehenderit et. Ut cupiditate animi consequatur. Similique quos qui in ut velit non aut. Quasi et veritatis et magnam recusandae culpa numquam odit et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

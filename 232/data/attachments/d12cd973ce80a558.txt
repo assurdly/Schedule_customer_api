@@ -1,5 +1,0 @@
-{
-    "name": "Refined Granite Hat",
-    "description": "Voluptatem neque rerum ut officiis quis architecto asperiores. Eos placeat error quia rerum illum quas magni. Magnam similique sunt. Omnis excepturi est sed reiciendis est sint quaerat.",
-    "icon_url": "http://placeimg.com/640/480"
-}
