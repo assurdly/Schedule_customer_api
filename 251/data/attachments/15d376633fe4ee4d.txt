@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Plastic Salad",
+    "description": "Harum ea aspernatur quia et aut minima. Numquam nisi voluptatem animi qui voluptatem totam dolore aspernatur. Voluptatem ut excepturi eius quam qui quaerat amet.",
+    "icon_url": "http://placeimg.com/640/480"
+}
