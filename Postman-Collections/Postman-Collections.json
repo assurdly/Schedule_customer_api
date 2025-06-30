@@ -4510,7 +4510,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{admin_access_token}}"
+												"token": "{{access_token}}"
 											}
 										},
 										"method": "GET",
