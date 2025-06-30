@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Soft Pants",
-    "description": "Rerum ex aperiam facilis ea rerum accusamus. Officiis iusto repellendus. Odit voluptatem non eaque temporibus temporibus quo. Aut asperiores rerum fugiat assumenda officiis quia.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Plastic Keyboard",
+    "description": "Laborum ut adipisci vitae. Culpa dolores assumenda nesciunt maxime cum facilis. Dolorum vitae alias nobis veniam velit. Repellat aut itaque natus. Magni ut et odio.",
+    "icon_url": "http://placeimg.com/640/480"
+}
