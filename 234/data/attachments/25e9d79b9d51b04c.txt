@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Rubber Ball",
-    "description": "Omnis rerum aut unde sit. Eius qui qui voluptatem quibusdam velit incidunt cumque molestiae. Ipsa earum rerum quia ratione dolor aut libero. Nihil nemo quis optio aliquam rerum quidem et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

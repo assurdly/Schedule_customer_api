@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Steel Keyboard",
-    "description": "Quo excepturi explicabo aut exercitationem et ipsam. Dolorem voluptatem ut. Voluptatibus et et adipisci esse cupiditate officiis corrupti voluptas. Facere aspernatur iste molestias animi voluptas accusantium.",
-    "icon_url": "http://placeimg.com/640/480"
-}

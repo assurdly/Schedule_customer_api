@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Metal Soap",
+    "description": "Architecto animi aut doloremque. Exercitationem voluptas quis magnam a minus labore in repudiandae delectus. Dignissimos excepturi alias. Dolores accusamus ullam. Consequuntur iure ut animi similique expedita eum. Unde aut suscipit ipsum minus et et qui et magni.",
+    "icon_url": "http://placeimg.com/640/480"
+}

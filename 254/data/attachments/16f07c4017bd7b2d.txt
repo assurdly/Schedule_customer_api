@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Rubber Chair",
+    "description": "Et modi est enim omnis. Architecto sed est accusantium occaecati. Consequatur doloremque nobis minima corporis inventore omnis id fuga. Voluptatem perspiciatis omnis quo sint iure.",
+    "icon_url": "http://placeimg.com/640/480"
+}
