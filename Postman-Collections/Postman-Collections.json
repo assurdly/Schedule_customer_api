@@ -10854,7 +10854,38 @@
 											]
 										}
 									},
-									"response": []
+									"response": [
+										{
+											"id": "089e27d2-8bdb-4f6b-8cd2-7ba627a42534",
+											"name": "download transaction receipt Copy",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/transactions/:id/receipt",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"transactions",
+														":id",
+														"receipt"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "6"
+														}
+													]
+												}
+											},
+											"_postman_previewlanguage": null,
+											"header": null,
+											"cookie": [],
+											"responseTime": null,
+											"body": null
+										}
+									]
 								}
 							],
 							"id": "5e3b0740-3718-41b4-a5fc-ef6f9a20e6d3"
