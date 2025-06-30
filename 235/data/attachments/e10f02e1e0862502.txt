@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Wooden Gloves",
-    "description": "Omnis ut quo voluptates quia. Laborum perspiciatis dolorem laudantium eum beatae eum beatae. Non rerum dolore quasi corrupti et ut laboriosam sit nulla. Animi aut explicabo rerum. Quos eos non eaque asperiores facere earum nam impedit. Aut ipsa repudiandae.",
-    "icon_url": "http://placeimg.com/640/480"
-}

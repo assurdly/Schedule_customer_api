@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Steel Chicken",
+    "description": "Repellendus iure aut. Ut nihil recusandae laborum eius ea repudiandae. Earum sed expedita.",
+    "icon_url": "http://placeimg.com/640/480"
+}
