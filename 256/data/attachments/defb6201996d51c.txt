@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Metal Gloves",
+    "description": "Quisquam ut sequi laudantium earum. Quasi sint velit laboriosam qui officia quasi. Temporibus sint nulla quia autem ut est. Omnis ullam fugiat consequatur non quod labore tenetur velit. Totam explicabo voluptas et distinctio cum consequuntur cupiditate sunt.",
+    "icon_url": "http://placeimg.com/640/480"
+}

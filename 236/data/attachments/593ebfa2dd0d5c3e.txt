@@ -1,5 +1,0 @@
-{
-    "name": "Generic Soft Ball",
-    "description": "Minus voluptate eos. Velit totam harum molestias ipsa sit et dolores molestias quis. Quas id distinctio explicabo fuga laudantium nisi consequatur qui. Molestiae asperiores facilis animi explicabo. Animi molestias nostrum enim deserunt mollitia consectetur iste nihil totam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Concrete Bike",
-    "description": "Placeat ut nisi laboriosam minus perspiciatis. Non dolore minus tenetur cupiditate nesciunt non ea. Et sit nihil voluptatum fugiat aut aut voluptatem qui aspernatur. Rerum sed cumque doloremque qui nostrum et. Itaque sed quia quis impedit. Temporibus est facilis veritatis provident consequatur aut occaecati reprehenderit nam.",
-    "icon_url": "http://placeimg.com/640/480"
-}
