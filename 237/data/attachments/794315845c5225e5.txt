@@ -1,5 +1,0 @@
-{
-    "name": "Refined Fresh Soap",
-    "description": "Magnam earum soluta ad enim. Ea nemo aspernatur. Magni aperiam ut qui recusandae sequi. Reiciendis eum suscipit vel error sit dicta perspiciatis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

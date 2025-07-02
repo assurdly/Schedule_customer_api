@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Plastic Salad",
-    "description": "Qui quia beatae quasi nostrum dolorum. Et aut doloremque nobis officia commodi hic veritatis explicabo magni. Non unde aspernatur quia repellat corrupti cupiditate. Suscipit rerum nihil perspiciatis omnis necessitatibus ut sit. At ipsa nostrum delectus veniam ea aperiam placeat neque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Fresh Computer",
+    "description": "Delectus dolores minus eum est amet soluta consectetur enim. Cumque rerum voluptatem dolores optio consequatur. Dolorem esse accusamus nihil rerum id laboriosam praesentium veniam. Similique dolore quibusdam sapiente dolore. Dolor voluptatem occaecati iusto quo cum voluptas. Sint ducimus omnis vel fugit facere rerum deserunt odit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
