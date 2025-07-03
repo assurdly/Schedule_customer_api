@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Rubber Salad",
-    "description": "Debitis maxime aliquam accusantium nesciunt perspiciatis ipsum omnis doloribus. Dolore sint vel tempora. Optio aut id. Accusamus quos provident dolores. Dolorem similique ipsam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

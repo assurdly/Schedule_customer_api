@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Granite Fish",
-    "description": "Et asperiores odio cum soluta voluptate nobis sint. Quidem deleniti deserunt eos ab voluptates. Non similique commodi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
