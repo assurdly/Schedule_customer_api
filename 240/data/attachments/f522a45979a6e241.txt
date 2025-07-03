@@ -1,5 +1,0 @@
-{
-    "name": "Small Soft Pizza",
-    "description": "Iste nisi eum dignissimos molestias eos natus magnam. Occaecati voluptates consectetur. Laudantium perferendis recusandae et autem incidunt. Ullam quisquam perferendis illum eos pariatur dolor. Pariatur tempore velit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

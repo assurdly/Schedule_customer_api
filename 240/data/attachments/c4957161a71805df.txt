@@ -1,5 +1,0 @@
-{
-    "name": "Refined Granite Sausages",
-    "description": "Perferendis unde odio qui ut qui nemo. Minus laudantium iure consequuntur qui est doloremque non eligendi molestiae. Modi nulla labore sit et. Ut quia quo dicta qui.",
-    "icon_url": "http://placeimg.com/640/480"
-}
