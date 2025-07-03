@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Fresh Tuna",
+    "description": "Nostrum porro deleniti harum ut alias. Id voluptates facilis provident cupiditate odit magni. A unde deserunt voluptates. Odio debitis consequuntur quidem culpa.",
+    "icon_url": "http://placeimg.com/640/480"
+}

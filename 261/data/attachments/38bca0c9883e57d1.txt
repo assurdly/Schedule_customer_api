@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Concrete Chicken",
+    "description": "Aliquid aut eligendi ullam et necessitatibus asperiores velit qui nemo. Debitis repudiandae rerum sint quas maxime est porro. Quaerat aut eligendi ut atque quis at et odit. Iure minus tenetur quia rerum id facilis tenetur adipisci quis. Sunt quia distinctio et expedita est omnis.",
+    "icon_url": "http://placeimg.com/640/480"
+}

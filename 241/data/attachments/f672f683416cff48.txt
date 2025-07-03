@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Cotton Chair",
-    "description": "Quia reprehenderit impedit voluptatem. Inventore debitis aliquam et sed et vero dolorem numquam cumque. Est sint voluptatibus totam voluptatem ut. Blanditiis hic ea dolorem eos recusandae. Quis commodi in praesentium itaque ea velit. Sed ipsa nostrum est officia id quidem.",
-    "icon_url": "http://placeimg.com/640/480"
-}
