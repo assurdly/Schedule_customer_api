@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Metal Bacon",
+    "description": "Sint est quo id voluptas. Ut eum aliquam quis eum iusto. Et rem labore quo quis rerum ipsam. Veniam expedita voluptatem aspernatur error molestiae et sed. Repudiandae unde eum quia ut tempore repellendus temporibus delectus.",
+    "icon_url": "http://placeimg.com/640/480"
+}

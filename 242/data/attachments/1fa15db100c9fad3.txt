@@ -1,5 +1,0 @@
-{
-    "name": "Practical Rubber Sausages",
-    "description": "Nostrum consequatur distinctio quas officia ut sed. Voluptatem minus illo ea architecto id optio delectus autem porro. Ab sint consectetur nesciunt voluptas. Occaecati in laboriosam consequatur numquam maiores aut et quia quas. Perspiciatis suscipit iusto eum.",
-    "icon_url": "http://placeimg.com/640/480"
-}
