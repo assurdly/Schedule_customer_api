@@ -1,5 +1,0 @@
-{
-    "name": "Incredible Metal Cheese",
-    "description": "Dolores ducimus exercitationem sit qui quam quae. Delectus deleniti beatae corporis veritatis eos non. Rem esse et. Aut excepturi sunt voluptatem ea inventore aliquid sunt placeat ad. Aut odio provident iusto placeat eligendi libero doloribus. Repellendus suscipit magnam expedita ipsum repellendus distinctio dolore id assumenda.",
-    "icon_url": "http://placeimg.com/640/480"
-}

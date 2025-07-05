@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Wooden Salad",
+    "description": "Odio recusandae velit quis. Quia dolorum debitis qui. Ea tempore praesentium doloremque fuga placeat nam qui sed qui. Sunt ut est numquam aliquam consequatur possimus dignissimos. Adipisci exercitationem dolore non ut nostrum commodi. Fuga excepturi voluptatibus ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

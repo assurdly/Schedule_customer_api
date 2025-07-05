@@ -1,5 +1,0 @@
-{
-    "name": "Refined Rubber Sausages",
-    "description": "Sint molestiae est optio dolor dolores aspernatur dolore in impedit. Autem aspernatur qui eos illo consequuntur. Corrupti non repudiandae ut occaecati voluptas laboriosam eos voluptatem. Perspiciatis nihil explicabo. Esse fugiat quas quo enim non recusandae corporis nesciunt. Sed dicta molestiae dolore laborum sint earum alias.",
-    "icon_url": "http://placeimg.com/640/480"
-}
