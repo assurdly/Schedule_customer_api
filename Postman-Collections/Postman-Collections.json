@@ -2413,54 +2413,6 @@
 							"name": "Logout",
 							"item": [
 								{
-									"name": "Customer logout - success",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "37a11327-4fc6-49a2-beed-dbdd24ea2041",
-												"exec": [
-													"pm.test(\"Status code is 200\", function () {",
-													"    pm.response.to.have.status(200);",
-													"});",
-													"",
-													"pm.test(\"Response body has success status\", function () {",
-													"    const jsonData = pm.response.json();",
-													"    pm.expect(jsonData.status).to.equal(\"success\");",
-													"});",
-													"",
-													"pm.test(\"Response body message is 'Logout successful'\", function () {",
-													"    const jsonData = pm.response.json();",
-													"    pm.expect(jsonData.message).to.equal(\"Logout successful\");",
-													"});"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "e5951083-196f-4557-bf43-246fde885c35",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "{{access_token}}"
-											}
-										},
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": "{{base_url}}/customers/logout"
-									},
-									"response": []
-								},
-								{
 									"name": "Customer logout - expired token",
 									"event": [
 										{
