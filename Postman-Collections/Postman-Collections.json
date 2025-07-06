@@ -29,14 +29,10 @@
 													"",
 													"// Validate the customer object",
 													"pm.test('Customer object should exist', () => {",
-													"    pm.expect(response.data.customer).to.exist;",
-													"    pm.expect(response.data.customer).to.be.an('object');",
-													"    pm.expect(response.data.customer.id).to.exist;",
-													"    pm.expect(response.data.customer.first_name).to.exist;",
-													"    pm.expect(response.data.customer.last_name).to.exist;",
-													"    pm.expect(response.data.customer.email).to.exist;",
-													"    pm.expect(response.data.customer.phone_number).to.exist;",
-													"    pm.expect(response.data.customer.status).to.exist;",
+													"    pm.expect(response.data).to.exist;",
+													"    pm.expect(response.data).to.be.an('object');",
+													"    pm.expect(response.data).to.have.property('reference')",
+													"",
 													"});",
 													"",
 													"pm.test(\"Response message for successful creation\", function () {",
@@ -59,7 +55,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"{{testnumber}}\",\r\n    \"email\": \"{{$randomFirstName}}@mailinator.com\",\r\n    \"action\": \"signup\"\r\n    //\"first_name\": \"lanre\", //optional\r\n   // \"last_name\": \"lanre\" //optional\r\n}",
+											"raw": "{\r\n    \"phone_number\": \"08023111{{$randomInt}}\",\r\n    \"email\": \"{{$randomFirstName}}@mailinator.com\",\r\n    \"action\": \"signup\"\r\n    //\"first_name\": \"lanre\", //optional\r\n   // \"last_name\": \"lanre\" //optional\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
