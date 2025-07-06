@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Rubber Pizza",
+    "description": "Accusantium dignissimos dicta enim porro voluptatem labore neque adipisci. Dolor quisquam distinctio. Ut inventore ducimus. Omnis tempore numquam dolores occaecati facilis rerum aut. Quia rerum ex laudantium et nam pariatur consequuntur ex recusandae. Qui ea optio nemo.",
+    "icon_url": "http://placeimg.com/640/480"
+}

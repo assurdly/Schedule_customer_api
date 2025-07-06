@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Fresh Tuna",
-    "description": "Id voluptatem consectetur dolores consequatur. Repellat tempora repellendus sint esse tempore assumenda nam. Rerum quasi assumenda. Maiores alias ullam temporibus. Voluptatem maxime dolore molestiae nemo totam hic.",
-    "icon_url": "http://placeimg.com/640/480"
-}
