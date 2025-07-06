@@ -9318,11 +9318,9 @@
 													"pm.test('Status code is 404', function () {\r",
 													"    pm.response.to.have.status(404);\r",
 													"});\r",
-													"\r",
 													"pm.test('Error message is being returned', function () {\r",
 													"    pm.expect(jsonData.message).to.exist;\r",
 													"});\r",
-													"\r",
 													"pm.test('Data returns empty', function () {\r",
 													"    pm.expect(jsonData.data).to.deep.equal({});\r",
 													"});"
