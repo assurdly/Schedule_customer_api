@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Soft Chips",
-    "description": "Tempora tempore laboriosam rerum quia iste. Rerum consequatur fugit est. Modi reprehenderit quia qui. Vel maxime et illo vel tenetur iste. Aliquam voluptas explicabo. Qui quidem rerum amet in commodi.",
-    "icon_url": "http://placeimg.com/640/480"
-}

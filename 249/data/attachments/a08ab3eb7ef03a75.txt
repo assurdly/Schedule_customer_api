@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Rubber Fish",
-    "description": "Saepe magnam nulla. Voluptas modi ut facere maxime temporibus aperiam aut doloremque iste. Dolores deserunt possimus corporis voluptatem soluta provident ut inventore. Pariatur sunt voluptas delectus et aut vero vel id. Provident repellat rerum consequuntur quis qui totam nemo nihil. Cupiditate excepturi id totam accusamus.",
-    "icon_url": "http://placeimg.com/640/480"
-}

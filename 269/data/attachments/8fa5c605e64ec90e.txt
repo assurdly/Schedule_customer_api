@@ -1,0 +1,5 @@
+{
+    "name": "Small Steel Chips",
+    "description": "Minus omnis est et deleniti. Illo magni quas est et et. Laborum praesentium nesciunt quo magnam eaque illo sint omnis.",
+    "icon_url": "http://placeimg.com/640/480"
+}
