@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Wooden Pants",
-    "description": "Omnis deserunt sunt. Sit voluptas sunt recusandae voluptas atque. Ratione ipsum esse impedit inventore. Quos ut blanditiis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
