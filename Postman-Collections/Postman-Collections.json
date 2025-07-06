@@ -2581,7 +2581,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\": \"{{testnumber}}\"\r\n}",
+											"raw": "{\r\n    \"phone_number\": \"07080507367\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
