@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Concrete Pizza",
-    "description": "Eum quod adipisci quae tenetur quo autem ea molestiae. Similique quasi ducimus. Aliquam qui iusto iure incidunt. Ut itaque suscipit alias esse consequatur rerum quae ut. Velit voluptatum amet. Impedit et voluptatibus ad doloremque veritatis ullam maiores velit.",
-    "icon_url": "http://placeimg.com/640/480"
-}
