@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Metal Sausages",
-    "description": "Et molestiae vel aut voluptatem dolorem. Totam aspernatur ea quam inventore. Earum dolorum quia quis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
