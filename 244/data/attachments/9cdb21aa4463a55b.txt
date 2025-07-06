@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Soft Soap",
-    "description": "Et totam est necessitatibus voluptatem sequi nemo. Perferendis vitae aut occaecati voluptatem nesciunt minima placeat exercitationem tempore. Perferendis ea nostrum enim quos. Voluptate reprehenderit aut delectus laudantium eum. Fugit temporibus veniam omnis animi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
