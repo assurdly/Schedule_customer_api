@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Cotton Computer",
+    "description": "Dolorem voluptas molestiae quis nihil dolor est nostrum. Quaerat esse assumenda sit quisquam a neque ea facilis ipsa. Dolores ducimus neque amet distinctio.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Soft Computer",
-    "description": "Repellat blanditiis numquam vero iure officia molestiae. Non dicta quis rerum dolor repudiandae. Placeat voluptas error enim harum ab labore et labore. Sequi aut magnam nobis labore sed cumque tempore laborum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

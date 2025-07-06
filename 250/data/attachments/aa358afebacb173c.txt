@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Plastic Shirt",
-    "description": "Quod dolor earum delectus et reprehenderit doloribus minima aut hic. Iste qui veritatis dolorem vel blanditiis. Odit sit atque quam laudantium. Molestiae eveniet est soluta ut architecto rerum debitis architecto quibusdam. Aliquam laboriosam qui cum non minus minus esse. Fugiat et occaecati.",
-    "icon_url": "http://placeimg.com/640/480"
-}

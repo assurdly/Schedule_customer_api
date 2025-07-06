@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Cotton Bacon",
+    "description": "Consectetur corporis aut deleniti est et aut quia eum. Ut dignissimos quos. At laudantium temporibus soluta provident nulla dolor. Et hic autem voluptatibus voluptatem quis maxime totam. Sequi autem enim est magnam qui at.",
+    "icon_url": "http://placeimg.com/640/480"
+}
