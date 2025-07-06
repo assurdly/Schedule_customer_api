@@ -1,5 +1,0 @@
-{
-    "name": "Practical Granite Bike",
-    "description": "Impedit facere dolorem aut. Quia non eum non rem. Illum voluptatum saepe alias voluptates natus. Praesentium eum ut quo nisi deleniti.",
-    "icon_url": "http://placeimg.com/640/480"
-}
