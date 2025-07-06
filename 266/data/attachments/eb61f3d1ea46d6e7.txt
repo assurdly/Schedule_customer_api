@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Plastic Chips",
+    "description": "Dolor sit quas rerum quos provident id sint fugit. Ipsum eius similique officiis qui sed officia et non cupiditate. Sapiente distinctio ea labore ex voluptas architecto dolores esse. Molestias ex quis nisi. Quam illum dicta quo voluptates in impedit ullam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
