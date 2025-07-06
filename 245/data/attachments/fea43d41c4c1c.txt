@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Plastic Shoes",
-    "description": "Ut et vel. Aspernatur quia magni. Porro facere dignissimos sed odit voluptatem omnis iure. Aut at quibusdam sed possimus. Rem est ratione sapiente sint.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Granite Table",
+    "description": "At architecto commodi amet soluta quod voluptas ratione. Saepe non ea quam ullam aut. Blanditiis voluptatem ratione.",
+    "icon_url": "http://placeimg.com/640/480"
+}
