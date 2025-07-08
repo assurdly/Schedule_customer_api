@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Fresh Chips",
+    "description": "Id et et. Sint qui eos ipsum ut ut labore qui impedit enim. Explicabo quod explicabo hic aliquam numquam dicta. Enim asperiores ipsam et et quam rerum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

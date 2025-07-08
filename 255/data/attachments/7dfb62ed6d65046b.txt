@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Rubber Fish",
-    "description": "Cumque dolor blanditiis cum itaque. Enim quia soluta vero rerum eum qui ea quo tenetur. Harum excepturi doloribus dolores amet. Ex quia recusandae voluptatem. Rerum aliquid sunt sunt est occaecati sed doloribus error at. Autem assumenda quis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
