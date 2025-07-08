@@ -1,0 +1,5 @@
+{
+    "name": "Generic Concrete Computer",
+    "description": "Voluptatem fugit modi. Est explicabo corrupti hic dolorum facere. Ut nisi cupiditate deserunt consequatur veritatis. Quis consequatur iste dolore ut impedit dolor minima sed totam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
