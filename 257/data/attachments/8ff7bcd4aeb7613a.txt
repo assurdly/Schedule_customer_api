@@ -1,5 +1,0 @@
-{
-    "name": "Refined Metal Fish",
-    "description": "Mollitia repellat corrupti commodi quos explicabo adipisci iste doloribus alias. Et dolore id beatae blanditiis eaque. Tempore dolorem vitae molestiae inventore facere aperiam laudantium. Maiores facere atque consequatur aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}
