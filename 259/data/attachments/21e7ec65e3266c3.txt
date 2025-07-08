@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Granite Pants",
-    "description": "Qui nam vitae inventore sed beatae aut. Minima et illo quasi. Exercitationem quis ea dolor dolorum sunt eaque. Magni quae provident iure. Ex cum eos non iste qui. Rem laborum tenetur aut architecto.",
-    "icon_url": "http://placeimg.com/640/480"
-}

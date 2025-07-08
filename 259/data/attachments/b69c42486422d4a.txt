@@ -1,5 +1,0 @@
-{
-    "name": "Practical Soft Soap",
-    "description": "Laboriosam enim et corrupti dolores labore aut voluptatem fugit iusto. Ipsa impedit delectus nostrum magnam dolorem iusto fuga qui commodi. Earum doloribus repudiandae. Similique ad ut sit quo pariatur rerum dignissimos ea beatae. Maiores est qui aut iure eum ut nulla natus. Consequatur tempora eum eum laudantium eaque.",
-    "icon_url": "http://placeimg.com/640/480"
-}

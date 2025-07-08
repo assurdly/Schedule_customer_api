@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Steel Chips",
+    "description": "Sunt ipsam dolor rem. Sequi ut error iusto fugiat et non. Ad et quidem sed. Asperiores vel illum et dolor. Impedit nesciunt ullam consequatur est quia eum iusto. Enim in animi nemo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
