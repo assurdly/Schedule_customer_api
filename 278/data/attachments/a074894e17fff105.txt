@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Steel Shoes",
+    "description": "Voluptatum dignissimos sed rerum esse debitis. Rerum amet id rem ut eum fugiat eveniet. Laboriosam odit similique molestiae qui magni voluptatem delectus quidem.",
+    "icon_url": "http://placeimg.com/640/480"
+}
