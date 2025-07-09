@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Steel Computer",
-    "description": "Cumque ipsam animi iste quas ut quos. Consequatur nihil officia quis ipsa mollitia accusamus ea est aperiam. Voluptatem maxime iste.",
-    "icon_url": "http://placeimg.com/640/480"
-}
