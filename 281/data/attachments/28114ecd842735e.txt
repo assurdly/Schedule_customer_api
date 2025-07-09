@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Steel Shoes",
+    "description": "Ut aut qui sit quia sit aperiam sequi. Qui quaerat temporibus libero qui sit. Illum dolores consequatur eaque saepe autem aut possimus consequatur laborum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
