@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Frozen Bike",
+    "description": "Similique est eum consequatur eaque aut tenetur. Et iure totam est consequuntur architecto ipsa corrupti qui perspiciatis. Deleniti saepe nihil cumque laboriosam saepe cumque aliquid magni. Vero error quasi molestias a quasi consequatur esse.",
+    "icon_url": "http://placeimg.com/640/480"
+}

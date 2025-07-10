@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Concrete Salad",
-    "description": "Alias quis rerum consequatur nisi sint accusamus nam tempora. Accusamus tempora corporis tenetur voluptas in et quae et. Beatae in placeat. Eligendi laudantium minus provident ipsum. Nisi enim autem autem voluptas rerum dicta.",
-    "icon_url": "http://placeimg.com/640/480"
-}
