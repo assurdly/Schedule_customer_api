@@ -1,5 +1,0 @@
-{
-    "name": "Refined Soft Mouse",
-    "description": "Unde et laboriosam magni ut illum voluptates omnis corporis aut. Odit voluptatem voluptate veniam quisquam ut architecto. Eos est dolores aut et illo ut et nam. Quis non possimus accusantium veniam consequatur soluta a necessitatibus esse. Repellendus deleniti iure magni et eos dolor. Aliquid labore dolorum quia cum et voluptatem.",
-    "icon_url": "http://placeimg.com/640/480"
-}

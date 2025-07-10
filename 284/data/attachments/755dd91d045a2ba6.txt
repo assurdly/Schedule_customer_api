@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Rubber Fish",
+    "description": "Voluptates iure corrupti tempore repudiandae. Sunt nihil et. Facere rerum temporibus aut quisquam quasi quo sit sint aut. Quasi porro explicabo totam rerum ut soluta consequatur quo aut. Enim distinctio deserunt odit quas inventore quos facere. Recusandae expedita dolores ipsa nam est officia.",
+    "icon_url": "http://placeimg.com/640/480"
+}

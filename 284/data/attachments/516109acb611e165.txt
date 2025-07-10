@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Plastic Table",
+    "description": "Quod ut possimus eum accusantium aspernatur corrupti delectus nostrum. Commodi dolorum accusamus non repellat. Est perferendis exercitationem illum quia expedita dolor harum sequi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
