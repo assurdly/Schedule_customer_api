@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer null",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "91b7ec93-3566-43a4-839f-5fa86a4a5325",
+    "Host": "api-pwaschedule.bits.dev.onepipe.io",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

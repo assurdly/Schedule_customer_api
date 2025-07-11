@@ -1,0 +1,5 @@
+{
+    "name": "Generic Cotton Chair",
+    "description": "Autem non explicabo perferendis. Quia quo dolorem nam deserunt deleniti omnis tempore at maiores. Ut facilis dolor magni quia amet et. Aut in error nihil necessitatibus quas optio quia quae adipisci. Neque cumque beatae beatae quas at perspiciatis est pariatur.",
+    "icon_url": "http://placeimg.com/640/480"
+}
