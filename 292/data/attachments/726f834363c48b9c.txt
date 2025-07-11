@@ -1,0 +1,7 @@
+{
+    "phone_number": "08023111882",
+    "email": "Elijah@mailinator.com",
+    "action": "signup"
+    
+   
+}

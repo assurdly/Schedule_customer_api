@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Rubber Tuna",
-    "description": "Excepturi nobis nostrum praesentium eum laboriosam. Illum ad enim et eos recusandae quis reprehenderit natus ut. Consequatur et in consectetur. Et non cumque similique aspernatur nisi enim quia. Eveniet reiciendis rerum aliquid nam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Granite Salad",
-    "description": "Velit delectus quos. Quis necessitatibus dolorem praesentium neque quia omnis aut rem iusto. Fugiat quia reprehenderit omnis non sit.",
-    "icon_url": "http://placeimg.com/640/480"
-}

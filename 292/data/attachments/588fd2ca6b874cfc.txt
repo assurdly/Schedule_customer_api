@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Fresh Chair",
+    "description": "Facere nam quae. Voluptatibus et eos culpa voluptatum. Ut maxime nemo rerum et magni. Quo eaque dolor totam necessitatibus provident non neque doloribus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
