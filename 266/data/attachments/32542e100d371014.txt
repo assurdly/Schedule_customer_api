@@ -1,5 +1,0 @@
-{
-    "name": "Small Wooden Mouse",
-    "description": "Libero ut quisquam vitae eum porro earum. Quis quos quasi vel ipsam aut. Et culpa quisquam alias expedita quibusdam. Cumque quod quis eos amet laudantium eum. Sunt cupiditate et. Earum rerum a et.",
-    "icon_url": "http://placeimg.com/640/480"
-}
