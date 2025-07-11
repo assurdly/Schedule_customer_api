@@ -1,0 +1,5 @@
+{
+    "name": "Generic Rubber Gloves",
+    "description": "Non et quia. Iste hic rerum enim commodi unde molestias. Maiores ducimus tenetur velit. Sed cum perspiciatis cum. Quo quidem aut consequatur fugiat et sint ab. Reiciendis incidunt dolores incidunt esse voluptate ut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Fantastic Fresh Car",
-    "description": "Laborum et rerum. Totam sed at fuga vitae autem voluptate qui ea dignissimos. Incidunt ducimus dolore nihil.",
-    "icon_url": "http://placeimg.com/640/480"
-}

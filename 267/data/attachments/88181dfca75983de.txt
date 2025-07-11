@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Soft Chicken",
-    "description": "Dolore quas eius ea. Ut molestiae perferendis. Sed ipsum dolor.",
-    "icon_url": "http://placeimg.com/640/480"
-}
