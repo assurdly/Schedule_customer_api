@@ -1,5 +1,0 @@
-{
-    "name": "Practical Granite Keyboard",
-    "description": "Omnis fuga consequatur sit fugiat et pariatur. Facere eaque vel rerum nam. Vel mollitia repellendus omnis enim dolores soluta.",
-    "icon_url": "http://placeimg.com/640/480"
-}

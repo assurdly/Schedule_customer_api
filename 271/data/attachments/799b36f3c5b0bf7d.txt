@@ -1,5 +1,0 @@
-{
-    "name": "Practical Soft Chicken",
-    "description": "Optio unde iste nesciunt perferendis. Adipisci blanditiis dolores iusto laudantium quia autem. Assumenda voluptatem asperiores et odit quo similique quis. Ut repudiandae ratione dolore in ducimus vel rerum deserunt. Magnam cumque magni necessitatibus.",
-    "icon_url": "http://placeimg.com/640/480"
-}
