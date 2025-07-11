@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Soft Bacon",
+    "description": "Non maiores sunt et fugiat voluptates enim voluptatem quisquam nulla. Ea quasi voluptate necessitatibus optio. Possimus possimus voluptatem nobis voluptatibus doloribus quidem dolores harum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

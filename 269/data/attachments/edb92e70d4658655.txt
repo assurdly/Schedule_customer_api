@@ -1,5 +1,0 @@
-{
-    "name": "Intelligent Steel Shoes",
-    "description": "Cumque et et et esse optio dolorem est. Qui aut impedit iure. Assumenda molestias nemo maiores nihil quia est sapiente et. Voluptas ratione molestiae.",
-    "icon_url": "http://placeimg.com/640/480"
-}

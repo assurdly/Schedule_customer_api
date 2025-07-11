@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Granite Gloves",
+    "description": "Dolorem ut facilis rerum quo consectetur cupiditate. Eos et eligendi eum molestiae assumenda placeat occaecati. Iusto in ea ut. Explicabo consequuntur quas quos dolores. Voluptatibus fuga dignissimos et ab placeat doloribus sed. Esse nihil necessitatibus corrupti aut voluptatem eum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
