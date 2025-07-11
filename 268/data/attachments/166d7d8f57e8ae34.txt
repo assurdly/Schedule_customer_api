@@ -1,5 +1,0 @@
-{
-    "name": "Refined Wooden Shirt",
-    "description": "In et quia fuga ullam non consequatur. Aliquid sit aliquid natus sint enim error atque sapiente. Itaque vel quisquam reiciendis voluptatem et inventore harum.",
-    "icon_url": "http://placeimg.com/640/480"
-}

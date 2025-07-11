@@ -1,0 +1,5 @@
+{
+    "name": "Refined Fresh Chair",
+    "description": "Nulla aut velit quas et. Velit consequuntur voluptas. Consectetur doloremque pariatur.",
+    "icon_url": "http://placeimg.com/640/480"
+}
