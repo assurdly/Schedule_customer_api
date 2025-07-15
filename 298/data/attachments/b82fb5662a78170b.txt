@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Frozen Hat",
+    "description": "Rerum et dolor sequi omnis alias. Perspiciatis id adipisci. Nihil voluptas est non velit dolorem inventore quidem. Impedit omnis dolorem temporibus sint atque nam enim corporis quas. Recusandae similique qui qui deserunt ipsum impedit aut quae earum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

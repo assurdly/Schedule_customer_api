@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Soft Pants",
+    "description": "Reiciendis eos nihil quis officia ea et voluptatem magni est. Cumque tenetur molestiae. Et ab magnam voluptas est officia tenetur tenetur dolor laboriosam. Nihil dolor sunt accusamus rerum non ab mollitia. Maxime ut distinctio et quam dolor saepe. Aliquid sit explicabo recusandae ut id est accusantium.",
+    "icon_url": "http://placeimg.com/640/480"
+}

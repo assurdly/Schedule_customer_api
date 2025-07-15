@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Pasquale.Torp19@hotmail.com",
-    "first_name": "Montana",
-    "last_name": "" 
-}
