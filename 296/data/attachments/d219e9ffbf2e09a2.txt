@@ -1,0 +1,5 @@
+{
+    "name": "Generic Cotton Computer",
+    "description": "Ut eius excepturi rerum minus ut earum facilis enim explicabo. Voluptas harum quae quaerat. Magnam vel vero doloremque et qui itaque veniam iusto.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Wooden Gloves",
-    "description": "Aut tempore quo eos dolores non assumenda. Temporibus et et quia aut est. Id doloribus molestiae recusandae. Sint ea suscipit molestias rerum rerum facere ipsum modi.",
-    "icon_url": "http://placeimg.com/640/480"
-}

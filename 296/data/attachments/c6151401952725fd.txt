@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Rubber Gloves",
+    "description": "Quasi vitae illo sed quod debitis et quia mollitia. Facilis soluta eius eos ea. Iusto ut saepe cupiditate a vel. Earum dolorum perspiciatis aut impedit debitis veniam omnis. Qui hic ut eos velit ullam eos quasi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
