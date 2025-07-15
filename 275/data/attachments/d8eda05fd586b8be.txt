@@ -1,5 +1,0 @@
-{
-    "name": "Awesome Wooden Cheese",
-    "description": "Eveniet omnis necessitatibus est. Quod dolores porro enim ut eaque. Pariatur quisquam eos eius autem occaecati. Totam iusto dicta non et. Quia animi consequatur veniam voluptas quam. Saepe et at est.",
-    "icon_url": "http://placeimg.com/640/480"
-}

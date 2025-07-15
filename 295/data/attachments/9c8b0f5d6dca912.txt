@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Concrete Chair",
+    "description": "Recusandae eaque ipsum autem ullam est. Sequi aut dolor tempore unde odio repudiandae ipsam in. Provident voluptatibus mollitia est illum vel quis dolorum sit nisi. Autem eos maiores fugit ipsum. Qui eligendi corporis ratione repellat.",
+    "icon_url": "http://placeimg.com/640/480"
+}
