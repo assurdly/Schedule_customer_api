@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Plastic Salad",
-    "description": "Expedita ut quaerat explicabo. Itaque ut velit neque consequuntur aut consectetur praesentium commodi. At est mollitia rerum reiciendis. Occaecati laudantium totam minus aperiam eius odio reiciendis. Corporis non vel mollitia adipisci veritatis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
