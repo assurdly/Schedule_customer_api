@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Fresh Salad",
+    "description": "Dignissimos beatae voluptates enim nemo maxime sit perferendis. Sint aut qui. Alias totam et. Quaerat ab nobis voluptatem praesentium.",
+    "icon_url": "http://placeimg.com/640/480"
+}

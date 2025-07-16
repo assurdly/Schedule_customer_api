@@ -1,5 +1,0 @@
-{
-    "name": "Sleek Metal Hat",
-    "description": "Distinctio qui adipisci. Rerum suscipit blanditiis blanditiis non aut animi cupiditate et tenetur. Ipsa dolorum velit omnis quia magni et id. Omnis natus ut voluptatem optio in rem et ut. Aut perspiciatis natus aspernatur voluptatibus magni velit quam.",
-    "icon_url": "http://placeimg.com/640/480"
-}
