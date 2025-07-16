@@ -1,5 +1,0 @@
-{
-    "name": "Small Steel Ball",
-    "description": "Aut nisi animi provident ut dolores sed consequatur. Qui corporis ratione atque possimus modi. Ad nemo quisquam exercitationem ut alias. Aut esse possimus eligendi amet omnis molestias voluptas distinctio doloremque. At dolorum doloremque ut velit officia necessitatibus iure adipisci omnis.",
-    "icon_url": "http://placeimg.com/640/480"
-}

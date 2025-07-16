@@ -1,5 +1,0 @@
-{
-    "name": "Gorgeous Steel Shirt",
-    "description": "Enim numquam nisi et. Ab ut eum nihil repellat et dolorum ex. Dignissimos esse possimus facere ad quis sit nihil et. Accusantium itaque fuga harum omnis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
