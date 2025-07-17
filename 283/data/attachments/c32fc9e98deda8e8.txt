@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Rubber Towels",
-    "description": "Necessitatibus aspernatur corrupti ut tempora ea totam quasi et nobis. Consequuntur vitae dolores ut ut dicta tempora. Laborum dolores minima culpa. Sint minima nesciunt repudiandae. Sint ut aut dignissimos et. Explicabo aut incidunt error dolorem repudiandae in neque.",
-    "icon_url": "http://placeimg.com/640/480"
-}
