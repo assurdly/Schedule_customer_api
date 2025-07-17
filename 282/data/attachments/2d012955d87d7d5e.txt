@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Steel Sausages",
-    "description": "Impedit tempore maiores consequuntur eum. Et a qui numquam quibusdam laudantium voluptas. Pariatur fugit possimus libero nihil minus incidunt. Sed sit mollitia maiores vel voluptatem et rerum excepturi consectetur. Illo laudantium adipisci nam dolore. Sunt fugiat quis delectus praesentium quod expedita et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Awesome Wooden Sausages",
+    "description": "Necessitatibus voluptas ea culpa pariatur. Alias ut necessitatibus eligendi voluptatem illum magni quas. Et atque architecto sint exercitationem aut nihil dolor ut et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Plastic Chips",
+    "description": "Nemo asperiores aspernatur aut corporis dignissimos eos et veritatis. Qui numquam accusamus omnis molestiae sint alias facere quibusdam quo. Consequatur itaque nobis officia. Consequatur sunt pariatur quia. Rerum iure voluptatem sed earum ad.",
+    "icon_url": "http://placeimg.com/640/480"
+}

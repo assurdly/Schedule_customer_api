@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Frozen Mouse",
-    "description": "Deleniti est veritatis itaque velit expedita fugiat. Nihil nihil debitis. Illum quis et dolorum tempore ut quia dicta vel. Accusantium omnis veniam magni possimus quam. Voluptatem ut non eveniet molestiae itaque. Tempore dolor et nobis possimus unde.",
-    "icon_url": "http://placeimg.com/640/480"
-}
