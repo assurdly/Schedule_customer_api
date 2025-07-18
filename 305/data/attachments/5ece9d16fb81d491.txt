@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Fresh Cheese",
+    "description": "Sed et corrupti asperiores voluptas tempora saepe. Facere enim velit. Aspernatur ipsum perspiciatis amet illo sapiente non. Doloremque est voluptatem provident aliquid tempora voluptatem commodi et at.",
+    "icon_url": "http://placeimg.com/640/480"
+}
