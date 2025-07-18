@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Soft Chicken",
+    "description": "Inventore cum maxime eligendi ipsa quo eius molestiae quia. Est corporis qui et magni ad qui tempore tempore voluptates. Occaecati doloremque consequatur veritatis. Non voluptatem quis tenetur. Repudiandae quasi neque in ducimus sed accusamus minima.",
+    "icon_url": "http://placeimg.com/640/480"
+}

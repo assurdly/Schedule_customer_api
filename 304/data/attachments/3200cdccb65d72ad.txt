@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Steel Salad",
+    "description": "Ea assumenda voluptatibus necessitatibus deserunt delectus. Blanditiis dolor laboriosam ut nulla. Natus cum assumenda expedita quae dolor rerum. Quae esse alias nulla. In sit incidunt illum iusto provident quis aut debitis quo.",
+    "icon_url": "http://placeimg.com/640/480"
+}
