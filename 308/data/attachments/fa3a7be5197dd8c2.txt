@@ -1,0 +1,5 @@
+{
+    "name": "Practical Granite Pants",
+    "description": "Laboriosam nemo aperiam rerum. Cum laboriosam optio eos id nesciunt voluptatibus eligendi. Recusandae exercitationem nam consectetur. Quia porro incidunt et voluptatem omnis molestias.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,6 +1,0 @@
-{
-    "phone_number": "08036114421",
-    "email": "Ervin.Pfannerstill70@hotmail.com",
-    "first_name": "Bertram",
-    "last_name": "" 
-}

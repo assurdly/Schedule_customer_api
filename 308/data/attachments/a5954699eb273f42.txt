@@ -1,0 +1,5 @@
+{
+    "name": "Small Soft Shirt",
+    "description": "Fuga voluptatem est libero impedit quia et vel illum. Eos labore suscipit voluptatem quis voluptatibus totam deserunt qui. Corporis perspiciatis est. Reiciendis quas praesentium et eos in consectetur totam natus. Et hic consectetur officia aut qui enim adipisci.",
+    "icon_url": "http://placeimg.com/640/480"
+}
