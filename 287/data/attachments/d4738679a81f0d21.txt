@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Cotton Car",
-    "description": "Id officia assumenda aut. Aliquam ea fugiat. Adipisci qui aut ipsam repellendus facere. Maiores rerum id a sint commodi architecto optio. Voluptates ea est beatae ut tenetur. Sapiente sunt exercitationem eos nesciunt error.",
-    "icon_url": "http://placeimg.com/640/480"
-}
