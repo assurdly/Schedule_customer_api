@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Rubber Keyboard",
+    "description": "Libero omnis harum ducimus laborum tenetur. Enim possimus est. Expedita sapiente itaque ratione.",
+    "icon_url": "http://placeimg.com/640/480"
+}

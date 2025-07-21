@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Granite Soap",
-    "description": "Libero et quis aliquam voluptas id doloribus earum. Voluptatem quisquam aliquam enim numquam. Iste omnis rerum incidunt. Minus recusandae doloribus omnis molestias.",
-    "icon_url": "http://placeimg.com/640/480"
-}
