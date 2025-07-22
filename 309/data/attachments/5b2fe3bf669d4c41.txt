@@ -1,0 +1,5 @@
+{
+    "name": "Refined Plastic Fish",
+    "description": "Voluptates deleniti doloribus ea numquam debitis soluta et cumque explicabo. Consectetur sequi aut culpa beatae facilis. Odio consectetur error rerum ea quis labore tenetur aut praesentium.",
+    "icon_url": "http://placeimg.com/640/480"
+}
