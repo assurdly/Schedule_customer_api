@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Cotton Bacon",
-    "description": "Nulla quaerat dicta in rem amet sint nihil. Iure sint est doloribus. Consequatur nihil numquam totam.",
-    "icon_url": "http://placeimg.com/640/480"
-}

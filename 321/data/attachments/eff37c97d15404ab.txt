@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Fresh Bike",
+    "description": "Rerum laborum placeat nisi deleniti. Et alias explicabo quod iure non. Explicabo sit et ut molestiae iusto aut voluptatem est rerum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Soft Hat",
+    "description": "Quis fugit laudantium ipsam voluptas autem. Incidunt consequatur dolore nobis qui aut dolorem et. Voluptatem rerum quidem iure reprehenderit et commodi reiciendis. Labore molestias sit.",
+    "icon_url": "http://placeimg.com/640/480"
+}
