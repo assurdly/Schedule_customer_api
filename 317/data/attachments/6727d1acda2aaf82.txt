@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Fresh Table",
+    "description": "Aut voluptas ratione. Quae autem consequuntur reiciendis. Rerum nihil occaecati ducimus et incidunt eveniet architecto. Aliquid id ea dolor laudantium. Sunt ea odit quo. Exercitationem officiis iusto aspernatur repellendus officia repellendus similique nostrum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

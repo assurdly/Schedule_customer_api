@@ -1,5 +1,0 @@
-{
-    "name": "Handmade Cotton Car",
-    "description": "Numquam esse eos aut debitis qui voluptatem voluptas. Cum qui id quas corporis nemo aperiam. Assumenda temporibus commodi beatae provident. Reiciendis dolorem officiis dicta.",
-    "icon_url": "http://placeimg.com/640/480"
-}

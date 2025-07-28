@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Steel Gloves",
-    "description": "Blanditiis hic in nam qui quam ut nemo. Maxime inventore quia modi modi nesciunt ad iure sit. Aut ipsa voluptatem officiis voluptate quis autem temporibus. Est voluptas vitae et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

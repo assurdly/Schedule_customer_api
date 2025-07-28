@@ -1,0 +1,5 @@
+{
+    "name": "Ergonomic Wooden Soap",
+    "description": "Dolorem facere sapiente totam dolores. Quia velit soluta. Libero dolores quidem. Sit est ullam odio sequi nisi.",
+    "icon_url": "http://placeimg.com/640/480"
+}
