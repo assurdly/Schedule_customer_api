@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Metal Chips",
+    "description": "Qui aut recusandae quidem id cupiditate. Ut alias est quia delectus odio qui eum. Nesciunt nobis ut vero sit. Officia ullam repellendus omnis culpa aperiam architecto.",
+    "icon_url": "http://placeimg.com/640/480"
+}

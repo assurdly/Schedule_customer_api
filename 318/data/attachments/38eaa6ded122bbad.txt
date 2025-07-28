@@ -1,0 +1,5 @@
+{
+    "name": "Handmade Soft Gloves",
+    "description": "Nam asperiores unde earum. Dolor sit exercitationem nihil molestiae non exercitationem. Minus dignissimos hic voluptates neque adipisci ipsum aut numquam quod.",
+    "icon_url": "http://placeimg.com/640/480"
+}
