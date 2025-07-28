@@ -12951,8 +12951,8 @@
 												"exec": [
 													"const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test(\"Status code is 400\", function () {\r",
-													"    pm.response.to.have.status(400);\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
 													"});\r",
 													"\r",
 													"pm.test(\"Validate the response data\", function () {\r",
@@ -12974,7 +12974,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{access_token}}"
+												"token": "eyJhbGciOiUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUzNjkwNjQ1LCJleHAiOjE3NTM2OTQyNDV9.43Ez3EXKVezPyX30v-iFdpMhLsR1OQUuKogNbvDUoMc"
 											}
 										},
 										"method": "POST",
@@ -13000,7 +13000,6 @@
 											],
 											"variable": [
 												{
-													"id": "22b5e8f3-71b6-4baf-8b56-468d35517907",
 													"key": "id",
 													"value": "2"
 												}
@@ -13132,6 +13131,315 @@
 										},
 										{
 											"id": "518994f2-0417-4ffa-a0f8-545f56c9c7a8",
+											"name": "Dispute Transaction",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"reason\" :\"test\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/transactions/:id/dispute",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"transactions",
+														":id",
+														"dispute"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "2"
+														}
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Date",
+													"value": "Tue, 24 Jun 2025 20:24:00 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "83"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"53-+HeuqqFA33VACMSCixZNApSgq0E\""
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"error\",\n    \"message\": \"This transaction has already been disputed\",\n    \"data\": {}\n}"
+										}
+									]
+								},
+								{
+									"name": "Dispute Transaction - No Auth Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "87effce3-f15d-4e05-a502-fa32d73d4628",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the response data\", function () {\r",
+													"    pm.expect(jsonData.status).to.exist;\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"    pm.expect(jsonData.data).to.exist.and.be.empty;\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "cb870ed2-38af-46df-a541-4af2b1bac014",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "noauth"
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"reason\" :\"Test\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{base_url}}/transactions/:id/dispute",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"transactions",
+												":id",
+												"dispute"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "8f36324e-a644-4561-8ae5-3d7a1c45da50",
+											"name": "Dispute Transaction",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"reason\" :\"test\"\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{base_url}}/transactions/:id/dispute",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"transactions",
+														":id",
+														"dispute"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "2"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Date",
+													"value": "Tue, 24 Jun 2025 20:23:32 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "142"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"8e-zJzcBYYx8pxwHDcW0YFi3s4O+8c\""
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"Transaction dispute has been submitted successfully. We will review your request and get back to you shortly.\"\n}"
+										},
+										{
+											"id": "991f05b4-fe58-420d-9f5a-540405dfcb88",
 											"name": "Dispute Transaction",
 											"originalRequest": {
 												"method": "POST",
