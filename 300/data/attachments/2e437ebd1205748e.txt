@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Plastic Hat",
-    "description": "Aliquid dicta doloremque provident sunt sed tenetur eaque est quis. Eius est accusantium omnis sed necessitatibus. Provident architecto ullam repellat minima cupiditate itaque consequatur ut. Nesciunt labore quod consequuntur explicabo quas pariatur nihil cupiditate fugit. Nostrum eligendi eos vitae illo accusantium.",
-    "icon_url": "http://placeimg.com/640/480"
-}

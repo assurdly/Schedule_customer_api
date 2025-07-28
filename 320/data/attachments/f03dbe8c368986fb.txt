@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Wooden Sausages",
+    "description": "Ut pariatur delectus asperiores. Earum eligendi sit necessitatibus est. Excepturi possimus tempora doloremque ipsa rem dignissimos magni ex officiis.",
+    "icon_url": "http://placeimg.com/640/480"
+}
