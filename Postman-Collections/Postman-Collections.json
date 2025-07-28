@@ -8846,6 +8846,162 @@
 								}
 							],
 							"id": "a5e9bd70-0d3d-4820-9c24-68c6c4b1bb97"
+						},
+						{
+							"name": "Pay Now",
+							"item": [
+								{
+									"name": "Pay Now",
+									"id": "3b649bff-3f8b-4eab-830c-7e62eced734d",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUyMjMwNTgwLCJleHAiOjE3NTIyMzQxODB9.oxy2kNt1Kv2q0lhJALNM_CH8Y0sAcqu0sef2kpJVmWk"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/subscriptions/:subscription_id/instant",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"subscriptions",
+												":subscription_id",
+												"instant"
+											],
+											"variable": [
+												{
+													"id": "cbf0a8bb-947f-4e39-98e1-d73f3c6aa34b",
+													"key": "subscription_id",
+													"value": "79"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "95d0def0-6e58-461f-82b0-3fcfb03876ae",
+											"name": "Pay Now",
+											"originalRequest": {
+												"method": "POST",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/subscriptions/:subscription_id/instant",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"subscriptions",
+														":subscription_id",
+														"instant"
+													],
+													"variable": [
+														{
+															"key": "subscription_id",
+															"value": "79"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Date",
+													"value": "Fri, 11 Jul 2025 10:49:27 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1142"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "Etag",
+													"value": "W/\"476-76bUD7Zoqmob5puEWXLcjAQcCbU\""
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "X-Dns-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "X-Xss-Protection",
+													"value": "0"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"status\": \"Processing\",\n        \"message\": \"Kindly follow the instructions sent to you via SMS and Email to complete payment\",\n        \"data\": {\n            \"provider_response_code\": \"00\",\n            \"provider\": \"PaywithAccount\",\n            \"errors\": null,\n            \"error\": null,\n            \"provider_response\": {\n                \"reference\": \"RC1544159/1557/0009084488\",\n                \"account_number\": \"2265006649\",\n                \"currency_code\": \"NGN\",\n                \"customer_email\": \"l.adeosun.la@gmail.com\",\n                \"bank_code\": \"057\",\n                \"status\": \"REQUESTED\",\n                \"created_on\": \"2025-07-11 10:49:26\",\n                \"meta\": {\n                    \"payment_id\": 15876,\n                    \"virtual_account_name\": \"PWT - Schedify - MTN Airtime\",\n                    \"virtual_account_number\": \"4566344694\",\n                    \"virtual_account_bank_name\": \"Fidelity\",\n                    \"virtual_account_bank_code\": \"070\",\n                    \"virtual_account_status\": \"active\",\n                    \"virtual_account_expiry_date\": \"2025-07-11 12:19:00\",\n                    \"ussd_code\": \"*347*022*2*31904#\",\n                    \"existing_subscription\": false,\n                    \"activation_url\": null\n                }\n            },\n            \"client_info\": {\n                \"name\": null,\n                \"id\": null,\n                \"bank_cbn_code\": null,\n                \"bank_name\": null,\n                \"console_url\": null,\n                \"js_background_image\": null,\n                \"css_url\": null,\n                \"logo_url\": null,\n                \"footer_text\": null,\n                \"show_options_icon\": false,\n                \"paginate\": false,\n                \"paginate_count\": 0,\n                \"options\": null,\n                \"merchant\": null,\n                \"colors\": null,\n                \"meta\": null\n            }\n        }\n    }\n}"
+										}
+									]
+								}
+							],
+							"id": "896ee0db-45ec-4229-9966-01c43e77f687"
 						}
 					],
 					"id": "8161d1d2-0225-4cdb-83e1-a8cfc515885d"
@@ -10963,7 +11119,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{customer_access_token}}"
+										"token": "{{access_token}}"
 									}
 								},
 								"method": "POST",
@@ -10990,7 +11146,6 @@
 									],
 									"variable": [
 										{
-											"id": "ed159276-28df-40cb-868e-cf02f2e1cb31",
 											"key": "aggregator_id",
 											"value": "1"
 										}
@@ -11540,162 +11695,6 @@
 						}
 					],
 					"id": "baa8b05f-8b7a-4a47-9bcb-32a4b70e9389"
-				},
-				{
-					"name": "New Folder",
-					"item": [
-						{
-							"name": "Pay Now Copy",
-							"id": "3b649bff-3f8b-4eab-830c-7e62eced734d",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUyMjMwNTgwLCJleHAiOjE3NTIyMzQxODB9.oxy2kNt1Kv2q0lhJALNM_CH8Y0sAcqu0sef2kpJVmWk"
-									}
-								},
-								"method": "POST",
-								"header": [],
-								"url": {
-									"raw": "{{base_url}}/subscriptions/:subscription_id/instant",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"subscriptions",
-										":subscription_id",
-										"instant"
-									],
-									"variable": [
-										{
-											"id": "cbf0a8bb-947f-4e39-98e1-d73f3c6aa34b",
-											"key": "subscription_id",
-											"value": "79"
-										}
-									]
-								}
-							},
-							"response": [
-								{
-									"id": "95d0def0-6e58-461f-82b0-3fcfb03876ae",
-									"name": "Pay Now",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"url": {
-											"raw": "{{base_url}}/subscriptions/:subscription_id/instant",
-											"host": [
-												"{{base_url}}"
-											],
-											"path": [
-												"subscriptions",
-												":subscription_id",
-												"instant"
-											],
-											"variable": [
-												{
-													"key": "subscription_id",
-													"value": "79"
-												}
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Date",
-											"value": "Fri, 11 Jul 2025 10:49:27 GMT"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json; charset=utf-8"
-										},
-										{
-											"key": "Content-Length",
-											"value": "1142"
-										},
-										{
-											"key": "Connection",
-											"value": "keep-alive"
-										},
-										{
-											"key": "Access-Control-Allow-Credentials",
-											"value": "true"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Access-Control-Expose-Headers",
-											"value": "x-encryption-key,x-encryption-iv"
-										},
-										{
-											"key": "Content-Security-Policy",
-											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
-										},
-										{
-											"key": "Cross-Origin-Opener-Policy",
-											"value": "same-origin"
-										},
-										{
-											"key": "Cross-Origin-Resource-Policy",
-											"value": "cross-origin"
-										},
-										{
-											"key": "Etag",
-											"value": "W/\"476-76bUD7Zoqmob5puEWXLcjAQcCbU\""
-										},
-										{
-											"key": "Origin-Agent-Cluster",
-											"value": "?1"
-										},
-										{
-											"key": "Referrer-Policy",
-											"value": "no-referrer"
-										},
-										{
-											"key": "Strict-Transport-Security",
-											"value": "max-age=15552000; includeSubDomains"
-										},
-										{
-											"key": "X-Content-Type-Options",
-											"value": "nosniff"
-										},
-										{
-											"key": "X-Dns-Prefetch-Control",
-											"value": "off"
-										},
-										{
-											"key": "X-Download-Options",
-											"value": "noopen"
-										},
-										{
-											"key": "X-Frame-Options",
-											"value": "SAMEORIGIN"
-										},
-										{
-											"key": "X-Permitted-Cross-Domain-Policies",
-											"value": "none"
-										},
-										{
-											"key": "X-Xss-Protection",
-											"value": "0"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"status\": \"Processing\",\n        \"message\": \"Kindly follow the instructions sent to you via SMS and Email to complete payment\",\n        \"data\": {\n            \"provider_response_code\": \"00\",\n            \"provider\": \"PaywithAccount\",\n            \"errors\": null,\n            \"error\": null,\n            \"provider_response\": {\n                \"reference\": \"RC1544159/1557/0009084488\",\n                \"account_number\": \"2265006649\",\n                \"currency_code\": \"NGN\",\n                \"customer_email\": \"l.adeosun.la@gmail.com\",\n                \"bank_code\": \"057\",\n                \"status\": \"REQUESTED\",\n                \"created_on\": \"2025-07-11 10:49:26\",\n                \"meta\": {\n                    \"payment_id\": 15876,\n                    \"virtual_account_name\": \"PWT - Schedify - MTN Airtime\",\n                    \"virtual_account_number\": \"4566344694\",\n                    \"virtual_account_bank_name\": \"Fidelity\",\n                    \"virtual_account_bank_code\": \"070\",\n                    \"virtual_account_status\": \"active\",\n                    \"virtual_account_expiry_date\": \"2025-07-11 12:19:00\",\n                    \"ussd_code\": \"*347*022*2*31904#\",\n                    \"existing_subscription\": false,\n                    \"activation_url\": null\n                }\n            },\n            \"client_info\": {\n                \"name\": null,\n                \"id\": null,\n                \"bank_cbn_code\": null,\n                \"bank_name\": null,\n                \"console_url\": null,\n                \"js_background_image\": null,\n                \"css_url\": null,\n                \"logo_url\": null,\n                \"footer_text\": null,\n                \"show_options_icon\": false,\n                \"paginate\": false,\n                \"paginate_count\": 0,\n                \"options\": null,\n                \"merchant\": null,\n                \"colors\": null,\n                \"meta\": null\n            }\n        }\n    }\n}"
-								}
-							]
-						}
-					],
-					"id": "896ee0db-45ec-4229-9966-01c43e77f687"
 				}
 			],
 			"id": "7ff310d6-f751-4296-bf4f-21f11561293c"
