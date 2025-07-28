@@ -1,0 +1,5 @@
+{
+    "name": "Refined Cotton Computer",
+    "description": "In cupiditate dolorem a magni officiis similique. In et molestiae eveniet impedit modi id. Doloremque qui sunt et animi assumenda ullam. Dolore dolore sit fugiat culpa dolorum dolorum voluptatem. Voluptas minima nulla deleniti et deserunt ipsum. Tempore ut distinctio sed distinctio quae dignissimos ad.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Metal Pants",
+    "description": "Voluptatem qui sunt voluptatem quia quo minus rem in. Maiores nisi deserunt voluptatem qui corporis qui. Ea voluptate ratione officiis minus ut aut quis. Repellendus officiis odit ab architecto nobis quo ut. Et totam tenetur omnis accusamus eum. Consequuntur ipsum dolorem natus odio ad autem.",
+    "icon_url": "http://placeimg.com/640/480"
+}

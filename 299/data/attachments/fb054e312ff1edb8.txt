@@ -1,5 +1,0 @@
-{
-    "name": "Licensed Plastic Car",
-    "description": "Dolores modi vero et. Cupiditate officiis maxime. Quod omnis eos nemo dolores.",
-    "icon_url": "http://placeimg.com/640/480"
-}

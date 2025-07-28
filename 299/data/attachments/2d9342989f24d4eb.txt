@@ -1,5 +1,0 @@
-{
-    "name": "Rustic Rubber Towels",
-    "description": "Quia consequuntur itaque hic occaecati placeat maxime. Incidunt nostrum nostrum hic iure sunt asperiores. Aut et explicabo fuga placeat inventore exercitationem aliquid sit. Modi repudiandae repellat culpa nulla molestias minus accusantium.",
-    "icon_url": "http://placeimg.com/640/480"
-}
