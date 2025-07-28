@@ -1,5 +1,0 @@
-{
-    "name": "Refined Frozen Bacon",
-    "description": "Itaque facilis soluta. Soluta eum repellat harum. Eaque quod quam neque. Fugiat excepturi veritatis non.",
-    "icon_url": "http://placeimg.com/640/480"
-}

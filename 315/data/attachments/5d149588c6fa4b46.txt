@@ -1,0 +1,4 @@
+{
+    "recipient_identifier": "08012345678",
+    "product_id": "78" 
+}

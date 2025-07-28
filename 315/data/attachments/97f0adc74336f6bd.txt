@@ -1,0 +1,18 @@
+const jsonData = pm.response.json();
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Validate the response data", function () {
+    pm.expect(jsonData.status).to.exist;
+    pm.expect(jsonData.message).to.exist;
+    pm.expect(jsonData.data.data).to.be.an("array");
+    pm.expect(jsonData.data.data).to.have.property("id");
+    pm.expect(jsonData.data.data).to.have.property("created_on");
+    pm.expect(jsonData.data.data).to.have.property("modified_on");
+    pm.expect(jsonData.data.data).to.have.property("title");
+    pm.expect(jsonData.data.data).to.have.property("body");
+    pm.expect(jsonData.data.data).to.have.property("seen");
+    pm.expect(jsonData.data.data).to.have.property("customer_id");
+})

@@ -1,0 +1,5 @@
+{
+    "name": "Practical Wooden Tuna",
+    "description": "Cupiditate animi vel saepe aliquam. Harum nam voluptatem est eligendi soluta vel. Provident quo officiis soluta natus nam velit. Eaque exercitationem alias in. Voluptatum eveniet non harum rerum.",
+    "icon_url": "http://placeimg.com/640/480"
+}
