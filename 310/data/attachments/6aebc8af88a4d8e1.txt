@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Wooden Bacon",
+    "description": "Unde velit tempore ad vel. Ratione tempore doloremque. Qui qui dolor aut aut incidunt commodi nam. Cupiditate ut laborum dignissimos voluptas impedit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

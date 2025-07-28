@@ -1,5 +1,0 @@
-{
-    "name": "Ergonomic Frozen Soap",
-    "description": "Dolores ullam reiciendis iure sint culpa. Voluptate occaecati non temporibus. Dolorum eum quasi consequatur tempore laborum. Quos nobis ipsam enim commodi.",
-    "icon_url": "http://placeimg.com/640/480"
-}
