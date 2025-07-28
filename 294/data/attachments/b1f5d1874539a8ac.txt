@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Soft Chair",
-    "description": "Repellendus ex est voluptatem velit. Deleniti laborum ipsa qui doloremque animi consectetur. Praesentium et cupiditate non neque dolore quo dolore minima esse. Voluptates culpa ad.",
-    "icon_url": "http://placeimg.com/640/480"
-}

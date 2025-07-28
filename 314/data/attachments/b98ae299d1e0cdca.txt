@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Cotton Chicken",
+    "description": "Vel occaecati aut velit optio ipsam voluptatem. Officiis qui et autem voluptatem maiores mollitia consectetur voluptatem sequi. Veniam quae est fugit autem cumque sit. Aliquid et maxime id voluptate aut fugit aspernatur ut vitae. Autem aut accusamus sint et neque. Accusamus facere magni ut id ea voluptatum sit rerum dolores.",
+    "icon_url": "http://placeimg.com/640/480"
+}
