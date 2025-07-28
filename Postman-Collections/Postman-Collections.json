@@ -4588,7 +4588,7 @@
 							"name": "Fetch customer profile",
 							"item": [
 								{
-									"name": "fetch customer profile - valid",
+									"name": "fetch customer profile - Success",
 									"id": "dc6d4325-3915-4aa9-b1c5-b35ce2eaaa59",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -4646,7 +4646,7 @@
 									"response": []
 								},
 								{
-									"name": "fetch customer profile - blank",
+									"name": "fetch customer profile - No Auth Token",
 									"event": [
 										{
 											"listen": "test",
