@@ -11117,16 +11117,13 @@
 							},
 							"request": {
 								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{access_token}}"
-									}
+									"type": "noauth"
 								},
 								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"recipient_identifier\": \"123456\"\n}",
+									"raw": "{\n    \"recipient_identifier\": \"08012345678\",\n    \"product_id\": \"78\" \n}",
 									"options": {
 										"raw": {
 											"language": "json"
