@@ -4291,6 +4291,36 @@
 							"item": [
 								{
 									"name": "Get Notifications",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "855061e7-5d15-4dba-b1e4-abb6ddd04a55",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the response data\", function () {\r",
+													"    pm.expect(jsonData.status).to.exist;\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"    pm.expect(jsonData.data.data).to.be.an(\"array\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"id\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"created_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"modified_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"title\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"body\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"seen\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"customer_id\");\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "ab42d64d-33ae-44c4-9816-bce8006a237f",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -4331,6 +4361,396 @@
 									"response": [
 										{
 											"id": "0e52166f-fe8a-442b-a4e1-9d2228dc979e",
+											"name": "Get Notifications - Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/notifications",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"notifications"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "20",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "665"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"299-wnWuIq/L1F/tr/+pc2VihG68RRM\""
+												},
+												{
+													"key": "Date",
+													"value": "Fri, 16 May 2025 21:49:21 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 3,\n                \"title\": \"Another Test Notification\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:57:03\",\n                \"modified_on\": \"2025-05-16 23:34:20\"\n            },\n            {\n                \"id\": 2,\n                \"title\": \"Test Notification\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:56:42\",\n                \"modified_on\": \"2025-05-16 23:34:17\"\n            },\n            {\n                \"id\": 1,\n                \"title\": \"Resent Invintation\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:55:37\",\n                \"modified_on\": \"2025-05-16 23:34:15\"\n            }\n        ],\n        \"meta\": {\n            \"records\": 3,\n            \"page\": 1,\n            \"pages\": 1,\n            \"page_size\": 20\n        }\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Get Notifications - Invalid Auth Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "855061e7-5d15-4dba-b1e4-abb6ddd04a55",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the response data\", function () {\r",
+													"    pm.expect(jsonData.status).to.exist;\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"    pm.expect(jsonData.data.data).to.be.an(\"array\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"id\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"created_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"modified_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"title\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"body\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"seen\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"customer_id\");\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "d6f81590-673c-4528-b6ef-5e0144d15bc8",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/notifications",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"notifications"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "20",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "2ba85ec0-eb22-4cbd-850f-aa4ac96b761e",
+											"name": "Get Notifications - Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{base_url}}/notifications",
+													"host": [
+														"{{base_url}}"
+													],
+													"path": [
+														"notifications"
+													],
+													"query": [
+														{
+															"key": "limit",
+															"value": "20",
+															"type": "text",
+															"disabled": true
+														},
+														{
+															"key": "page",
+															"value": "1",
+															"type": "text",
+															"disabled": true
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												},
+												{
+													"key": "Access-Control-Allow-Credentials",
+													"value": "true"
+												},
+												{
+													"key": "Access-Control-Expose-Headers",
+													"value": "x-encryption-key,x-encryption-iv"
+												},
+												{
+													"key": "Content-Security-Policy",
+													"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+												},
+												{
+													"key": "Cross-Origin-Opener-Policy",
+													"value": "same-origin"
+												},
+												{
+													"key": "Cross-Origin-Resource-Policy",
+													"value": "cross-origin"
+												},
+												{
+													"key": "X-DNS-Prefetch-Control",
+													"value": "off"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "SAMEORIGIN"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=15552000; includeSubDomains"
+												},
+												{
+													"key": "X-Download-Options",
+													"value": "noopen"
+												},
+												{
+													"key": "X-Content-Type-Options",
+													"value": "nosniff"
+												},
+												{
+													"key": "Origin-Agent-Cluster",
+													"value": "?1"
+												},
+												{
+													"key": "X-Permitted-Cross-Domain-Policies",
+													"value": "none"
+												},
+												{
+													"key": "Referrer-Policy",
+													"value": "no-referrer"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "0"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json; charset=utf-8"
+												},
+												{
+													"key": "Content-Length",
+													"value": "665"
+												},
+												{
+													"key": "ETag",
+													"value": "W/\"299-wnWuIq/L1F/tr/+pc2VihG68RRM\""
+												},
+												{
+													"key": "Date",
+													"value": "Fri, 16 May 2025 21:49:21 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Keep-Alive",
+													"value": "timeout=5"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"data\": [\n            {\n                \"id\": 3,\n                \"title\": \"Another Test Notification\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:57:03\",\n                \"modified_on\": \"2025-05-16 23:34:20\"\n            },\n            {\n                \"id\": 2,\n                \"title\": \"Test Notification\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:56:42\",\n                \"modified_on\": \"2025-05-16 23:34:17\"\n            },\n            {\n                \"id\": 1,\n                \"title\": \"Resent Invintation\",\n                \"body\": \"This is a test notification, please ignore\",\n                \"seen\": 0,\n                \"user_id\": 1,\n                \"created_on\": \"2025-05-16 21:55:37\",\n                \"modified_on\": \"2025-05-16 23:34:15\"\n            }\n        ],\n        \"meta\": {\n            \"records\": 3,\n            \"page\": 1,\n            \"pages\": 1,\n            \"page_size\": 20\n        }\n    }\n}"
+										}
+									]
+								},
+								{
+									"name": "Get Notifications - No Auth Token",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "855061e7-5d15-4dba-b1e4-abb6ddd04a55",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the response data\", function () {\r",
+													"    pm.expect(jsonData.status).to.exist;\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"    pm.expect(jsonData.data.data).to.be.an(\"array\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"id\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"created_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"modified_on\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"title\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"body\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"seen\");\r",
+													"    pm.expect(jsonData.data.data).to.have.property(\"customer_id\");\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "c227cef6-5587-4a2b-b54d-9e15d91cce74",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_url}}/notifications",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"notifications"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "20",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "page",
+													"value": "1",
+													"type": "text",
+													"disabled": true
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "80c348b1-d384-4932-9c76-1f1b896c2318",
 											"name": "Get Notifications - Success",
 											"originalRequest": {
 												"method": "GET",
