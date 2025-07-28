@@ -1,5 +1,0 @@
-{
-    "name": "Tasty Frozen Salad",
-    "description": "Unde dolor officia nobis aut id non magni vel. Explicabo eos veritatis ea dolores nihil. Qui dolor est qui dolorem et labore qui recusandae a.",
-    "icon_url": "http://placeimg.com/640/480"
-}

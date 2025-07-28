@@ -1,0 +1,5 @@
+{
+    "name": "Handcrafted Cotton Gloves",
+    "description": "Possimus ab sint adipisci quia itaque provident. Similique repellendus recusandae. Reiciendis voluptate excepturi eius omnis nesciunt. Quidem quam veniam fugit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

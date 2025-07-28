@@ -1,1 +1,0 @@
-{"status":"success","message":"OTP sent to your phone. Please verify to complete registration.","data":{"requires_otp":true,"is_new_customer":true,"reference":"TXN_SCHDL_20250711_2d77b148"}}

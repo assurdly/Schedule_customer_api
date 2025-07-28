@@ -1,5 +1,0 @@
-{
-    "name": "Handcrafted Cotton Mouse",
-    "description": "Sed soluta sit accusamus deserunt alias aspernatur. Aut reprehenderit iste nihil odit at. Aut voluptates odio. Autem qui accusamus et maxime quo doloremque. Sunt et dolorem et cupiditate voluptatem harum qui. Doloremque distinctio ipsa reiciendis omnis.",
-    "icon_url": "http://placeimg.com/640/480"
-}
