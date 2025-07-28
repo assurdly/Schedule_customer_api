@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Metal Bacon",
-    "description": "Eum quo eaque eos autem porro et voluptas qui. Consequuntur enim inventore repudiandae accusantium ab. Quae nemo voluptates nam nesciunt. Consequatur rem accusamus eligendi dolores.",
-    "icon_url": "http://placeimg.com/640/480"
-}

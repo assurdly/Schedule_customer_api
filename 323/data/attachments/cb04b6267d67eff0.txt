@@ -1,0 +1,5 @@
+{
+    "name": "Sleek Frozen Chips",
+    "description": "Incidunt sint velit sed non suscipit quis a itaque dolor. Beatae nam harum tempora error. Expedita explicabo velit. Quo dolores voluptate veritatis. Quo ipsum est dolores enim cum placeat dignissimos. Vero et at eum sit.",
+    "icon_url": "http://placeimg.com/640/480"
+}

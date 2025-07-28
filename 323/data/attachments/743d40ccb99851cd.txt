@@ -1,0 +1,5 @@
+{
+    "name": "Tasty Steel Computer",
+    "description": "Eum sapiente eum sed illum dolores. Rerum possimus voluptatem error quia velit doloribus et. Aut sunt possimus quia eligendi. Nisi repudiandae qui quia aut minima soluta aut qui. Maiores qui quae accusantium at voluptatem eligendi. Minima ipsum officia cupiditate sunt nesciunt modi voluptas ipsam quidem.",
+    "icon_url": "http://placeimg.com/640/480"
+}
