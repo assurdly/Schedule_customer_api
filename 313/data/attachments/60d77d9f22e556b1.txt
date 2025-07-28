@@ -1,0 +1,5 @@
+{
+    "name": "Refined Plastic Mouse",
+    "description": "Ratione quia quas quas. Facilis aut ea est quidem rem voluptas. In eveniet aut.",
+    "icon_url": "http://placeimg.com/640/480"
+}

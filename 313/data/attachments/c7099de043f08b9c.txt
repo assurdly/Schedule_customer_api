@@ -1,0 +1,5 @@
+{
+    "name": "Unbranded Frozen Soap",
+    "description": "Odio aut eligendi nulla voluptates voluptates molestiae itaque est. Quia in quo unde voluptatibus. Autem quasi aliquid quibusdam et voluptas fugiat aut ipsa. Molestias similique cupiditate.",
+    "icon_url": "http://placeimg.com/640/480"
+}
