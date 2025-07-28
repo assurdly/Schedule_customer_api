@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Cotton Chair",
+    "description": "Vero animi voluptas dignissimos veniam molestias molestiae architecto. Doloribus rerum deleniti maxime voluptatem est voluptatem voluptatem sapiente. Neque eos doloremque et. Odit impedit nostrum.",
+    "icon_url": "http://placeimg.com/640/480"
+}

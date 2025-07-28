@@ -1,0 +1,5 @@
+{
+    "name": "Generic Granite Sausages",
+    "description": "Quidem distinctio modi natus. Excepturi delectus aspernatur ex. Et pariatur natus incidunt odit necessitatibus ea dolores. Aut ut quod repellat fugit aliquam pariatur sunt perferendis ea.",
+    "icon_url": "http://placeimg.com/640/480"
+}
