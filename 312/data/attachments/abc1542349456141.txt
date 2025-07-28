@@ -1,0 +1,5 @@
+{
+    "name": "Generic Fresh Keyboard",
+    "description": "Earum inventore accusamus molestiae reprehenderit. Ipsam et repellat non ea possimus. Voluptatem suscipit qui iusto numquam soluta.",
+    "icon_url": "http://placeimg.com/640/480"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Generic Plastic Ball",
+    "description": "Omnis dolorem eligendi rerum rerum molestiae. Quam earum enim ullam quisquam et. Explicabo tempore nobis omnis facere quo et praesentium.",
+    "icon_url": "http://placeimg.com/640/480"
+}
