@@ -5370,10 +5370,7 @@
 									},
 									"request": {
 										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "eyJhbGciOiJII1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUzNjkwNjQ1LCJleHAiOjE3NTM2OTQyNDV9.43Ez3EXKVezPyX30v-iFdpMhLsR1OQUuKogNbvDUoMc"
-											}
+											"type": "noauth"
 										},
 										"method": "PATCH",
 										"header": [],
@@ -5388,7 +5385,6 @@
 											],
 											"variable": [
 												{
-													"id": "2f4821c3-84ab-48c7-bb5a-9afbd64cc42f",
 													"key": "id",
 													"value": "88"
 												}
@@ -9943,7 +9939,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{customer_access_token}}"
+										"token": "{{access_token}}"
 									}
 								},
 								"method": "POST",
@@ -9962,6 +9958,145 @@
 							"response": [
 								{
 									"id": "12e4361f-c863-49fb-b908-79bcb4b87626",
+									"name": "Account lookup",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"account_number\": \"0008854010\",\n    \"bank_code\": \"044\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/banks/account-lookup"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Access-Control-Allow-Credentials",
+											"value": "true"
+										},
+										{
+											"key": "Access-Control-Expose-Headers",
+											"value": "x-encryption-key,x-encryption-iv"
+										},
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';img-src 'self' data: blob: *;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "Cross-Origin-Opener-Policy",
+											"value": "same-origin"
+										},
+										{
+											"key": "Cross-Origin-Resource-Policy",
+											"value": "cross-origin"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "Origin-Agent-Cluster",
+											"value": "?1"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "264"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"108-SWVPCAxIUJgGUio2HnQaazsQroI\""
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 30 May 2025 03:21:13 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"status\": \"success\",\n    \"message\": \"success\",\n    \"data\": {\n        \"customer_id\": null,\n        \"account_name\": \"AZEEZ O IBRAHIM\",\n        \"last_name\": \"IBRAHIM\",\n        \"first_name\": \"AZEEZ\",\n        \"middle_name\": \"-\",\n        \"gender\": null,\n        \"account_currency\": \"NGN\",\n        \"dob\": null,\n        \"reference\": \"TXN_SCHDL_20250530_4f99fadb\",\n        \"meta\": {}\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Account lookup - iN",
+							"id": "dd2c53cd-ea92-460b-8de5-ca92a3570116",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{access_token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"account_number\": \"0008854010\",\n    \"bank_code\": \"044\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{base_url}}/banks/account-lookup"
+							},
+							"response": [
+								{
+									"id": "c4314eb7-c25b-4ccc-9a44-89e6811b1094",
 									"name": "Account lookup",
 									"originalRequest": {
 										"method": "POST",
