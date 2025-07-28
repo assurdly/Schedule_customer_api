@@ -4494,21 +4494,14 @@
 												"exec": [
 													"const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
 													"});\r",
 													"\r",
 													"pm.test(\"Validate the response data\", function () {\r",
 													"    pm.expect(jsonData.status).to.exist;\r",
 													"    pm.expect(jsonData.message).to.exist;\r",
-													"    pm.expect(jsonData.data.data).to.be.an(\"array\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"id\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"created_on\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"modified_on\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"title\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"body\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"seen\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"customer_id\");\r",
+													"    pm.expect(jsonData.data).to.exist.and.be.empty;\r",
 													"})"
 												],
 												"type": "text/javascript",
@@ -4524,7 +4517,7 @@
 										"auth": {
 											"type": "bearer",
 											"bearer": {
-												"token": "{{access_token}}"
+												"token": "eyJhbGciOiJIUzI1NiIsInR5I6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzUzNjkwNjQ1LCJleHAiOjE3NTM2OTQyNDV9.43Ez3EXKVezPyX30v-iFdpMhLsR1OQUuKogNbvDUoMc"
 											}
 										},
 										"method": "GET",
@@ -4689,21 +4682,14 @@
 												"exec": [
 													"const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
+													"pm.test(\"Status code is 401\", function () {\r",
+													"    pm.response.to.have.status(401);\r",
 													"});\r",
 													"\r",
 													"pm.test(\"Validate the response data\", function () {\r",
 													"    pm.expect(jsonData.status).to.exist;\r",
 													"    pm.expect(jsonData.message).to.exist;\r",
-													"    pm.expect(jsonData.data.data).to.be.an(\"array\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"id\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"created_on\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"modified_on\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"title\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"body\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"seen\");\r",
-													"    pm.expect(jsonData.data.data).to.have.property(\"customer_id\");\r",
+													"    pm.expect(jsonData.data).to.exist.and.be.empty;\r",
 													"})"
 												],
 												"type": "text/javascript",
@@ -4717,10 +4703,7 @@
 									},
 									"request": {
 										"auth": {
-											"type": "bearer",
-											"bearer": {
-												"token": "{{access_token}}"
-											}
+											"type": "noauth"
 										},
 										"method": "GET",
 										"header": [],
@@ -4881,15 +4864,58 @@
 							"name": "Mark as Read",
 							"item": [
 								{
-									"name": "Mark as Read",
+									"name": "Mark as Read - Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "1e83feac-8fd4-499e-8449-526d19782c57",
+												"exec": [
+													"const jsonData = pm.response.json();\r",
+													"\r",
+													"pm.test(\"Status code is 200\", function () {\r",
+													"    pm.response.to.have.status(200);\r",
+													"});\r",
+													"\r",
+													"pm.test(\"Validate the response data\", function () {\r",
+													"    pm.expect(jsonData.status).to.exist;\r",
+													"    pm.expect(jsonData.message).to.exist;\r",
+													"})"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
 									"id": "6b8cca59-0269-403b-9369-f8db271dde3a",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
 									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{access_token}}"
+											}
+										},
 										"method": "PATCH",
 										"header": [],
-										"url": "{{base_url}}/notifications/2"
+										"url": {
+											"raw": "{{base_url}}/notifications/:id",
+											"host": [
+												"{{base_url}}"
+											],
+											"path": [
+												"notifications",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "88"
+												}
+											]
+										}
 									},
 									"response": [
 										{
