@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Metal Chips",
+    "description": "Perspiciatis velit iure ullam qui sint debitis ad. Consequuntur placeat quasi iure modi soluta id recusandae. Quibusdam officia qui iure facilis accusantium. Nisi culpa et.",
+    "icon_url": "http://placeimg.com/640/480"
+}

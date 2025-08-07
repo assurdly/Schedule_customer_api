@@ -1,7 +1,0 @@
-pm.test("Status code is 400", function () {
-    pm.response.to.have.status(400);
-});
-
-pm.test("Response message is as expected", function () {
-    pm.expect(pm.response.json().message).to.exist;
-});
