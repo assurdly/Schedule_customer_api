@@ -1,0 +1,5 @@
+{
+    "name": "Intelligent Steel Shirt",
+    "description": "Quia hic earum eos dolorem necessitatibus. Porro quisquam aspernatur sunt doloribus voluptatibus eos animi. Qui in animi distinctio ut modi et qui autem. Aut architecto qui neque delectus praesentium quia atque. Voluptatum quidem id aut omnis. Perspiciatis deserunt non qui.",
+    "icon_url": "http://placeimg.com/640/480"
+}
