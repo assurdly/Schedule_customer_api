@@ -1609,7 +1609,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"phone_number\" : \"W23242r24r2\"\r\n}",
+											"raw": "{\r\n    \"phone_number\" : \"0708050\",\r\n    \"action\": \"login\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
