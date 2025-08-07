@@ -1,0 +1,5 @@
+{
+    "name": "Fantastic Frozen Tuna",
+    "description": "Maxime delectus vitae magnam. Quos corrupti doloremque sed eaque dolorem est minima. Alias minus magnam aut voluptas architecto sapiente consequatur. Qui debitis quo porro ut non porro pariatur doloribus fugiat. Aut error repellat consequatur ut laboriosam.",
+    "icon_url": "http://placeimg.com/640/480"
+}
