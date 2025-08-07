@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Steel Chicken",
+    "description": "Voluptate explicabo asperiores quia vitae. Quia velit illum corporis. Aut ex minima soluta quod.",
+    "icon_url": "http://placeimg.com/640/480"
+}

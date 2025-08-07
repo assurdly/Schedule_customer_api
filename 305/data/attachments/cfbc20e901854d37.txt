@@ -1,1 +1,0 @@
-{"status":"error","message":"Action must be one of the following: signup, login","data":{}}

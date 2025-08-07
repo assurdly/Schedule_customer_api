@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Plastic Shoes",
-    "description": "Quod sint consequatur incidunt. Repudiandae nobis atque dolores consequatur ex temporibus quod ut sunt. Neque est vero aut totam vel est aut.",
-    "icon_url": "http://placeimg.com/640/480"
-}

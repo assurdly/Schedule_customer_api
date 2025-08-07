@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Metal Gloves",
+    "description": "Laborum ut saepe autem. Alias et consequatur magnam. Qui nesciunt et a enim assumenda rem vero possimus ipsum. Qui qui optio. Maiores corrupti natus assumenda.",
+    "icon_url": "http://placeimg.com/640/480"
+}
