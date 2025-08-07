@@ -6348,7 +6348,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/mandates?status=active",
+									"raw": "{{base_url}}/mandates?status=active&product_group_id=1",
 									"host": [
 										"{{base_url}}"
 									],
@@ -6360,6 +6360,10 @@
 											"key": "status",
 											"value": "active",
 											"description": "active || inactive"
+										},
+										{
+											"key": "product_group_id",
+											"value": "1"
 										}
 									]
 								}
