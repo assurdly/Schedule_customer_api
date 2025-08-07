@@ -1,5 +1,0 @@
-{
-    "name": "Unbranded Plastic Cheese",
-    "description": "Distinctio non necessitatibus sed. Illo quis sunt laborum dolore deserunt veniam omnis odio. Facilis non quae doloribus quia. Ut possimus modi quia nihil deserunt ut provident molestiae possimus. Amet sequi in corrupti inventore cumque id.",
-    "icon_url": "http://placeimg.com/640/480"
-}

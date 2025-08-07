@@ -1,0 +1,5 @@
+{
+    "name": "Rustic Cotton Chair",
+    "description": "Cupiditate animi unde ut quis tempore eum. Soluta quod distinctio facilis sit eum ut sed. Qui aliquid excepturi. Et corrupti temporibus.",
+    "icon_url": "http://placeimg.com/640/480"
+}
