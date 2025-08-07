@@ -1,5 +1,0 @@
-{
-    "name": "Generic Soft Hat",
-    "description": "Et veniam exercitationem quasi deleniti ipsam et et qui. Modi alias aliquam molestias aut est quia nulla quos laudantium. Doloribus et soluta est ab voluptatem facilis assumenda. Consequatur distinctio tenetur nihil culpa. Quisquam maxime cumque sit dignissimos provident ullam eaque sunt et.",
-    "icon_url": "http://placeimg.com/640/480"
-}

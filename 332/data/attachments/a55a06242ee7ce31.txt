@@ -1,0 +1,5 @@
+{
+    "name": "Incredible Rubber Chips",
+    "description": "Impedit omnis commodi quidem laborum. Qui quibusdam quo sunt assumenda fugiat molestias. Et quo delectus id. Sed numquam illo minus consequatur.",
+    "icon_url": "http://placeimg.com/640/480"
+}
