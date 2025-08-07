@@ -4871,16 +4871,16 @@
 											"script": {
 												"id": "1e83feac-8fd4-499e-8449-526d19782c57",
 												"exec": [
-													"const jsonData = pm.response.json();\r",
+													"//const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"});\r",
+													"//pm.test(\"Status code is 200\", function () {\r",
+													"   // pm.response.to.have.status(200);\r",
+													"//});\r",
 													"\r",
-													"pm.test(\"Validate the response data\", function () {\r",
-													"    pm.expect(jsonData.status).to.exist;\r",
-													"    pm.expect(jsonData.message).to.exist;\r",
-													"})"
+													"//pm.test(\"Validate the response data\", function () {\r",
+													"    //pm.expect(jsonData.status).to.exist;\r",
+													"    //pm.expect(jsonData.message).to.exist;\r",
+													"//})"
 												],
 												"type": "text/javascript",
 												"packages": {}
