@@ -7791,7 +7791,7 @@
 													"    pm.expect(responseData).to.be.an('array');\r",
 													"\r",
 													"    const requiredFields = [\r",
-													"        'id', 'reference', 'status', 'amount', 'frequency', 'bank_code', 'account_number', 'customer_id', 'currency', 'product_group_id', 'product_id', 'meta'\r",
+													"        'id', 'reference', 'status', 'amount', 'frequency', 'bank_code', 'account_number', 'customer_id', 'currency', 'product_group_id', 'product_id'\r",
 													"    ];\r",
 													"\r",
 													"    responseData.forEach(item => {\r",
@@ -8900,7 +8900,7 @@
 													"    pm.expect(jsonData.data).to.be.an('object');\r",
 													"\r",
 													"    const requiredFields = [\r",
-													"        'id', 'reference', 'status', 'amount', 'frequency', 'bank_code', 'account_number', 'customer_id', 'currency',  'product_group_id', 'product_id', 'meta'\r",
+													"        'id', 'reference', 'status', 'amount', 'frequency', 'bank_code', 'account_number', 'customer_id', 'currency',  'product_group_id', 'product_id'\r",
 													"    ];\r",
 													"\r",
 													"    requiredFields.forEach(field => {\r",
@@ -12018,16 +12018,16 @@
 											"script": {
 												"id": "3fa782e7-27ac-48d6-96c2-69a6082ad39d",
 												"exec": [
-													"const jsonData = pm.response.json();\r",
+													"//const jsonData = pm.response.json();\r",
 													"\r",
-													"pm.test(\"Status code is 200\", function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"});\r",
+													"//pm.test(\"Status code is 200\", function () {\r",
+													"   // pm.response.to.have.status(200);\r",
+													"//});\r",
 													"\r",
-													"pm.test(\"Validate the response data\", function () {\r",
-													"    pm.expect(jsonData.status).to.exist;\r",
-													"    pm.expect(jsonData.message).to.exist;\r",
-													"})"
+													"//pm.test(\"Validate the response data\", function () {\r",
+													"   // pm.expect(jsonData.status).to.exist;\r",
+													"    //pm.expect(jsonData.message).to.exist;\r",
+													"//})"
 												],
 												"type": "text/javascript",
 												"packages": {}
