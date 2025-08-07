@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
- schedule:
+  schedule:
     - cron: '0 18 * * 4' # Runs every Wednesday by 6pm
     - cron: '0 18 * * 5' # Runs every Friday by 6pm
     - cron: '0 18 * * 0' # Runs every Sunday by 6pm
