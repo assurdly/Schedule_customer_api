@@ -1,0 +1,5 @@
+{
+    "name": "Practical Metal Car",
+    "description": "Ducimus quos aliquid. Iusto voluptas iste natus. Explicabo autem magnam similique vero provident tempora. Sint distinctio quo et ut non nostrum. Voluptatem sapiente nisi enim voluptas. Numquam qui repudiandae quis.",
+    "icon_url": "http://placeimg.com/640/480"
+}
