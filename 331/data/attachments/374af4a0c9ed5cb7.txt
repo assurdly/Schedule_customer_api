@@ -1,0 +1,5 @@
+{
+    "name": "Gorgeous Fresh Pants",
+    "description": "Ea ipsum illum. Molestiae tenetur amet distinctio ea sequi eum qui. Qui amet accusantium provident repellendus. Sunt rerum nulla quo animi voluptates omnis molestiae velit id.",
+    "icon_url": "http://placeimg.com/640/480"
+}

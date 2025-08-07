@@ -1,0 +1,5 @@
+{
+    "name": "Licensed Cotton Cheese",
+    "description": "Vel est fugit laboriosam nam reprehenderit. Iure eos ea asperiores iure. Sunt fugit deleniti. Ut animi quos ut. Voluptas sed perferendis veritatis. Consectetur quaerat odio repellat eum unde esse.",
+    "icon_url": "http://placeimg.com/640/480"
+}
